@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.idea/
+.vscode/
+data/raw/
+data/processed/
+models/*.joblib
+data/ml/
+scripts/node_modules/
+
+# Phase 4 is reproducible but its full Parquet/CSV output is several GB.
+data/phase4/
+data/phase4_smoke_*/

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-arm-path-planner"
+version = "0.1.0"
+description = "2D two-link robot arm curve exploration for an R&E project"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "2026 R&E Team" }]
+dependencies = []
+
+[project.optional-dependencies]
+data = [
+  "pyarrow>=18,<22",
+]
+analysis = [
+  "matplotlib>=3.9,<4",
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<4",
+]
+ml = [
+  "joblib>=1.4,<2",
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<4",
+  "scikit-learn>=1.6,<2",
+]
+
+[project.scripts]
+robot-path-lab = "robot_planner.gui:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
