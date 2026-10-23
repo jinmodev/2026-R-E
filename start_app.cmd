@@ -2,6 +2,11 @@
 setlocal
 cd /d "%~dp0"
 
+if exist ".venv\Scripts\pythonw.exe" (
+    start "Robot Path Lab" ".venv\Scripts\pythonw.exe" app.py
+    exit /b 0
+)
+
 where pyw.exe >nul 2>nul
 if %errorlevel%==0 (
     start "Robot Path Lab" pyw.exe app.py

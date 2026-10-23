@@ -17,3 +17,9 @@ scripts/node_modules/
 # Phase 4 is reproducible but its full Parquet/CSV output is several GB.
 data/phase4/
 data/phase4_smoke_*/
+data/phase4_v3_*/
+
+# Reproducible report-aligned raw exports and temporary verification files.
+outputs/report_aligned_v4_*/
+outputs/report_aligned_v4_*.zip
+tmp/

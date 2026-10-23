@@ -9,7 +9,10 @@ description = "2D two-link robot arm curve exploration for an R&E project"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "2026 R&E Team" }]
-dependencies = []
+dependencies = [
+  "numpy>=2.0,<3",
+  "scipy>=1.14,<2",
+]
 
 [project.optional-dependencies]
 data = [
@@ -25,6 +28,9 @@ ml = [
   "numpy>=2.0,<3",
   "pandas>=2.2,<4",
   "scikit-learn>=1.6,<2",
+]
+refinement = [
+  "scipy>=1.14,<2",
 ]
 
 [project.scripts]
