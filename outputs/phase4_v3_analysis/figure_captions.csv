@@ -1,0 +1,25 @@
+﻿figure,caption_ko
+01_composition,"train 3,000개 시나리오. 후보를 독립 표본으로 세지 않았다. link_ratio는 짧은 링크/긴 링크다."
+02_validity,"후보 분모: 직선 6,000, 나머지 각 24,000. 조건부 무충돌 분모는 validity.csv의 reachable. 미확정은 성공으로 세지 않으며 별도 열에 기록했다. 같은 종류는 모든 그림에서 같은 색이다."
+03_winners,"주 비교 집합. 결정적 선택과 동점 후보별 1/k 배분을 분리했다. 직선은 2개, 나머지는 각 8개 후보라 탐색 기회가 다르다. 무장애물 O=0 동점은 안전성 우월이 아니다. 수치 허용오차 이내의 순위 안정까지 보증하지 않는다."
+04_obstacle_winners,"주 비교 집합 중 장애물 있음. 결정적 선택과 동점 후보별 1/k 배분을 분리했다. 직선은 2개, 나머지는 각 8개 후보라 탐색 기회가 다르다. 무장애물 O=0 동점은 안전성 우월이 아니다. 수치 허용오차 이내의 순위 안정까지 보증하지 않는다."
+05_relationships,"목적값과 독립적인 고정 SHA256 순서로 상황당 후보 하나를 선택했다. 세로축과 저크 가로축은 symlog, 선형 경계 0.01. 원 지표이며 인과효과가 아니다. 여유는 표본 최솟값이지 연속 최소의 정확한 참값이 아니다."
+06_normalized_relationships,각 상황의 유효 후보 범위를 기준으로 한 정규화 관계다. 서로 다른 상황의 같은 정규화 값이 같은 원 비용을 뜻하지 않는다.
+07_obstacle_conditions,배치별 전체 상황을 분모로 한 종류별 유효 후보 확보율. 막대 색과 달리 heatmap의 색은 비율을 뜻한다. n<30 표시는 CSV에 있다.
+08_geometry_conditions,고정 구간은 왼쪽 포함·오른쪽 제외. 각 종류의 유효 후보 ≥1 상황 수 / 해당 구간 전체 상황 수다. 조건별 인과효과를 식별한 분석이 아니다.
+case_family_line,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S004576, run_id=P4S004576_line_down. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_line,P4S004576_line_down. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_family_arc,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S002885, run_id=P4S002885_arc_p40_up. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_arc,P4S002885_arc_p40_up. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_family_bezier,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S000481, run_id=P4S000481_bezier_m40_up. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_bezier,P4S000481_bezier_m40_up. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_family_hermite,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S004194, run_id=P4S004194_hermite_m80_up. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_hermite,P4S004194_hermite_m80_up. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_family_cycloid,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S004784, run_id=P4S004784_cycloid_p80_down. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_cycloid,P4S004784_cycloid_p80_down. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_family_limacon,"주 비교 집합에서 종류별 고정 해시 선정. scenario_id=P4S000037, run_id=P4S000037_limacon_p40_up. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+integrands_family_limacon,P4S000037_limacon_p40_up. Eθ/A/J는 저장된 적응형 노드에서 그렸으며 적분값은 가중합이다. L/Kε/O는 161점 적분을 재현했다. 피적분함수의 세로축 단위가 다르므로 높이를 직접 비교하지 않는다.
+case_unreachable,"적응형 경로 검사 위반 witness가 있는 고정 해시 사례. scenario_id=P4S002425, run_id=P4S002425_arc_m80_down. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+case_collision,"적응형 경로 검사 위반 witness가 있는 고정 해시 사례. scenario_id=P4S002488, run_id=P4S002488_arc_p40_up. 식은 representative_equations.json. 빈 관절각은 계산되지 않은 값이다. invalid 사례에 시간 표본이 정상처럼 보여도 적응형 witness로 제외될 수 있다."
+09_objective_tradeoff,P4S000239. 두 목적의 동점 집합이 겹치지 않고 경로 형태도 다른 실제 사례를 고정 해시로 선택했다. 42개 후보와 계산 오차 범위에 한정된 관찰이며 모든 상황의 차이를 대표하지 않는다.
+10_sampled_grid_diagnostics,"적응형 검사의 조기 종료 영향을 설명하기 위한 보조 표본 진단. 두 격자 모두 도달 가능한 후보만 조건부 무충돌 분모에 넣었다. 후보 분모는 직선 6,000개, 나머지 각 24,000개이며 조건부 분모는 sampled_grid_diagnostics.csv에 있다. 표본 사이 충돌을 놓칠 수 있어 이 값으로 최종 승자를 고르지 않는다."

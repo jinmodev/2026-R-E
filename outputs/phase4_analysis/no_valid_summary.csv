@@ -1,0 +1,6 @@
+﻿reason,scenarios
+has_valid,2147
+all_unreachable,0
+all_reachable_colliding,32
+mixed_unreachable_collision,821
+other_calculation_or_schema,0

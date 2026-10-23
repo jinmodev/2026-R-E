@@ -1,0 +1,49 @@
+{
+  "mode": "full",
+  "signature": "385443ea0d7eca9bc7b1df85b6476685f8fbcfa6d449dc1f02915fc6fd86c3d0",
+  "partition_count": 5500,
+  "split_counts": {
+    "train": {
+      "scenarios": 3000,
+      "candidates": 126000,
+      "samples": 20286000,
+      "winners": 18000
+    },
+    "validation": {
+      "scenarios": 1000,
+      "candidates": 42000,
+      "samples": 6762000,
+      "winners": 6000
+    },
+    "test": {
+      "scenarios": 1000,
+      "candidates": 42000,
+      "samples": 6762000,
+      "winners": 6000
+    },
+    "challenge": {
+      "scenarios": 500,
+      "candidates": 21000,
+      "samples": 3381000,
+      "winners": 3000
+    }
+  },
+  "failed_partitions": [],
+  "train_status_counts": {
+    "invalid": 101292,
+    "accepted": 24692,
+    "unresolved": 16
+  },
+  "previous_analysis_preserved": true,
+  "pilot_preserved": true,
+  "train_fk_max": 6.534603339118096e-14,
+  "train_replay_max": 0,
+  "elapsed_seconds": 99.00245620007627,
+  "regression_tests": [
+    "----------------------------------------------------------------------",
+    "Ran 76 tests in 6.400s",
+    "",
+    "OK"
+  ],
+  "heldout_policy": "only schema/IDs/row counts/partition/hash checks; no outcome statistics or rank analysis"
+}

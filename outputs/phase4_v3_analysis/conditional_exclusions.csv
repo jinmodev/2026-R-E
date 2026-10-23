@@ -1,0 +1,94 @@
+﻿condition,bin,cohort,scenarios,denominator
+scenario_type,boundary_sweep,main,431,576
+scenario_type,boundary_sweep,excluded_no_valid,143,576
+scenario_type,boundary_sweep,excluded_unresolved,2,576
+scenario_type,cross_inner,main,271,584
+scenario_type,cross_inner,excluded_no_valid,312,584
+scenario_type,cross_inner,excluded_unresolved,1,584
+scenario_type,local_move,main,501,632
+scenario_type,local_move,excluded_no_valid,129,632
+scenario_type,local_move,excluded_unresolved,2,632
+scenario_type,radial_change,main,493,604
+scenario_type,radial_change,excluded_no_valid,110,604
+scenario_type,radial_change,excluded_unresolved,1,604
+scenario_type,wide_sweep,main,440,604
+scenario_type,wide_sweep,excluded_no_valid,158,604
+scenario_type,wide_sweep,excluded_unresolved,6,604
+obstacle_layout,chord_blocker,main,308,423
+obstacle_layout,chord_blocker,excluded_no_valid,115,423
+obstacle_layout,chord_blocker,excluded_unresolved,0,423
+obstacle_layout,double_offset,main,217,435
+obstacle_layout,double_offset,excluded_no_valid,216,435
+obstacle_layout,double_offset,excluded_unresolved,2,435
+obstacle_layout,goal_near,main,406,456
+obstacle_layout,goal_near,excluded_no_valid,47,456
+obstacle_layout,goal_near,excluded_unresolved,3,456
+obstacle_layout,narrow_passage,main,171,411
+obstacle_layout,narrow_passage,excluded_no_valid,238,411
+obstacle_layout,narrow_passage,excluded_unresolved,2,411
+obstacle_layout,no_obstacle,main,411,412
+obstacle_layout,no_obstacle,excluded_no_valid,0,412
+obstacle_layout,no_obstacle,excluded_unresolved,1,412
+obstacle_layout,random_field,main,263,434
+obstacle_layout,random_field,excluded_no_valid,168,434
+obstacle_layout,random_field,excluded_unresolved,3,434
+obstacle_layout,start_near,main,360,429
+obstacle_layout,start_near,excluded_no_valid,68,429
+obstacle_layout,start_near,excluded_unresolved,1,429
+obstacle_count,0,main,411,412
+obstacle_count,0,excluded_no_valid,0,412
+obstacle_count,0,excluded_unresolved,1,412
+obstacle_count,1,main,1199,1459
+obstacle_count,1,excluded_no_valid,253,1459
+obstacle_count,1,excluded_unresolved,7,1459
+obstacle_count,2,main,463,981
+obstacle_count,2,excluded_no_valid,514,981
+obstacle_count,2,excluded_unresolved,4,981
+obstacle_count,3,main,63,148
+obstacle_count,3,excluded_no_valid,85,148
+obstacle_count,3,excluded_unresolved,0,148
+ratio_bin,"[-inf, 0.75)",main,630,886
+ratio_bin,"[-inf, 0.75)",excluded_no_valid,255,886
+ratio_bin,"[-inf, 0.75)",excluded_unresolved,1,886
+ratio_bin,"[0.75, 1.333)",main,1001,1235
+ratio_bin,"[0.75, 1.333)",excluded_no_valid,229,1235
+ratio_bin,"[0.75, 1.333)",excluded_unresolved,5,1235
+ratio_bin,"[1.333, inf)",main,505,879
+ratio_bin,"[1.333, inf)",excluded_no_valid,368,879
+ratio_bin,"[1.333, inf)",excluded_unresolved,6,879
+motion_bin,"[0.0, 0.5)",main,485,606
+motion_bin,"[0.0, 0.5)",excluded_no_valid,119,606
+motion_bin,"[0.0, 0.5)",excluded_unresolved,2,606
+motion_bin,"[0.5, 1.0)",main,818,1019
+motion_bin,"[0.5, 1.0)",excluded_no_valid,198,1019
+motion_bin,"[0.5, 1.0)",excluded_unresolved,3,1019
+motion_bin,"[1.0, 2.01)",main,833,1375
+motion_bin,"[1.0, 2.01)",excluded_no_valid,535,1375
+motion_bin,"[1.0, 2.01)",excluded_unresolved,7,1375
+angle_bin,"[0, 60)",main,952,1166
+angle_bin,"[0, 60)",excluded_no_valid,210,1166
+angle_bin,"[0, 60)",excluded_unresolved,4,1166
+angle_bin,"[120, 181)",main,789,1294
+angle_bin,"[120, 181)",excluded_no_valid,498,1294
+angle_bin,"[120, 181)",excluded_unresolved,7,1294
+angle_bin,"[60, 120)",main,395,540
+angle_bin,"[60, 120)",excluded_no_valid,144,540
+angle_bin,"[60, 120)",excluded_unresolved,1,540
+start_radius_bin,"[0.0, 0.4)",main,483,627
+start_radius_bin,"[0.0, 0.4)",excluded_no_valid,144,627
+start_radius_bin,"[0.0, 0.4)",excluded_unresolved,0,627
+start_radius_bin,"[0.4, 0.8)",main,758,1020
+start_radius_bin,"[0.4, 0.8)",excluded_no_valid,257,1020
+start_radius_bin,"[0.4, 0.8)",excluded_unresolved,5,1020
+start_radius_bin,"[0.8, 1.01)",main,895,1353
+start_radius_bin,"[0.8, 1.01)",excluded_no_valid,451,1353
+start_radius_bin,"[0.8, 1.01)",excluded_unresolved,7,1353
+goal_radius_bin,"[0.0, 0.4)",main,386,475
+goal_radius_bin,"[0.0, 0.4)",excluded_no_valid,88,475
+goal_radius_bin,"[0.0, 0.4)",excluded_unresolved,1,475
+goal_radius_bin,"[0.4, 0.8)",main,992,1325
+goal_radius_bin,"[0.4, 0.8)",excluded_no_valid,328,1325
+goal_radius_bin,"[0.4, 0.8)",excluded_unresolved,5,1325
+goal_radius_bin,"[0.8, 1.01)",main,758,1200
+goal_radius_bin,"[0.8, 1.01)",excluded_no_valid,436,1200
+goal_radius_bin,"[0.8, 1.01)",excluded_unresolved,6,1200

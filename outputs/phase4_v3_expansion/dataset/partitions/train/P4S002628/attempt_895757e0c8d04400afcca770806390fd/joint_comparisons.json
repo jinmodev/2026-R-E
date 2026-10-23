@@ -1,0 +1,38 @@
+[
+  {
+    "run_id": "P4S002628_cycloid_p80_down",
+    "scenario_id": "P4S002628",
+    "field": "joint_velocity_effort",
+    "value2561": 30.659983784753585,
+    "adaptive": 30.65998378475359,
+    "absolute_error": 3.552713678800501e-15,
+    "relative_error": 1.1587461049366808e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S002628_cycloid_p80_down",
+    "scenario_id": "P4S002628",
+    "field": "joint_acceleration_effort",
+    "value2561": 1155.8325641990896,
+    "adaptive": 1155.8325641990932,
+    "absolute_error": 3.637978807091713e-12,
+    "relative_error": 3.147496376010624e-15,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S002628_cycloid_p80_down",
+    "scenario_id": "P4S002628",
+    "field": "joint_jerk_effort",
+    "value2561": 697599.3549053718,
+    "adaptive": 697599.3549053777,
+    "absolute_error": 5.9371814131736755e-09,
+    "relative_error": 8.510875721751483e-15,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

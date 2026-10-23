@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S002267_arc_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_velocity_effort",
+    "value2561": 1.013096194044049,
+    "adaptive": 1.013096194044049,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S002267_arc_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_acceleration_effort",
+    "value2561": 3.7561057342825612,
+    "adaptive": 3.7561057342831856,
+    "absolute_error": 6.24389429049188e-13,
+    "relative_error": 1.662331875671616e-13,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S002267_arc_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_jerk_effort",
+    "value2561": 35.516663640733086,
+    "adaptive": 35.516654536411615,
+    "absolute_error": 9.104321470942978e-06,
+    "relative_error": 2.5633950015222417e-07,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S002267_cycloid_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_velocity_effort",
+    "value2561": 1.6951828847717967,
+    "adaptive": 1.6951828847717962,
+    "absolute_error": 4.440892098500626e-16,
+    "relative_error": 2.6197126802035017e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S002267_cycloid_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_acceleration_effort",
+    "value2561": 15.182011668863101,
+    "adaptive": 15.182011668863101,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S002267_cycloid_m80_up",
+    "scenario_id": "P4S002267",
+    "field": "joint_jerk_effort",
+    "value2561": 344.0559086872579,
+    "adaptive": 344.0559086872579,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

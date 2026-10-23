@@ -1,0 +1,414 @@
+{
+  "scenario_id": "P4S000691",
+  "sources": [
+    {
+      "path": "data/phase4_v3_release/partitions/train/P4S000691/attempt_5f2015875b144a93b135bc91ed0ad8c4/trajectory_metrics.jsonl.gz",
+      "sha256": "71eacadb0f8f9e3cc62f550bfdb70c3c502c5c793f52e72f1e2205ca8266e6ed",
+      "bytes": 40539
+    },
+    {
+      "path": "data/phase4_v3_release/partitions/train/P4S000691/attempt_5f2015875b144a93b135bc91ed0ad8c4/scenario_winners.json",
+      "sha256": "ab85cfcfaf3cf90cd6454707cf7995784fcf3e97c7477de4298fa7eb9db1c6c8",
+      "bytes": 21017
+    }
+  ],
+  "selection_rule": "train main cohort; distance winner cycloid and balanced winner limacon; lowest scenario_id; educational post-hoc selection",
+  "candidate_count": 42,
+  "accepted_count": 3,
+  "randomness": "none",
+  "candidates": [
+    {
+      "run_id": "P4S000691_cycloid_p80_up",
+      "dataset_version": "phase4-mathematics-v3",
+      "base_x": 0.7458940415204642,
+      "base_y": 1.2452103925962454,
+      "link1": 5.0335715354288855,
+      "link2": 5.0958569709301615,
+      "start_x": -6.756950253050538,
+      "start_y": 1.1823079231378435,
+      "goal_x": -4.906837948298306,
+      "goal_y": -5.506623880704818,
+      "shape": 0.8,
+      "elbow_mode": "up",
+      "duration_s": 3.0,
+      "obstacles_json": "[{\"center_x\": -4.421965340226254, \"center_y\": -4.508432259047963, \"obstacle_id\": \"P4S000691_O1\", \"radius_units\": 0.45582428278615716}]",
+      "path_length_units": 9.62664937023583,
+      "joint_velocity_effort": 4.010911466136902,
+      "joint_acceleration_effort": 51.4268249096838,
+      "joint_jerk_effort": 1395.727442325664,
+      "regularized_curvature_energy_inv_unit": 2.155468167923057,
+      "obstacle_penalty_s_per_unit2": 56.87816537670344,
+      "balanced_reward_0_100": 65.0,
+      "candidate_status": "accepted",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 86,
+        "bounded_intervals": 50,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.03542703829520703,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      },
+      "geometry_checks": {
+        "path_length_units": {
+          "values_by_n": {
+            "161": 9.62664937023583,
+            "321": 9.627113294936866,
+            "641": 9.627229281190806
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.005
+        },
+        "regularized_curvature_energy_inv_unit": {
+          "values_by_n": {
+            "161": 2.155468167923057,
+            "321": 2.16526444614503,
+            "641": 2.1654071490623843
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.02
+        },
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 56.87816537670344,
+            "321": 57.320676592746366,
+            "641": 57.28010882703946
+          },
+          "passed": true,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "quadrature_diagnostics": {
+        "joint_velocity_effort": {
+          "quad_reference": 4.010911466136901,
+          "quad_error_estimate": 4.453006259438232e-14,
+          "replay_difference": 8.881784197001252e-16,
+          "tolerance": 1.40109114661369e-07,
+          "panels": 33
+        },
+        "joint_acceleration_effort": {
+          "quad_reference": 51.4268249096838,
+          "quad_error_estimate": 5.709524509809748e-13,
+          "replay_difference": 0.0,
+          "tolerance": 1.051426824909684e-05,
+          "panels": 33
+        },
+        "joint_jerk_effort": {
+          "quad_reference": 1395.7274423256645,
+          "quad_error_estimate": 1.5495687425711332e-11,
+          "replay_difference": 4.547473508864641e-13,
+          "tolerance": 0.0010139572744232567,
+          "panels": 33
+        }
+      },
+      "equation_descriptor_json": "{\"curve\": {\"end\": [-4.906837948298306, -5.506623880704818], \"key\": \"cycloid\", \"parameters\": {\"height\": 2.776032397985397, \"height_ratio\": 0.4}, \"start\": [-6.756950253050538, 1.1823079231378435], \"x_u\": \"-6.75695025305 + (1.85011230475)*((2*pi*u-sin(2*pi*u))/(2*pi)) + (2.67557272154)*((1-cos(2*pi*u))/2)\", \"y_u\": \"1.18230792314 + (-6.68893180384)*((2*pi*u-sin(2*pi*u))/(2*pi)) + (0.740044921901)*((1-cos(2*pi*u))/2)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.7458940415204642, 1.2452103925962454], \"elbow_mode\": \"up\", \"link1\": 5.0335715354288855, \"link2\": 5.0958569709301615, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    },
+    {
+      "run_id": "P4S000691_limacon_m80_up",
+      "dataset_version": "phase4-mathematics-v3",
+      "base_x": 0.7458940415204642,
+      "base_y": 1.2452103925962454,
+      "link1": 5.0335715354288855,
+      "link2": 5.0958569709301615,
+      "start_x": -6.756950253050538,
+      "start_y": 1.1823079231378435,
+      "goal_x": -4.906837948298306,
+      "goal_y": -5.506623880704818,
+      "shape": -0.8,
+      "elbow_mode": "up",
+      "duration_s": 3.0,
+      "obstacles_json": "[{\"center_x\": -4.421965340226254, \"center_y\": -4.508432259047963, \"obstacle_id\": \"P4S000691_O1\", \"radius_units\": 0.45582428278615716}]",
+      "path_length_units": 28.03486293440029,
+      "joint_velocity_effort": 32.61231734732877,
+      "joint_acceleration_effort": 450.84724709020315,
+      "joint_jerk_effort": 56446.97468082829,
+      "regularized_curvature_energy_inv_unit": 1.0321985953449422,
+      "obstacle_penalty_s_per_unit2": 4.727923768389138,
+      "balanced_reward_0_100": 65.67788077005994,
+      "candidate_status": "accepted",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 34,
+        "bounded_intervals": 24,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.25734142108388586,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      },
+      "geometry_checks": {
+        "path_length_units": {
+          "values_by_n": {
+            "161": 28.03486293440029,
+            "321": 28.03527934797322,
+            "641": 28.035383455880375
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.005
+        },
+        "regularized_curvature_energy_inv_unit": {
+          "values_by_n": {
+            "161": 1.0321985953449422,
+            "321": 1.0321854430272033,
+            "641": 1.0321821547990582
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.02
+        },
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 4.727923768389138,
+            "321": 4.727925006983154,
+            "641": 4.7279249739702145
+          },
+          "passed": true,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "quadrature_diagnostics": {
+        "joint_velocity_effort": {
+          "quad_reference": 32.612317347328776,
+          "quad_error_estimate": 3.620694560538681e-13,
+          "replay_difference": 7.105427357601002e-15,
+          "tolerance": 4.261231734732878e-07,
+          "panels": 34
+        },
+        "joint_acceleration_effort": {
+          "quad_reference": 450.84724709020304,
+          "quad_error_estimate": 5.005409943084105e-12,
+          "replay_difference": 1.1368683772161603e-13,
+          "tolerance": 1.4508472470902031e-05,
+          "panels": 34
+        },
+        "joint_jerk_effort": {
+          "quad_reference": 56446.97468082836,
+          "quad_error_estimate": 6.266873096108889e-10,
+          "replay_difference": 7.275957614183426e-11,
+          "tolerance": 0.0015644697468082836,
+          "panels": 34
+        }
+      },
+      "equation_descriptor_json": "{\"curve\": {\"end\": [-4.906837948298306, -5.506623880704819], \"key\": \"limacon\", \"parameters\": {\"a\": 1.0, \"b\": 0.79, \"phase\": -1.8849555921538759, \"rotation\": 0.2698466882981789, \"scale\": 4.8270003636027985, \"side\": -1.0, \"sweep\": 3.7699111843077517}, \"start\": [-6.756950253050538, 1.1823079231378435], \"x_u\": \"-6.75695025305 + (4.8270003636)*((0.96381177809)*((1 + (0.79)*cos(-1.88495559215 + (3.76991118431)*u))*cos(-1.88495559215 + (3.76991118431)*u) - (-0.233578707153)) - (0.266583676198)*((-1)*(1 + (0.79)*cos(-1.88495559215 + (3.76991118431)*u))*sin(-1.88495559215 + (3.76991118431)*u) - (0.71888134164)))\", \"y_u\": \"1.18230792314 + (4.8270003636)*((0.266583676198)*((1 + (0.79)*cos(-1.88495559215 + (3.76991118431)*u))*cos(-1.88495559215 + (3.76991118431)*u) - (-0.233578707153)) + (0.96381177809)*((-1)*(1 + (0.79)*cos(-1.88495559215 + (3.76991118431)*u))*sin(-1.88495559215 + (3.76991118431)*u) - (0.71888134164)))\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.7458940415204642, 1.2452103925962454], \"elbow_mode\": \"up\", \"link1\": 5.0335715354288855, \"link2\": 5.0958569709301615, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    },
+    {
+      "run_id": "P4S000691_limacon_m40_up",
+      "dataset_version": "phase4-mathematics-v3",
+      "base_x": 0.7458940415204642,
+      "base_y": 1.2452103925962454,
+      "link1": 5.0335715354288855,
+      "link2": 5.0958569709301615,
+      "start_x": -6.756950253050538,
+      "start_y": 1.1823079231378435,
+      "goal_x": -4.906837948298306,
+      "goal_y": -5.506623880704818,
+      "shape": -0.4,
+      "elbow_mode": "up",
+      "duration_s": 3.0,
+      "obstacles_json": "[{\"center_x\": -4.421965340226254, \"center_y\": -4.508432259047963, \"obstacle_id\": \"P4S000691_O1\", \"radius_units\": 0.45582428278615716}]",
+      "path_length_units": 22.823338948644228,
+      "joint_velocity_effort": 65.58759974892111,
+      "joint_acceleration_effort": 15864.851181610498,
+      "joint_jerk_effort": 33949145.53148485,
+      "regularized_curvature_energy_inv_unit": 1.0753718711499023,
+      "obstacle_penalty_s_per_unit2": 5.196994410965417,
+      "balanced_reward_0_100": 41.174089244656855,
+      "candidate_status": "accepted",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 36,
+        "bounded_intervals": 25,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.2573414210838862,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      },
+      "geometry_checks": {
+        "path_length_units": {
+          "values_by_n": {
+            "161": 22.823338948644228,
+            "321": 22.823645339548555,
+            "641": 22.823721940542164
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.005
+        },
+        "regularized_curvature_energy_inv_unit": {
+          "values_by_n": {
+            "161": 1.0753718711499023,
+            "321": 1.075368401117461,
+            "641": 1.0753675336204782
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.02
+        },
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 5.196994410965417,
+            "321": 5.19699436975875,
+            "641": 5.196994244542206
+          },
+          "passed": true,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "quadrature_diagnostics": {
+        "joint_velocity_effort": {
+          "quad_reference": 65.58759974892115,
+          "quad_error_estimate": 2.807486134019575e-07,
+          "replay_difference": 4.263256414560601e-14,
+          "tolerance": 7.558759974892115e-07,
+          "panels": 33
+        },
+        "joint_acceleration_effort": {
+          "quad_reference": 15864.851181610506,
+          "quad_error_estimate": 3.176345514908918e-08,
+          "replay_difference": 7.275957614183426e-12,
+          "tolerance": 0.00016864851181610507,
+          "panels": 35
+        },
+        "joint_jerk_effort": {
+          "quad_reference": 33949145.53148544,
+          "quad_error_estimate": 0.03507874069737227,
+          "replay_difference": 5.885958671569824e-07,
+          "tolerance": 0.3404914553148544,
+          "panels": 35
+        }
+      },
+      "equation_descriptor_json": "{\"curve\": {\"end\": [-4.906837948298305, -5.506623880704818], \"key\": \"limacon\", \"parameters\": {\"a\": 1.0, \"b\": 0.5700000000000001, \"phase\": -1.8849555921538759, \"rotation\": 0.2698466882981789, \"scale\": 4.428683408088224, \"side\": -1.0, \"sweep\": 3.7699111843077517}, \"start\": [-6.756950253050538, 1.1823079231378435], \"x_u\": \"-6.75695025305 + (4.42868340809)*((0.96381177809)*((1 + (0.57)*cos(-1.88495559215 + (3.76991118431)*u))*cos(-1.88495559215 + (3.76991118431)*u) - (-0.254586837772)) - (0.266583676198)*((-1)*(1 + (0.57)*cos(-1.88495559215 + (3.76991118431)*u))*sin(-1.88495559215 + (3.76991118431)*u) - (0.783537719392)))\", \"y_u\": \"1.18230792314 + (4.42868340809)*((0.266583676198)*((1 + (0.57)*cos(-1.88495559215 + (3.76991118431)*u))*cos(-1.88495559215 + (3.76991118431)*u) - (-0.254586837772)) + (0.96381177809)*((-1)*(1 + (0.57)*cos(-1.88495559215 + (3.76991118431)*u))*sin(-1.88495559215 + (3.76991118431)*u) - (0.783537719392)))\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.7458940415204642, 1.2452103925962454], \"elbow_mode\": \"up\", \"link1\": 5.0335715354288855, \"link2\": 5.0958569709301615, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    }
+  ],
+  "straight_exclusions": [
+    {
+      "run_id": "P4S000691_line_up",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "invalid",
+        "evaluations": 24,
+        "bounded_intervals": 15,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [
+          0.796875,
+          0.84375,
+          0.90625,
+          0.953125
+        ],
+        "unresolved_examples": [],
+        "min_sample_clearance": -0.34477727337333264,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S000691_line_down",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "invalid",
+        "evaluations": 30,
+        "bounded_intervals": 20,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [
+          0.93359375,
+          0.96875,
+          1.0
+        ],
+        "unresolved_examples": [],
+        "min_sample_clearance": -0.2112752612788989,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    }
+  ],
+  "winners": [
+    {
+      "objective": "distance",
+      "winner_run_id": "P4S000691_cycloid_p80_up",
+      "tie_count": 1
+    },
+    {
+      "objective": "joint_effort",
+      "winner_run_id": "P4S000691_cycloid_p80_up",
+      "tie_count": 1
+    },
+    {
+      "objective": "jerk",
+      "winner_run_id": "P4S000691_cycloid_p80_up",
+      "tie_count": 1
+    },
+    {
+      "objective": "curvature",
+      "winner_run_id": "P4S000691_limacon_m80_up",
+      "tie_count": 1
+    },
+    {
+      "objective": "safety",
+      "winner_run_id": "P4S000691_limacon_m80_up",
+      "tie_count": 1
+    },
+    {
+      "objective": "balanced",
+      "winner_run_id": "P4S000691_limacon_m80_up",
+      "tie_count": 1
+    }
+  ],
+  "derivation": {
+    "D": 6.940080994963491,
+    "A": 1.1045481958065588,
+    "B": 1.3880161989926982,
+    "c": 0.840572573789208,
+    "b": 0.79,
+    "scale": 4.8270003636027985,
+    "rotation": 0.2698466882981789,
+    "polar_origin": [
+      -4.745211255760831,
+      -1.8615890147550591
+    ],
+    "cycloid_length_analytic": 9.627267943726896,
+    "limacon_length_quad": 28.035418158917334,
+    "cycloid_length_stored_error": -0.0006185734910655327,
+    "limacon_length_stored_error": -0.0005552245170434844,
+    "cycloid_area": 14.449417264996033,
+    "limacon_sector_area": 90.49964267598548
+  },
+  "scores_by_geometry_grid": {
+    "161": {
+      "P4S000691_cycloid_p80_up": 65.0,
+      "P4S000691_limacon_m80_up": 65.67788077005994,
+      "P4S000691_limacon_m40_up": 41.17408924465686
+    },
+    "321": {
+      "P4S000691_cycloid_p80_up": 65.0,
+      "P4S000691_limacon_m80_up": 65.67788077005994,
+      "P4S000691_limacon_m40_up": 41.18187653773524
+    },
+    "641": {
+      "P4S000691_cycloid_p80_up": 65.0,
+      "P4S000691_limacon_m80_up": 65.67788077005994,
+      "P4S000691_limacon_m40_up": 41.18187068673069
+    }
+  },
+  "checks": {
+    "status": "PASS",
+    "cycloid_point_error": 3.552713678800501e-15,
+    "limacon_point_error": 6.2803698347351005e-15,
+    "cycloid_length_quad_difference": 0.0,
+    "limacon_length_quad_error_estimate": 1.122231975550284e-12
+  },
+  "limitations": "No new full-data audit; not held-out performance; areas are educational and not existing objectives; same candidate set and fixed weights for grid sensitivity, not universal rank robustness."
+}

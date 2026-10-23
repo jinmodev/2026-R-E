@@ -1,0 +1,70 @@
+{
+  "version": "phase4-refinement-v1",
+  "input_dataset_version": "phase4-mathematics-v2",
+  "input_code_version": "phase4-generator-v4",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "scipy": "1.18.1",
+  "selection": "all previous A/J failures + lexicographic all-objective-converged valid control per family; no new random sampling",
+  "previous_selection_seed": 20260908,
+  "failed_run_ids": [
+    "P4S001541_limacon_p40_down",
+    "P4S001541_limacon_p40_up",
+    "P4S001889_line_down",
+    "P4S001889_line_up",
+    "P4S002477_limacon_m40_down",
+    "P4S002477_limacon_m40_up",
+    "P4S003489_bezier_p80_down",
+    "P4S003489_bezier_p80_up",
+    "P4S003489_hermite_p40_down",
+    "P4S003489_hermite_p40_up"
+  ],
+  "control_run_ids": [
+    "P4S000550_line_down",
+    "P4S000550_arc_p40_down",
+    "P4S000550_bezier_p40_down",
+    "P4S000550_hermite_p40_down",
+    "P4S000550_cycloid_p40_down",
+    "P4S001040_limacon_m40_down"
+  ],
+  "failure_scenarios": [
+    "P4S001541",
+    "P4S001889",
+    "P4S002477",
+    "P4S003489"
+  ],
+  "collision_scenarios": [
+    "P4S000550",
+    "P4S000887",
+    "P4S001017",
+    "P4S001040",
+    "P4S001084",
+    "P4S001541",
+    "P4S001889",
+    "P4S002046",
+    "P4S002477",
+    "P4S002605",
+    "P4S002850",
+    "P4S003296",
+    "P4S003298",
+    "P4S003489",
+    "P4S003886",
+    "P4S004411",
+    "P4S004573",
+    "P4S004579",
+    "P4S004800"
+  ],
+  "protocol_sha256": "f47713613e628623ca6fc8cb6d9f0afd3bef3329d2556a29d67203a959c09418",
+  "hashes": {
+    "data\\phase4\\dataset_manifest.json": "6b02474730a9af35d1cb9c4c69904bba0b210121a47b157bffe9099c3f9c1d46",
+    "data\\phase4\\experiment_metadata.json": "98f36706797419b0c09509d719f1029ace2fb108351c9c385714be7af38753dd",
+    "outputs\\phase4_quality\\train_metrics.parquet": "15b100cf6236205bb4ce9a25d62af2a2dd226f7f9fd56edf2b75337b9128ff60",
+    "outputs\\phase4_quality\\convergence_detail.csv": "88a36d9de13be84108c75ae8bef87c6e2c57fbcb41ef48671c05c9e664e9e4c7",
+    "outputs\\phase4_quality\\selected_cases.csv": "9866db580a41ebfbf9d4988781daed30b9bc4cd22f316acc2aa55374f6857ab5",
+    "scripts\\refine_phase4.py": "f801f7b4752301a70efefe85ff5ff6a5b7909633287a1c74f5a02a139d4bbe69",
+    "src\\robot_planner\\refinement.py": "1f2b50d97acfd24febec8e2085316495570353cc182c580ccd940c2feb34d400",
+    "src\\robot_planner\\phase4_evaluation.py": "f73ff7ffdbae26e4e12179e947436b7277b78df5526f9a922e347a17f6896aac"
+  }
+}

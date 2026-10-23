@@ -1,0 +1,76 @@
+{
+  "snapshot_date": "2026-10-23",
+  "repository": "jinmodev/2026-R-E",
+  "included_files": 1064,
+  "included_bytes": 305355160,
+  "excluded_large_data_files": 28974,
+  "excluded_large_data_bytes": 22044905458,
+  "included_groups": {
+    ".gitignore": {
+      "files": 1,
+      "bytes": 434
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 19871
+    },
+    "app.py": {
+      "files": 1,
+      "bytes": 349
+    },
+    "data": {
+      "files": 6,
+      "bytes": 18350931
+    },
+    "docs": {
+      "files": 15,
+      "bytes": 94502
+    },
+    "outputs": {
+      "files": 960,
+      "bytes": 278496865
+    },
+    "pyproject.toml": {
+      "files": 1,
+      "bytes": 796
+    },
+    "scripts": {
+      "files": 35,
+      "bytes": 452574
+    },
+    "src": {
+      "files": 18,
+      "bytes": 329950
+    },
+    "start_app.cmd": {
+      "files": 1,
+      "bytes": 742
+    },
+    "tests": {
+      "files": 16,
+      "bytes": 71577
+    },
+    "분석자료_1": {
+      "files": 8,
+      "bytes": 6965426
+    },
+    "사진저장": {
+      "files": 1,
+      "bytes": 571143
+    }
+  },
+  "credential_pattern_scan": "passed",
+  "unit_tests": {
+    "run": 97,
+    "passed": 97,
+    "failed": 0,
+    "temporary_directory": "workspace/tmp/github_backup_checks"
+  },
+  "notes": [
+    "This inventory is not evidence of a completed upload; the final remote commit and tree must be verified separately.",
+    "The inventory folder is included in publication but excluded from its own hash inventory.",
+    "Virtual environments, caches, node_modules, .git, and temporary files are not research backups.",
+    "Large ignored research files remain local. Cloud/LFS backup and any payment require a separate user decision.",
+    "Existing remote-only files are preserved. No force push or deletion is requested."
+  ]
+}

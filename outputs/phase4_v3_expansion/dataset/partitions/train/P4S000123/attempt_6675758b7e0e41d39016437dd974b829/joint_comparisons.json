@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S000123_cycloid_p80_up",
+    "scenario_id": "P4S000123",
+    "field": "joint_velocity_effort",
+    "value2561": 30.248466568603664,
+    "adaptive": 30.248466568603664,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S000123_cycloid_p80_up",
+    "scenario_id": "P4S000123",
+    "field": "joint_acceleration_effort",
+    "value2561": 553.0102381640222,
+    "adaptive": 553.0102381640223,
+    "absolute_error": 1.1368683772161603e-13,
+    "relative_error": 2.055781789846296e-16,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S000123_cycloid_p80_up",
+    "scenario_id": "P4S000123",
+    "field": "joint_jerk_effort",
+    "value2561": 63303.35066261858,
+    "adaptive": 63303.35066261854,
+    "absolute_error": 3.637978807091713e-11,
+    "relative_error": 5.74689770606406e-16,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S000123_cycloid_p80_down",
+    "scenario_id": "P4S000123",
+    "field": "joint_velocity_effort",
+    "value2561": 30.429778609693127,
+    "adaptive": 30.429778609693127,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S000123_cycloid_p80_down",
+    "scenario_id": "P4S000123",
+    "field": "joint_acceleration_effort",
+    "value2561": 553.4973066366317,
+    "adaptive": 553.4973066366314,
+    "absolute_error": 3.410605131648481e-13,
+    "relative_error": 6.161918207648169e-16,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S000123_cycloid_p80_down",
+    "scenario_id": "P4S000123",
+    "field": "joint_jerk_effort",
+    "value2561": 63347.01637441413,
+    "adaptive": 63347.01637441408,
+    "absolute_error": 5.093170329928398e-11,
+    "relative_error": 8.040110839356807e-16,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

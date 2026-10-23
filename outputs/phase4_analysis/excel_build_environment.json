@@ -1,0 +1,16 @@
+{
+  "node": "v24.19.0",
+  "library": "@oai/artifact-tool",
+  "runtimeBundle": "26.905.11957",
+  "sheets": [
+    "유효성",
+    "구성",
+    "목적별선택",
+    "대응비교",
+    "조건별확보율",
+    "수치검증",
+    "데이터사전"
+  ],
+  "source": "workbook_payload.json",
+  "nativeExcelApplicationTested": false
+}

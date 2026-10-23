@@ -1,0 +1,9 @@
+﻿run_id,role,reason
+P4S004576_line_down,family_line,주 비교 집합에서 종류별 고정 해시 선정
+P4S002885_arc_p40_up,family_arc,주 비교 집합에서 종류별 고정 해시 선정
+P4S000481_bezier_m40_up,family_bezier,주 비교 집합에서 종류별 고정 해시 선정
+P4S004194_hermite_m80_up,family_hermite,주 비교 집합에서 종류별 고정 해시 선정
+P4S004784_cycloid_p80_down,family_cycloid,주 비교 집합에서 종류별 고정 해시 선정
+P4S000037_limacon_p40_up,family_limacon,주 비교 집합에서 종류별 고정 해시 선정
+P4S002425_arc_m80_down,unreachable,적응형 경로 검사 위반 witness가 있는 고정 해시 사례
+P4S002488_arc_p40_up,collision,적응형 경로 검사 위반 witness가 있는 고정 해시 사례

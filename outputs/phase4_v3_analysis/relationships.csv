@@ -1,0 +1,6 @@
+﻿scope,x,y,scenarios,spearman_rho
+raw,path_length_units,joint_velocity_effort,2136,0.829096818711613
+raw,joint_jerk_effort,regularized_curvature_energy_inv_unit,2136,0.21538568603796207
+raw,min_obstacle_clearance_units,obstacle_penalty_s_per_unit2,1725,-0.9625785071285637
+within_scenario,normalized_distance,normalized_joint_effort,2136,0.502174559101288
+within_scenario,normalized_jerk,normalized_curvature,2136,0.3635780186621944

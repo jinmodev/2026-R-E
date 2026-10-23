@@ -1,0 +1,4 @@
+﻿field,checked,passed,failed,max_abs_difference,max_relative_difference
+obstacle_penalty_s_per_unit2,24699,24692,7,2.2118580964281733,0.10853836727384457
+path_length_units,24699,24699,0,0.0015912011888978839,6.023721471096157e-05
+regularized_curvature_energy_inv_unit,24699,24699,0,0.13474538003877257,0.004589890240124065

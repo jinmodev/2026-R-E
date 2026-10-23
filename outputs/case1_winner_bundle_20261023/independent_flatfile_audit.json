@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "trap_rows": 22080,
+  "weighted_nodes": 18912,
+  "score_rows": 30,
+  "labels": 9,
+  "selected_candidates": 6,
+  "csv_files_checked": 22,
+  "all_contributions_recomputed": true,
+  "all_scores_recomputed": true,
+  "original_and_copied_source_hashes_match": true
+}

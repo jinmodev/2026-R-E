@@ -1,0 +1,20 @@
+﻿field,meaning_ko,unit,notes
+scenario_id,동일 환경의 ID,없음,후보들은 대응 자료
+run_id,곡선 변형 × 팔꿈치 해,없음,버전과 함께 결합
+selection_valid,수치·경로 검사 통과,bool,accepted만 true; 정확도/물리 안전 인증 아님
+cohort,main / excluded_unresolved / excluded_no_valid,분석 집합,"구성·유효성은 전체, 우열 비교는 main"
+fully_reachable,전체 경로 도달 검사 결과,true/false/null,"null은 미확정, false가 아님"
+collision_free,링크 무충돌 검사 결과,true/false/null,검사 순서 때문에 다른 위반이 가려질 수 있음
+L,끝점 경로 길이,unit,161 기하 표본; 321/641 비교 통과
+E_theta,관절 속도 제곱 적분,rad²/s,실제 에너지 아님; 적응형 가중합
+A,관절 가속도 제곱 적분,rad²/s³,"보조 지표, 종합에서 제외"
+J,관절 각저크 제곱 적분,rad²/s⁵,곡률과 다름; 적응형 가중합
+K_epsilon,정칙화 곡률 제곱 비용,1/unit,단순 총곡률과 다름
+O,장애물 접근 벌점,s/unit²,"장애물 없음은 0, 여유는 NA"
+balanced_cost,가중 정규화 비용,0–100,작을수록 좋음; 무효 1e6 제외
+fractional_wins,동점 후보별 1/k 배분 합,상황,확률/오차 보정 아님
+paired_scenarios,두 종류가 모두 유효한 같은 상황,상황,목적별 최소 비용 후보 대응
+small_n,분모 상황 수 <30,bool,"소표본 표시, 유의성 검사 아님"
+곡선·관절각 식,representative_equations.json,CSV/JSON 원본 참조,긴 식은 Excel에서 생략
+출처,data/phase4_v3_release train,phase4-mathematics-v3,완료 receipt와 manifest는 provenance.json 참조
+분석 규칙,docs/phase4_v3_analysis_protocol.md,20260913,고정 해시 사례 선택; held-out 미사용

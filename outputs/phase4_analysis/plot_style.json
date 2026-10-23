@@ -1,0 +1,13 @@
+{
+  "font": "Malgun Gothic",
+  "dpi": 300,
+  "colors": {
+    "line": "#3264D8",
+    "arc": "#D78222",
+    "bezier": "#259067",
+    "hermite": "#CB5367",
+    "cycloid": "#8864BB",
+    "limacon": "#189DAA"
+  },
+  "seed": 20260908
+}

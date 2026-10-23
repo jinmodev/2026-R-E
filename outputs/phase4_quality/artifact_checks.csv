@@ -1,0 +1,99 @@
+﻿check,status,detail
+mechanical_checks,PASS,21 checks
+train_integrity_checks,PASS,58 checks
+all_sample_column_checks,PASS,48 checks
+analytic_checks,PASS,1976 comparisons
+polynomial_derivative_checks,PASS,12 comparisons
+original_161_reproduction,PASS,4788 comparisons
+winner_denominator_obstacles_only_reference_balanced,PASS,
+winner_denominator_obstacles_only_reference_curvature,PASS,
+winner_denominator_obstacles_only_reference_distance,PASS,
+winner_denominator_obstacles_only_reference_jerk,PASS,
+winner_denominator_obstacles_only_reference_joint_effort,PASS,
+winner_denominator_obstacles_only_reference_safety,PASS,
+winner_denominator_original_161_reference_only_balanced,PASS,
+winner_denominator_original_161_reference_only_curvature,PASS,
+winner_denominator_original_161_reference_only_distance,PASS,
+winner_denominator_original_161_reference_only_jerk,PASS,
+winner_denominator_original_161_reference_only_joint_effort,PASS,
+winner_denominator_original_161_reference_only_safety,PASS,
+winner_denominator_verified_cases_only_balanced,PASS,
+winner_denominator_verified_cases_only_curvature,PASS,
+winner_denominator_verified_cases_only_distance,PASS,
+winner_denominator_verified_cases_only_jerk,PASS,
+winner_denominator_verified_cases_only_joint_effort,PASS,
+winner_denominator_verified_cases_only_safety,PASS,
+image_01_composition,PASS,"(4234, 1234), dpi=(299.9994, 299.9994)"
+svg_01_composition,PASS,
+image_02_validity,PASS,"(3634, 1414), dpi=(299.9994, 299.9994)"
+svg_02_validity,PASS,
+image_03_winners_reference,PASS,"(3934, 2284), dpi=(299.9994, 299.9994)"
+svg_03_winners_reference,PASS,
+image_04_relationships,PASS,"(4234, 1354), dpi=(299.9994, 299.9994)"
+svg_04_relationships,PASS,
+image_05_conditions,PASS,"(3028, 1684), dpi=(299.9994, 299.9994)"
+svg_05_conditions,PASS,
+image_10_geometry_conditions,PASS,"(3934, 2434), dpi=(299.9994, 299.9994)"
+svg_10_geometry_conditions,PASS,
+image_06_convergence,PASS,"(3934, 2134), dpi=(299.9994, 299.9994)"
+svg_06_convergence,PASS,
+image_07_verified_example,PASS,"(3634, 2434), dpi=(299.9994, 299.9994)"
+svg_07_verified_example,PASS,
+image_08_unreachable,PASS,"(3634, 2434), dpi=(299.9994, 299.9994)"
+svg_08_unreachable,PASS,
+image_08_reachable_collision,PASS,"(3634, 2434), dpi=(299.9994, 299.9994)"
+svg_08_reachable_collision,PASS,
+image_09_objective_tradeoff,PASS,"(2434, 1115), dpi=(299.9994, 299.9994)"
+svg_09_objective_tradeoff,PASS,
+xlsx_sheet_count,PASS,
+xlsx_native_formulas,PASS,24 ratio formulas
+xlsx_error_cells,PASS,
+xlsx_cell_limit,PASS,
+xlsx_cached_B6,PASS,
+xlsx_cached_C6,PASS,
+xlsx_cached_D6,PASS,
+xlsx_cached_E6,PASS,
+xlsx_cached_F6,PASS,
+xlsx_cached_G6,PASS,
+xlsx_cached_H6,PASS,
+xlsx_cached_I6,PASS,
+xlsx_cached_B7,PASS,
+xlsx_cached_C7,PASS,
+xlsx_cached_D7,PASS,
+xlsx_cached_E7,PASS,
+xlsx_cached_F7,PASS,
+xlsx_cached_G7,PASS,
+xlsx_cached_H7,PASS,
+xlsx_cached_I7,PASS,
+xlsx_cached_B8,PASS,
+xlsx_cached_C8,PASS,
+xlsx_cached_D8,PASS,
+xlsx_cached_E8,PASS,
+xlsx_cached_F8,PASS,
+xlsx_cached_G8,PASS,
+xlsx_cached_H8,PASS,
+xlsx_cached_I8,PASS,
+xlsx_cached_B9,PASS,
+xlsx_cached_C9,PASS,
+xlsx_cached_D9,PASS,
+xlsx_cached_E9,PASS,
+xlsx_cached_F9,PASS,
+xlsx_cached_G9,PASS,
+xlsx_cached_H9,PASS,
+xlsx_cached_I9,PASS,
+xlsx_cached_B10,PASS,
+xlsx_cached_C10,PASS,
+xlsx_cached_D10,PASS,
+xlsx_cached_E10,PASS,
+xlsx_cached_F10,PASS,
+xlsx_cached_G10,PASS,
+xlsx_cached_H10,PASS,
+xlsx_cached_I10,PASS,
+xlsx_cached_B11,PASS,
+xlsx_cached_C11,PASS,
+xlsx_cached_D11,PASS,
+xlsx_cached_E11,PASS,
+xlsx_cached_F11,PASS,
+xlsx_cached_G11,PASS,
+xlsx_cached_H11,PASS,
+xlsx_cached_I11,PASS,

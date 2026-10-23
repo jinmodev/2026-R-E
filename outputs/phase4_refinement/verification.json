@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "check": "unchanged input/source: data\\phase4\\dataset_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: data\\phase4\\experiment_metadata.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: outputs\\phase4_quality\\train_metrics.parquet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: outputs\\phase4_quality\\convergence_detail.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: outputs\\phase4_quality\\selected_cases.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: scripts\\refine_phase4.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: src\\robot_planner\\refinement.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unchanged input/source: src\\robot_planner\\phase4_evaluation.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "protocol unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "previous quality/analysis artifacts preserved",
+      "passed": true,
+      "detail": "86 files"
+    },
+    {
+      "check": "output hash/size: adaptive_integrals.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: adaptive_path_checks.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: grid_comparison.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: integral_accuracy.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: provenance.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: rank_sensitivity.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: refinement_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output hash/size: summary.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "grid count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "grid unique keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "train grid only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "42 paths/scenario",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "path run IDs unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bounded-clear contains no witnesses or unknown intervals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "invalid has a witness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "evaluation budget respected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "accuracy reference run IDs match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference warnings not counted as verified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "summary collision count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "full regression suite",
+      "passed": true,
+      "detail": [
+        "----------------------------------------------------------------------",
+        "Ran 64 tests in 3.259s",
+        "",
+        "OK"
+      ]
+    }
+  ],
+  "passed": 30,
+  "failed": 0
+}

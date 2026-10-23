@@ -1,0 +1,35 @@
+{
+  "dataset_version": "phase4-mathematics-v3",
+  "dataset_manifest_sha256": "83d6f92fe4775d45f78cfe11eab231a35c5ab2094d5a59e140aaa04ba8091f2a",
+  "generation_signature": {
+    "version": "phase4-mathematics-v3",
+    "code_version": "release-generator-v1",
+    "hashes": {
+      "src/robot_planner/phase4_release.py": "ad9ac76e1e34192e119e1bae3bf7309d29dde31d3e94b052d7b04394fa272180",
+      "src/robot_planner/phase4_v3.py": "6dc11aad839e4b7aa7d97c107c2b410ca3a36169603342b4607bf414edcb3aa2",
+      "src/robot_planner/refinement.py": "1f2b50d97acfd24febec8e2085316495570353cc182c580ccd940c2feb34d400",
+      "src/robot_planner/phase4_evaluation.py": "f73ff7ffdbae26e4e12179e947436b7277b78df5526f9a922e347a17f6896aac",
+      "src/robot_planner/phase4.py": "fa9771f28bf82af43cf4328fdfef8b0fd5615c444b2f27ea501b7969c32cf287",
+      "src/robot_planner/curves.py": "671cdc234af7d6663a49fc238d8ba3551f337d98688a30c43ed69ef9006e481b",
+      "scripts/phase4_release_pipeline.py": "b71754ffa0fdecfdc8c3ed6a5006ab082afac47503f462dece7aec2aa5ab9d7b",
+      "docs/phase4_release_policy.md": "0bee28e0776dc6199a17d969a074daeed1e725c6c753a2ed7366b991dd60e780",
+      "data/phase4/scenarios.csv": "ea521b008e1c8f6f4bfb4813c1dd55d5f64c20795800f02aba62f4daf67b1742",
+      "data/phase4/experiment_metadata.json": "98f36706797419b0c09509d719f1029ace2fb108351c9c385714be7af38753dd",
+      "data/phase4/dataset_manifest.json": "6b02474730a9af35d1cb9c4c69904bba0b210121a47b157bffe9099c3f9c1d46"
+    },
+    "digest": "385443ea0d7eca9bc7b1df85b6476685f8fbcfa6d449dc1f02915fc6fd86c3d0"
+  },
+  "analysis_protocol_sha256": "d34a62c3cb3660c6b381bd619dbc48ef6979fe449c61b409b37dbac4187f0657",
+  "analysis_seed": 20260913,
+  "script_sha256": "1bb4cb78c3691aed495d85313c980485e3150030a13b7662433cf9d85ad992f7",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\LG\\Documents\\2026 R&E\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "source": "train completed receipts only",
+  "curve_labels": "Canonical curve_key mapping for display; original curve_name_ko preserved in raw data",
+  "numerical_verification": "../phase4_v3_release_quality/verification.json",
+  "visual_refresh_script_sha256": "753479566c001963e1d47a90384660fdf91583b2886009495b2fa733ecb59e02",
+  "visual_refresh_note": "Figure layout/witness annotation refresh; selection, calculations and cohorts unchanged"
+}

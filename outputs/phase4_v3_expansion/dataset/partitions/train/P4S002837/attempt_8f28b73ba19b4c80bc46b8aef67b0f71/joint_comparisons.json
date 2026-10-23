@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S002837_limacon_m80_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_velocity_effort",
+    "value2561": 21.855548272028823,
+    "adaptive": 21.85554827202882,
+    "absolute_error": 3.552713678800501e-15,
+    "relative_error": 1.62554315022485e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S002837_limacon_m80_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_acceleration_effort",
+    "value2561": 117.27594984370799,
+    "adaptive": 117.27594984371586,
+    "absolute_error": 7.87281351222191e-12,
+    "relative_error": 6.71306736181917e-14,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S002837_limacon_m80_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_jerk_effort",
+    "value2561": 3939.2695711217843,
+    "adaptive": 3939.269456626689,
+    "absolute_error": 0.00011449509520389256,
+    "relative_error": 2.9065057992234436e-08,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S002837_limacon_m40_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_velocity_effort",
+    "value2561": 19.89122347886976,
+    "adaptive": 19.89122347886976,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S002837_limacon_m40_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_acceleration_effort",
+    "value2561": 138.11780989595925,
+    "adaptive": 138.11780989596463,
+    "absolute_error": 5.3717030823463574e-12,
+    "relative_error": 3.889218259681731e-14,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S002837_limacon_m40_down",
+    "scenario_id": "P4S002837",
+    "field": "joint_jerk_effort",
+    "value2561": 12945.535420730228,
+    "adaptive": 12945.535345775996,
+    "absolute_error": 7.495423233194742e-05,
+    "relative_error": 5.789967763396071e-09,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

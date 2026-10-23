@@ -1,0 +1,14 @@
+﻿field,null_rows,total_train_sample_rows
+sample_index,0,20286000
+theta1_rad,2251448,20286000
+theta2_rad,2251448,20286000
+x,0,20286000
+y,0,20286000
+path_speed_units_per_u,0,20286000
+geometry_u,0,20286000
+regularized_curvature_integrand_inv_unit,0,20286000
+joint_velocity_squared_rad2_s2,7013804,20286000
+time_s,0,20286000
+joint_acceleration_squared_rad2_s4,7013804,20286000
+joint_jerk_squared_rad2_s6,7013804,20286000
+obstacle_penalty_integrand_per_unit2,6011740,20286000

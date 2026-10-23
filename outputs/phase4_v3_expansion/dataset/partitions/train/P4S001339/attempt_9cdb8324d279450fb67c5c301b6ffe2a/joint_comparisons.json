@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S001339_arc_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_velocity_effort",
+    "value2561": 14.043566575940915,
+    "adaptive": 14.043566575940913,
+    "absolute_error": 1.7763568394002505e-15,
+    "relative_error": 1.2648901045148037e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S001339_arc_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_acceleration_effort",
+    "value2561": 65.78724094252418,
+    "adaptive": 65.7872409425359,
+    "absolute_error": 1.1723955140041653e-11,
+    "relative_error": 1.7821016616705874e-13,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S001339_arc_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_jerk_effort",
+    "value2561": 1305.768902841351,
+    "adaptive": 1305.768731842973,
+    "absolute_error": 0.00017099837805290008,
+    "relative_error": 1.309560980308906e-07,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S001339_cycloid_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_velocity_effort",
+    "value2561": 15.636607450003819,
+    "adaptive": 15.636607450003819,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S001339_cycloid_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_acceleration_effort",
+    "value2561": 104.85944646284605,
+    "adaptive": 104.85944646284604,
+    "absolute_error": 1.4210854715202004e-14,
+    "relative_error": 1.355228851054179e-16,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S001339_cycloid_m80_down",
+    "scenario_id": "P4S001339",
+    "field": "joint_jerk_effort",
+    "value2561": 2189.78555462267,
+    "adaptive": 2189.7855546226706,
+    "absolute_error": 4.547473508864641e-13,
+    "relative_error": 2.0766752704459374e-16,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

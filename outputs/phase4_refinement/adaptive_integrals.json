@@ -1,0 +1,542 @@
+[
+  {
+    "run_id": "P4S001541_limacon_p40_down",
+    "scenario_id": "P4S001541",
+    "curve_key": "limacon",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 71.96686248294812,
+        "estimated_absolute_error": 2.4071670899397635e-08,
+        "evaluations": 735,
+        "warning": null
+      },
+      "A": {
+        "value": 45826.07694659655,
+        "estimated_absolute_error": 0.000327380307048896,
+        "evaluations": 777,
+        "warning": null
+      },
+      "J": {
+        "value": 237081342.66603115,
+        "estimated_absolute_error": 0.08875420870458584,
+        "evaluations": 777,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.5713546511422816,
+        "singularity_index": 0.03798059043833471
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S001541_limacon_p40_up",
+    "scenario_id": "P4S001541",
+    "curve_key": "limacon",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 71.95929566294016,
+        "estimated_absolute_error": 5.287903969091698e-08,
+        "evaluations": 735,
+        "warning": null
+      },
+      "A": {
+        "value": 45258.056851158515,
+        "estimated_absolute_error": 1.6740134597776832e-05,
+        "evaluations": 777,
+        "warning": null
+      },
+      "J": {
+        "value": 234392366.183798,
+        "estimated_absolute_error": 0.06164290024253205,
+        "evaluations": 819,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.5713546511422816,
+        "singularity_index": 0.03798059043833471
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S001889_line_down",
+    "scenario_id": "P4S001889",
+    "curve_key": "line",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 38.42994658452088,
+        "estimated_absolute_error": 3.0138848994445774e-12,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 8583.34108002299,
+        "estimated_absolute_error": 1.449228796926924e-06,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 13372500.044399915,
+        "estimated_absolute_error": 0.0006564133642136538,
+        "evaluations": 735,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.5515784467220206,
+        "singularity_index": 0.07370072672466792
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S001889_line_up",
+    "scenario_id": "P4S001889",
+    "curve_key": "line",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 38.372098301558566,
+        "estimated_absolute_error": 4.2406623315393215e-12,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 8517.100245402627,
+        "estimated_absolute_error": 1.1062037362914836e-07,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 13271652.787594086,
+        "estimated_absolute_error": 0.01847907230202303,
+        "evaluations": 735,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.5515784467220206,
+        "singularity_index": 0.07370072672466792
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S002477_limacon_m40_down",
+    "scenario_id": "P4S002477",
+    "curve_key": "limacon",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 55.869960656018556,
+        "estimated_absolute_error": 9.587704826654345e-10,
+        "evaluations": 756,
+        "warning": null
+      },
+      "A": {
+        "value": 20346.76982551908,
+        "estimated_absolute_error": 0.0001599380504870851,
+        "evaluations": 756,
+        "warning": null
+      },
+      "J": {
+        "value": 74049727.84766962,
+        "estimated_absolute_error": 0.3149683740084228,
+        "evaluations": 798,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.0823160514122843,
+        "singularity_index": 0.8428509290872874
+      },
+      {
+        "t": 2.22616642454088,
+        "singularity_index": 0.027007660795693725
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S002477_limacon_m40_up",
+    "scenario_id": "P4S002477",
+    "curve_key": "limacon",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 57.74683068258337,
+        "estimated_absolute_error": 3.3141247755658383e-09,
+        "evaluations": 756,
+        "warning": null
+      },
+      "A": {
+        "value": 24059.537767405745,
+        "estimated_absolute_error": 0.00019034626572089763,
+        "evaluations": 756,
+        "warning": null
+      },
+      "J": {
+        "value": 84371312.9218597,
+        "estimated_absolute_error": 0.5063445081473192,
+        "evaluations": 798,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.0823160514122843,
+        "singularity_index": 0.8428509290872874
+      },
+      {
+        "t": 2.22616642454088,
+        "singularity_index": 0.027007660795693725
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S003489_bezier_p80_down",
+    "scenario_id": "P4S003489",
+    "curve_key": "bezier",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 29.089385712886223,
+        "estimated_absolute_error": 1.7797262714258502e-09,
+        "evaluations": 735,
+        "warning": null
+      },
+      "A": {
+        "value": 4354.677659954679,
+        "estimated_absolute_error": 5.955173860296934e-06,
+        "evaluations": 777,
+        "warning": null
+      },
+      "J": {
+        "value": 10566395.922870424,
+        "estimated_absolute_error": 0.0013552910970560106,
+        "evaluations": 819,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.3306311472125516,
+        "singularity_index": 0.03331145101183598
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S003489_bezier_p80_up",
+    "scenario_id": "P4S003489",
+    "curve_key": "bezier",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 29.501988496850633,
+        "estimated_absolute_error": 4.076900272135856e-09,
+        "evaluations": 735,
+        "warning": null
+      },
+      "A": {
+        "value": 4343.77490520226,
+        "estimated_absolute_error": 5.232856464703107e-06,
+        "evaluations": 777,
+        "warning": null
+      },
+      "J": {
+        "value": 10561154.877958782,
+        "estimated_absolute_error": 0.0011810463999211152,
+        "evaluations": 819,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.3306311472125516,
+        "singularity_index": 0.03331145101183598
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S003489_hermite_p40_down",
+    "scenario_id": "P4S003489",
+    "curve_key": "hermite",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 22.84866128683928,
+        "estimated_absolute_error": 2.396705251242214e-12,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 2567.8504956968886,
+        "estimated_absolute_error": 3.5205438288089017e-07,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 2501964.4471503273,
+        "estimated_absolute_error": 0.023102382680652185,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.3674658166875642,
+        "singularity_index": 0.07026245377779074
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S003489_hermite_p40_up",
+    "scenario_id": "P4S003489",
+    "curve_key": "hermite",
+    "selection_reason": "previous_failure",
+    "integrals": {
+      "E_theta": {
+        "value": 23.397428498338808,
+        "estimated_absolute_error": 5.066544906482742e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 2679.5210292554175,
+        "estimated_absolute_error": 2.9608782918098104e-07,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 2570666.750769699,
+        "estimated_absolute_error": 8.453954172255723e-05,
+        "evaluations": 735,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.3674658166875642,
+        "singularity_index": 0.07026245377779074
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S000550_line_down",
+    "scenario_id": "P4S000550",
+    "curve_key": "line",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 4.025516406984196,
+        "estimated_absolute_error": 4.469221001040187e-14,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 14.300899724407229,
+        "estimated_absolute_error": 1.5877188146892464e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 165.7597696087284,
+        "estimated_absolute_error": 1.8403031277617153e-12,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 2.132726933441488,
+        "singularity_index": 0.5389047224458745
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S000550_arc_p40_down",
+    "scenario_id": "P4S000550",
+    "curve_key": "arc",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 7.435261885055325,
+        "estimated_absolute_error": 8.254798938906265e-14,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 63.74830453084489,
+        "estimated_absolute_error": 7.077483547096017e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 2520.219265757056,
+        "estimated_absolute_error": 2.7980054559473897e-11,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.97352207950781,
+        "singularity_index": 0.3192833783252861
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S000550_bezier_p40_down",
+    "scenario_id": "P4S000550",
+    "curve_key": "bezier",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 6.094898771615824,
+        "estimated_absolute_error": 6.766696949007471e-14,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 36.46459355769872,
+        "estimated_absolute_error": 4.048383135135527e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 869.431516157079,
+        "estimated_absolute_error": 9.652628875723481e-12,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 2.007646707138287,
+        "singularity_index": 0.3864659020962635
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S000550_hermite_p40_down",
+    "scenario_id": "P4S000550",
+    "curve_key": "hermite",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 5.895161359652128,
+        "estimated_absolute_error": 6.544943875366335e-14,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 34.57543935374546,
+        "estimated_absolute_error": 3.838644885705895e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 784.1155706135182,
+        "estimated_absolute_error": 8.705431604622207e-12,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.9993424879449135,
+        "singularity_index": 0.4034015484613146
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S000550_cycloid_p40_down",
+    "scenario_id": "P4S000550",
+    "curve_key": "cycloid",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 15.954925578278282,
+        "estimated_absolute_error": 1.7713525733185385e-13,
+        "evaluations": 693,
+        "warning": null
+      },
+      "A": {
+        "value": 662.5460612520466,
+        "estimated_absolute_error": 1.4654337253318177e-11,
+        "evaluations": 693,
+        "warning": null
+      },
+      "J": {
+        "value": 145471.12181659084,
+        "estimated_absolute_error": 2.2935367764861304e-07,
+        "evaluations": 693,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 1.7734932593062243,
+        "singularity_index": 0.2291126864249584
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "P4S001040_limacon_m40_down",
+    "scenario_id": "P4S001040",
+    "curve_key": "limacon",
+    "selection_reason": "control",
+    "integrals": {
+      "E_theta": {
+        "value": 13.969709559527331,
+        "estimated_absolute_error": 1.55094932003134e-13,
+        "evaluations": 714,
+        "warning": null
+      },
+      "A": {
+        "value": 47.8613967506325,
+        "estimated_absolute_error": 5.313682466327186e-13,
+        "evaluations": 714,
+        "warning": null
+      },
+      "J": {
+        "value": 688.5054722267081,
+        "estimated_absolute_error": 7.643946278465076e-12,
+        "evaluations": 714,
+        "warning": null
+      }
+    },
+    "minima": [
+      {
+        "t": 0.6163023961694842,
+        "singularity_index": 0.6638330691491564
+      },
+      {
+        "t": 2.342013421406062,
+        "singularity_index": 0.5710178257682468
+      }
+    ],
+    "error": null
+  }
+]

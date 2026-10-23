@@ -1,0 +1,11 @@
+% Poster equation source (phase-2 baseline)
+\begin{align}
+\mathbf{p}(\boldsymbol{\theta}) &=
+\begin{bmatrix}
+l_1\cos\theta_1+l_2\cos(\theta_1+\theta_2)\\
+l_1\sin\theta_1+l_2\sin(\theta_1+\theta_2)
+\end{bmatrix},\\
+|l_1-l_2| &\le \|\mathbf{p}(t)-\mathbf{b}\| \le l_1+l_2,\\
+L &= \int_0^1 \|\mathbf{p}'(t)\|\,dt,\\
+Q &\approx \sum_{i=0}^{N-2}\sqrt{(\theta_{1,i+1}-\theta_{1,i})^2+(\theta_{2,i+1}-\theta_{2,i})^2}.
+\end{align}

@@ -1,0 +1,11 @@
+{
+  "pages": 17,
+  "page_titles_checked": true,
+  "all_six_candidates": true,
+  "co_winner_included": true,
+  "text_extraction_passed": true,
+  "visual_review_pending": false,
+  "pages_visually_reviewed": 17,
+  "figure_panels_reviewed": 13,
+  "constant_integrand_axis_roundoff_fixed": true
+}

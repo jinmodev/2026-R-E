@@ -1,0 +1,277 @@
+{
+  "scenario_id": "P4S000057",
+  "dataset_version": "phase4-mathematics-v3",
+  "selection_rule": "train main cohort; no obstacles; best effort candidate is bezier; best-effort valid line exists; effort reduction >=20%; lowest scenario ID",
+  "selection_warning": "Post-hoc pedagogical selection, not population inference or held-out testing.",
+  "qualifying_scenarios": 99,
+  "randomness": "none; deterministic sorting",
+  "source_files": [
+    {
+      "path": "data/phase4_v3_release/partitions/train/P4S000057/attempt_bcc145e2929243da9ef46fd969fac3eb/trajectory_metrics.jsonl.gz",
+      "bytes": 45916,
+      "sha256": "7e0e963dede391795fadd933e8b65f977a986617c5d9408b6ef5dd7e2cb070cc"
+    },
+    {
+      "path": "data/phase4_v3_release/partitions/train/P4S000057/attempt_bcc145e2929243da9ef46fd969fac3eb/scenario_winners.json",
+      "bytes": 16111,
+      "sha256": "cbe54d9ce728c70e23c179c14dc70da25e4126a17c26e68ffb924df7328da8d8"
+    }
+  ],
+  "receipt_sha256": "aa39f22c0d160834a34fffdf05f0adf61f588638028912c8833949506eb16705",
+  "train_cache_sha256": "2d8f45bacee99b3dc0555d57c46070b8aa7213824e2456009e0fceb52a3b22e7",
+  "curve_implementation_sha256": "671cdc234af7d6663a49fc238d8ba3551f337d98688a30c43ed69ef9006e481b",
+  "candidates": {
+    "P4S000057_line_up": {
+      "scenario_id": "P4S000057",
+      "run_id": "P4S000057_line_up",
+      "dataset_version": "phase4-mathematics-v3",
+      "data_split": "train",
+      "curve_key": "line",
+      "shape": 0.0,
+      "elbow_mode": "up",
+      "base_x": -1.0341174632966137,
+      "base_y": -0.7537390562768276,
+      "link1": 2.384957313053313,
+      "link2": 3.9115889416777456,
+      "start_x": 1.2712591556432176,
+      "start_y": -1.3911055823795553,
+      "goal_x": 3.289855425389674,
+      "goal_y": 2.8369894293738014,
+      "duration_s": 3.0,
+      "obstacles_json": "[]",
+      "selection_valid": true,
+      "candidate_status": "accepted",
+      "path_check_status": "bounded_clear",
+      "geometry_convergence_status": "passed",
+      "joint_integration_status": "accepted",
+      "path_length_units": 4.685244745864183,
+      "joint_velocity_effort": 1.5055414349496261,
+      "balanced_reward_0_100": 99.53290286165884,
+      "equation_descriptor_json": "{\"curve\": {\"end\": [3.289855425389674, 2.8369894293738014], \"key\": \"line\", \"parameters\": {}, \"start\": [1.2712591556432176, -1.3911055823795553], \"x_u\": \"(1-u)*(1.27125915564) + u*(3.28985542539)\", \"y_u\": \"(1-u)*(-1.39110558238) + u*(2.83698942937)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [-1.0341174632966137, -0.7537390562768276], \"elbow_mode\": \"up\", \"link1\": 2.384957313053313, \"link2\": 3.9115889416777456, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}",
+      "geometry_checks": {
+        "path_length_units": {
+          "values_by_n": {
+            "161": 4.685244745864183,
+            "321": 4.685244745864183,
+            "641": 4.685244745864183
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.005
+        },
+        "regularized_curvature_energy_inv_unit": {
+          "values_by_n": {
+            "161": 0.0,
+            "321": 0.0,
+            "641": 0.0
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.02
+        },
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 0.0,
+            "321": 0.0,
+            "641": 0.0
+          },
+          "passed": true,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "quadrature_diagnostics": {
+        "joint_velocity_effort": {
+          "quad_reference": 1.5055414349496263,
+          "quad_error_estimate": 1.6714867656082725e-14,
+          "replay_difference": 2.220446049250313e-16,
+          "tolerance": 1.1505541434949626e-07,
+          "panels": 32
+        },
+        "joint_acceleration_effort": {
+          "quad_reference": 3.101720123480207,
+          "quad_error_estimate": 3.4436010970309094e-14,
+          "replay_difference": 8.881784197001252e-16,
+          "tolerance": 1.0031017201234804e-05,
+          "panels": 32
+        },
+        "joint_jerk_effort": {
+          "quad_reference": 23.79460934120285,
+          "quad_error_estimate": 2.6417323152564236e-13,
+          "replay_difference": 7.105427357601002e-15,
+          "tolerance": 0.0010002379460934121,
+          "panels": 32
+        }
+      }
+    },
+    "P4S000057_bezier_m40_up": {
+      "scenario_id": "P4S000057",
+      "run_id": "P4S000057_bezier_m40_up",
+      "dataset_version": "phase4-mathematics-v3",
+      "data_split": "train",
+      "curve_key": "bezier",
+      "shape": -0.4,
+      "elbow_mode": "up",
+      "base_x": -1.0341174632966137,
+      "base_y": -0.7537390562768276,
+      "link1": 2.384957313053313,
+      "link2": 3.9115889416777456,
+      "start_x": 1.2712591556432176,
+      "start_y": -1.3911055823795553,
+      "goal_x": 3.289855425389674,
+      "goal_y": 2.8369894293738014,
+      "duration_s": 3.0,
+      "obstacles_json": "[]",
+      "selection_valid": true,
+      "candidate_status": "accepted",
+      "path_check_status": "bounded_clear",
+      "geometry_convergence_status": "passed",
+      "joint_integration_status": "accepted",
+      "path_length_units": 4.876676859821452,
+      "joint_velocity_effort": 1.175462442707917,
+      "balanced_reward_0_100": 97.12918783334472,
+      "equation_descriptor_json": "{\"curve\": {\"end\": [3.289855425389674, 2.8369894293738014], \"key\": \"bezier\", \"parameters\": {\"control1_x\": 2.6544445408666006, \"control1_y\": -0.32086475177917434, \"control2_x\": 3.327309964115419, \"control2_y\": 1.0885002521386113}, \"start\": [1.2712591556432176, -1.3911055823795553], \"x_u\": \"(1-u)^3*(1.27125915564) + 3*(1-u)^2*u*(2.65444454087) + 3*(1-u)*u^2*(3.32730996412) + u^3*(3.28985542539)\", \"y_u\": \"(1-u)^3*(-1.39110558238) + 3*(1-u)^2*u*(-0.320864751779) + 3*(1-u)*u^2*(1.08850025214) + u^3*(2.83698942937)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [-1.0341174632966137, -0.7537390562768276], \"elbow_mode\": \"up\", \"link1\": 2.384957313053313, \"link2\": 3.9115889416777456, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}",
+      "geometry_checks": {
+        "path_length_units": {
+          "values_by_n": {
+            "161": 4.876676859821452,
+            "321": 4.876659029182892,
+            "641": 4.8766545713269895
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.005
+        },
+        "regularized_curvature_energy_inv_unit": {
+          "values_by_n": {
+            "161": 0.18057871790566013,
+            "321": 0.18058148557361933,
+            "641": 0.18058217751669123
+          },
+          "passed": true,
+          "atol": 1e-06,
+          "rtol": 0.02
+        },
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 0.0,
+            "321": 0.0,
+            "641": 0.0
+          },
+          "passed": true,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "quadrature_diagnostics": {
+        "joint_velocity_effort": {
+          "quad_reference": 1.1754624427079168,
+          "quad_error_estimate": 1.3050254684764586e-14,
+          "replay_difference": 2.220446049250313e-16,
+          "tolerance": 1.1175462442707917e-07,
+          "panels": 32
+        },
+        "joint_acceleration_effort": {
+          "quad_reference": 1.5374763537191365,
+          "quad_error_estimate": 1.706941647715717e-14,
+          "replay_difference": 4.440892098500626e-16,
+          "tolerance": 1.0015374763537192e-05,
+          "panels": 32
+        },
+        "joint_jerk_effort": {
+          "quad_reference": 9.703588013074828,
+          "quad_error_estimate": 1.0773146833592349e-13,
+          "replay_difference": 5.329070518200751e-15,
+          "tolerance": 0.0010000970358801308,
+          "panels": 32
+        }
+      }
+    }
+  },
+  "winners": [
+    {
+      "objective": "distance",
+      "winner_run_id": "P4S000057_line_down",
+      "tie_count": 2,
+      "tied_run_ids_json": "[\"P4S000057_line_down\", \"P4S000057_line_up\"]"
+    },
+    {
+      "objective": "joint_effort",
+      "winner_run_id": "P4S000057_bezier_m40_up",
+      "tie_count": 1,
+      "tied_run_ids_json": "[\"P4S000057_bezier_m40_up\"]"
+    },
+    {
+      "objective": "jerk",
+      "winner_run_id": "P4S000057_arc_m40_up",
+      "tie_count": 1,
+      "tied_run_ids_json": "[\"P4S000057_arc_m40_up\"]"
+    },
+    {
+      "objective": "curvature",
+      "winner_run_id": "P4S000057_line_down",
+      "tie_count": 2,
+      "tied_run_ids_json": "[\"P4S000057_line_down\", \"P4S000057_line_up\"]"
+    },
+    {
+      "objective": "safety",
+      "winner_run_id": "P4S000057_line_down",
+      "tie_count": 34,
+      "tied_run_ids_json": "[\"P4S000057_arc_m40_down\", \"P4S000057_arc_m40_up\", \"P4S000057_arc_m80_down\", \"P4S000057_arc_m80_up\", \"P4S000057_arc_p40_down\", \"P4S000057_arc_p40_up\", \"P4S000057_arc_p80_down\", \"P4S000057_arc_p80_up\", \"P4S000057_bezier_m40_down\", \"P4S000057_bezier_m40_up\", \"P4S000057_bezier_m80_down\", \"P4S000057_bezier_m80_up\", \"P4S000057_bezier_p40_down\", \"P4S000057_bezier_p40_up\", \"P4S000057_bezier_p80_down\", \"P4S000057_bezier_p80_up\", \"P4S000057_cycloid_m40_down\", \"P4S000057_cycloid_m40_up\", \"P4S000057_cycloid_m80_down\", \"P4S000057_cycloid_m80_up\", \"P4S000057_cycloid_p40_down\", \"P4S000057_cycloid_p40_up\", \"P4S000057_cycloid_p80_down\", \"P4S000057_cycloid_p80_up\", \"P4S000057_hermite_m40_down\", \"P4S000057_hermite_m40_up\", \"P4S000057_hermite_m80_down\", \"P4S000057_hermite_m80_up\", \"P4S000057_hermite_p40_down\", \"P4S000057_hermite_p40_up\", \"P4S000057_hermite_p80_down\", \"P4S000057_hermite_p80_up\", \"P4S000057_line_down\", \"P4S000057_line_up\"]"
+    },
+    {
+      "objective": "balanced",
+      "winner_run_id": "P4S000057_line_up",
+      "tie_count": 1,
+      "tied_run_ids_json": "[\"P4S000057_line_up\"]"
+    }
+  ],
+  "derivation": {
+    "D": 4.685244745864183,
+    "delta": [
+      2.0185962697464563,
+      4.228095011753357
+    ],
+    "tangent": [
+      0.43084115755710234,
+      0.902427779356806
+    ],
+    "normal": [
+      -0.902427779356806,
+      0.43084115755710234
+    ],
+    "normalized_Y_linear": -0.504,
+    "normalized_Y_quadratic": 0.504,
+    "physical_local_Y_quadratic": 0.1075717550176855,
+    "original_xy_coefficients_ascending": [
+      [
+        1.2712591556432176,
+        -1.3911055823795553
+      ],
+      [
+        4.149556155670148,
+        3.2107224918011434
+      ],
+      [
+        -2.130959885923692,
+        1.017372519952214
+      ]
+    ],
+    "analytic_length": 4.876653085357578,
+    "stored_161_length": 4.876676859821452,
+    "stored_length_absolute_error": 2.3774463874026708e-05,
+    "stored_length_relative_error": 4.875159962764392e-06,
+    "analytic_length_increase_percent": 4.0853434532391875,
+    "effort_reduction_percent": 21.924271533101525
+  },
+  "checks": {
+    "status": "PASS",
+    "polynomial_max_point_error": 1.7763568394002505e-15,
+    "cubic_coefficient_residual": [
+      -8.881784197001252e-16,
+      -8.881784197001252e-16
+    ],
+    "independent_quad_length_difference": 8.881784197001252e-16,
+    "independent_quad_error_estimate": 5.414172538473291e-14
+  }
+}

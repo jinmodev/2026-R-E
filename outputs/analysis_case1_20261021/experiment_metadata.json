@@ -1,0 +1,57 @@
+{
+  "inputs": {
+    "base_x": 0.0,
+    "base_y": 0.0,
+    "link1": 5.48532,
+    "link2": 6.13245,
+    "start_x": 2.0,
+    "start_y": 0.0,
+    "goal_x": -4.8,
+    "goal_y": -1.4999999999999991,
+    "duration_s": 3.0,
+    "curve_key": "limacon",
+    "curve_name": "리마송 구간",
+    "shape": 0.8,
+    "elbow_mode": "down",
+    "samples": 161
+  },
+  "obstacles": [
+    {
+      "obstacle_id": "O1",
+      "center_x": -1.3,
+      "center_y": -2.0,
+      "radius_units": 0.45
+    }
+  ],
+  "physics_model": {
+    "absolute_tolerance": 1e-06,
+    "balance_rtol": 0.005,
+    "energy_rtol": 0.02,
+    "gravity_m_per_s2": 9.80665,
+    "link_linear_density_kg_per_m": 0.35,
+    "motion_plane": "vertical",
+    "motor_resistance_ohm": 0.8,
+    "singularity_floor": 1e-10,
+    "torque_constant_nm_per_a": 0.12,
+    "torque_rtol": 0.01,
+    "viscous_damping_nms_per_rad": 0.03,
+    "workspace_unit_m": 0.1
+  },
+  "source_hashes": {
+    "robot_path_run.json": "847631c2e9fbf3bb760c1b236e83ae2c6ff395987a7225c791c85d2562547eff",
+    "robot_path_samples.csv": "98a21698a23b7476c05cd830a78ab2a345905c73117c9aac543f5627df2bf345",
+    "robot_path_comparison_20261021_102523_870740\\candidate_metrics.csv": "25669c6d4410dd83c369ee9e5f1a27ed3a7d621e7627758886eb2963c7295a7e",
+    "robot_path_comparison_20261021_102523_870740\\equations.csv": "4856d5aeddbd95556e74930f556bab8aa9adf2575dca754251e8205e31934423",
+    "robot_path_comparison_20261021_102523_870740\\geometry_samples.csv": "f1bb6187b093e2b9a129156dd247cbb598fbecfe330977508b3341fc103ffe18",
+    "robot_path_comparison_20261021_102523_870740\\objective_winners.csv": "a21a15a6fff996c3225bb56facd8f47e15cfbf976b338ceaea920955147c0de7",
+    "robot_path_comparison_20261021_102523_870740\\README.txt": "e1995d46c945fce14beb2442b5772c0e214000da7189cbf522ff545afe4b2370",
+    "robot_path_comparison_20261021_102523_870740\\time_samples.csv": "541126e96dc9d4f9f24d70b196f66f4e10c090df173a5500c85e3cef1800f160"
+  },
+  "selected_run_ids": [
+    "interactive_hermite_m80_down",
+    "interactive_arc_p80_up",
+    "interactive_bezier_p80_up",
+    "interactive_limacon_p80_down",
+    "interactive_cycloid_p80_up"
+  ]
+}

@@ -1,0 +1,6 @@
+﻿reason,cohort,scenarios
+all_collision_witness,excluded_no_valid,32
+has_valid,excluded_unresolved,10
+has_valid,main,2136
+mixed_unreachable_collision,excluded_no_valid,820
+unresolved_or_calculation,excluded_unresolved,2

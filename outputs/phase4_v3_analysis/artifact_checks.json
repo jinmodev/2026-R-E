@@ -1,0 +1,470 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "source_manifest_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "protected_files_unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "train_summary_and_label_hashes",
+      "passed": true,
+      "detail": "6000"
+    },
+    {
+      "check": "case_source_hash_P4S002488",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S004194",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S002425",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S000037",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S004784",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S000481",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S002885",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_source_hash_P4S004576",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "train_only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scenario_count_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_count_and_keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "analysis_cohort",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "validity_candidate_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "validity_accepted_total",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "validity_not_conflated_with_collision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_arc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_bezier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_hermite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_cycloid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "family_validity_limacon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_balanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_distance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_jerk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_joint_effort",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_main_safety",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_balanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_distance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_jerk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_joint_effort",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "wins_obstacles_only_safety",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "case_integrals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_01_composition",
+      "passed": true,
+      "detail": "(3934, 1234)"
+    },
+    {
+      "check": "svg_01_composition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_02_validity",
+      "passed": true,
+      "detail": "(3634, 2434)"
+    },
+    {
+      "check": "svg_02_validity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_03_winners",
+      "passed": true,
+      "detail": "(3934, 2434)"
+    },
+    {
+      "check": "svg_03_winners",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_04_obstacle_winners",
+      "passed": true,
+      "detail": "(3934, 2434)"
+    },
+    {
+      "check": "svg_04_obstacle_winners",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_05_relationships",
+      "passed": true,
+      "detail": "(4234, 1384)"
+    },
+    {
+      "check": "svg_05_relationships",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_06_normalized_relationships",
+      "passed": true,
+      "detail": "(3034, 1294)"
+    },
+    {
+      "check": "svg_06_normalized_relationships",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_07_obstacle_conditions",
+      "passed": true,
+      "detail": "(3028, 1684)"
+    },
+    {
+      "check": "svg_07_obstacle_conditions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_08_geometry_conditions",
+      "passed": true,
+      "detail": "(3634, 2434)"
+    },
+    {
+      "check": "svg_08_geometry_conditions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_line",
+      "passed": true,
+      "detail": "(3211, 1384)"
+    },
+    {
+      "check": "svg_case_family_line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_line",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_arc",
+      "passed": true,
+      "detail": "(3211, 1384)"
+    },
+    {
+      "check": "svg_case_family_arc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_arc",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_arc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_bezier",
+      "passed": true,
+      "detail": "(3257, 1384)"
+    },
+    {
+      "check": "svg_case_family_bezier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_bezier",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_bezier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_hermite",
+      "passed": true,
+      "detail": "(3219, 1384)"
+    },
+    {
+      "check": "svg_case_family_hermite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_hermite",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_hermite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_cycloid",
+      "passed": true,
+      "detail": "(3211, 1384)"
+    },
+    {
+      "check": "svg_case_family_cycloid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_cycloid",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_cycloid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_family_limacon",
+      "passed": true,
+      "detail": "(3219, 1384)"
+    },
+    {
+      "check": "svg_case_family_limacon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_integrands_family_limacon",
+      "passed": true,
+      "detail": "(3634, 2134)"
+    },
+    {
+      "check": "svg_integrands_family_limacon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_unreachable",
+      "passed": true,
+      "detail": "(3244, 1384)"
+    },
+    {
+      "check": "svg_case_unreachable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_case_collision",
+      "passed": true,
+      "detail": "(3219, 1384)"
+    },
+    {
+      "check": "svg_case_collision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_09_objective_tradeoff",
+      "passed": true,
+      "detail": "(2962, 1414)"
+    },
+    {
+      "check": "svg_09_objective_tradeoff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "png_10_sampled_grid_diagnostics",
+      "passed": true,
+      "detail": "(3934, 1354)"
+    },
+    {
+      "check": "svg_10_sampled_grid_diagnostics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "xlsx_sheet_names",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "xlsx_formula_errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "xlsx_cell_length",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "xlsx_numeric_caches",
+      "passed": true,
+      "detail": "1477"
+    },
+    {
+      "check": "xlsx_live_recalculation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unit_tests",
+      "passed": true,
+      "detail": [
+        "----------------------------------------------------------------------",
+        "Ran 82 tests in 5.493s",
+        "",
+        "OK"
+      ]
+    }
+  ],
+  "numeric_cache_checks": 1477,
+  "formula_count": 403,
+  "scientific_figures": 24,
+  "native_excel_tested": false,
+  "visual_review": "Rendered; human/model inspection recorded separately in visual_review.md"
+}

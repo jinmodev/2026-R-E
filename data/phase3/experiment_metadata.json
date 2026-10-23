@@ -1,0 +1,92 @@
+{
+  "dataset_version": "phase3-multicriteria-v1",
+  "seed": 20260825,
+  "scenario_count": 240,
+  "curve_variant_count": 21,
+  "elbow_modes": 2,
+  "run_count": 10080,
+  "samples_per_path": 161,
+  "data_split": {
+    "unit": "scenario_id",
+    "policy": "deterministic 60/20/20 train/validation/test split",
+    "counts": {
+      "train": 144,
+      "validation": 48,
+      "test": 48
+    }
+  },
+  "obstacle_model": "balanced deterministic layouts: no_obstacle, chord_blocker, and double_offset circular obstacles",
+  "evaluation_config": {
+    "duration_s": 3.0,
+    "workspace_unit_m": 0.1,
+    "link_linear_density_kg_per_m": 0.35,
+    "link_radius_m": 0.005,
+    "joint_viscous_damping_nms_per_rad": 0.03,
+    "motor_torque_constant_nm_per_a": 0.12,
+    "motor_resistance_ohm": 0.8,
+    "motion_plane": "horizontal",
+    "gravity_m_per_s2": 9.80665,
+    "singularity_epsilon": 0.05,
+    "clearance_epsilon_m": 0.01
+  },
+  "raw_objectives": {
+    "distance": "curve_length_m",
+    "energy": "model_electrical_energy_j",
+    "jerk": "joint_jerk_effort_rad2_per_s5",
+    "curvature": "curvature_energy_inv_m",
+    "singularity": "singularity_penalty_s",
+    "safety": "clearance_penalty_s_per_m2"
+  },
+  "score_profiles": {
+    "balanced": {
+      "distance": 0.2,
+      "energy": 0.25,
+      "jerk": 0.2,
+      "curvature": 0.1,
+      "singularity": 0.1,
+      "safety": 0.15
+    },
+    "shortest": {
+      "distance": 0.55,
+      "energy": 0.1,
+      "jerk": 0.1,
+      "curvature": 0.05,
+      "singularity": 0.1,
+      "safety": 0.1
+    },
+    "energy_saving": {
+      "distance": 0.1,
+      "energy": 0.55,
+      "jerk": 0.15,
+      "curvature": 0.05,
+      "singularity": 0.05,
+      "safety": 0.1
+    },
+    "smooth_precision": {
+      "distance": 0.1,
+      "energy": 0.1,
+      "jerk": 0.4,
+      "curvature": 0.2,
+      "singularity": 0.1,
+      "safety": 0.1
+    },
+    "safety_first": {
+      "distance": 0.1,
+      "energy": 0.1,
+      "jerk": 0.1,
+      "curvature": 0.05,
+      "singularity": 0.15,
+      "safety": 0.5
+    }
+  },
+  "hard_constraints": [
+    "full path reachability",
+    "full-link obstacle collision"
+  ],
+  "limitations": [
+    "Energy is a rigid-body/direct-drive model estimate, not a physical measurement.",
+    "All candidates share a minimum-jerk time law and the same duration.",
+    "Circular obstacles and link capsules are checked at discrete samples.",
+    "Scenario-relative min-max scores change if the candidate pool changes."
+  ]
+}

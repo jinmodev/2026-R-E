@@ -1,0 +1,71 @@
+[
+  {
+    "run_id": "P4S000550_bezier_p80_down",
+    "objectives": [
+      "safety"
+    ],
+    "equations": {
+      "equation_format_version": "phase4-equations-v1",
+      "curve_equation_template": "p(t) = (1-t)³P₀ + 3(1-t)²tC₁ + 3(1-t)t²C₂ + t³P₁",
+      "curve_equation": "p(u)=((1-u)^3*(-7.20467277378) + 3*(1-u)^2*u*(-3.58213835404) + 3*(1-u)*u^2*(-0.57885488378) + u^3*(1.80517763699), (1-u)^3*(-0.38142296778) + 3*(1-u)^2*u*(2.03155051083) + 3*(1-u)*u^2*(1.41721425141) + u^3*(-2.22443174602)), 0<=u<=1",
+      "progress_equation": "q(t)=10*(t/3)^3-15*(t/3)^4+6*(t/3)^5, 0<=t<=3",
+      "x_u_equation": "x_u(u)=(1-u)^3*(-7.20467277378) + 3*(1-u)^2*u*(-3.58213835404) + 3*(1-u)*u^2*(-0.57885488378) + u^3*(1.80517763699)",
+      "y_u_equation": "y_u(u)=(1-u)^3*(-0.38142296778) + 3*(1-u)^2*u*(2.03155051083) + 3*(1-u)*u^2*(1.41721425141) + u^3*(-2.22443174602)",
+      "x_t_equation": "x(t)=x_u(q(t)), where x_u(u)=(1-u)^3*(-7.20467277378) + 3*(1-u)^2*u*(-3.58213835404) + 3*(1-u)*u^2*(-0.57885488378) + u^3*(1.80517763699)",
+      "y_t_equation": "y(t)=y_u(q(t)), where y_u(u)=(1-u)^3*(-0.38142296778) + 3*(1-u)^2*u*(2.03155051083) + 3*(1-u)*u^2*(1.41721425141) + u^3*(-2.22443174602)",
+      "ik_cosine_equation": "c(t)=((x(t)-(0.970791299216))^2+(y(t)-(0.531748765559))^2-(4.70021254559)^2-(3.97995658634)^2)/(2*(4.70021254559)*(3.97995658634))",
+      "theta1_t_equation": "theta1(t)=atan2((y(t)-(0.531748765559)),(x(t)-(0.970791299216)))-atan2((3.97995658634)*sin(theta2(t)),(4.70021254559)+(3.97995658634)*cos(theta2(t)))",
+      "theta2_t_equation": "theta2(t)=+acos(c(t))",
+      "branch_policy": "principal acos/atan2 values followed by temporal angle unwrapping",
+      "unwrap_policy": "successive jumps above pi are shifted by integer multiples of 2*pi",
+      "equation_descriptor_json": "{\"curve\": {\"end\": [1.8051776369892705, -2.2244317460161485], \"key\": \"bezier\", \"parameters\": {\"control1_x\": -3.582138354036274, \"control1_y\": 2.0315505108268304, \"control2_x\": -0.5788548837797518, \"control2_y\": 1.4172142514146282}, \"start\": [-7.204672773780296, -0.3814229677795421], \"x_u\": \"(1-u)^3*(-7.20467277378) + 3*(1-u)^2*u*(-3.58213835404) + 3*(1-u)*u^2*(-0.57885488378) + u^3*(1.80517763699)\", \"y_u\": \"(1-u)^3*(-0.38142296778) + 3*(1-u)^2*u*(2.03155051083) + 3*(1-u)*u^2*(1.41721425141) + u^3*(-2.22443174602)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.9707912992156968, 0.5317487655589392], \"elbow_mode\": \"down\", \"link1\": 4.700212545594271, \"link2\": 3.97995658633838, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    }
+  },
+  {
+    "run_id": "P4S000550_line_down",
+    "objectives": [
+      "distance",
+      "joint_effort",
+      "curvature",
+      "balanced"
+    ],
+    "equations": {
+      "equation_format_version": "phase4-equations-v1",
+      "curve_equation_template": "p(t) = (1-t)P₀ + tP₁,   0 ≤ t ≤ 1",
+      "curve_equation": "p(u)=((1-u)*(-7.20467277378) + u*(1.80517763699), (1-u)*(-0.38142296778) + u*(-2.22443174602)), 0<=u<=1",
+      "progress_equation": "q(t)=10*(t/3)^3-15*(t/3)^4+6*(t/3)^5, 0<=t<=3",
+      "x_u_equation": "x_u(u)=(1-u)*(-7.20467277378) + u*(1.80517763699)",
+      "y_u_equation": "y_u(u)=(1-u)*(-0.38142296778) + u*(-2.22443174602)",
+      "x_t_equation": "x(t)=x_u(q(t)), where x_u(u)=(1-u)*(-7.20467277378) + u*(1.80517763699)",
+      "y_t_equation": "y(t)=y_u(q(t)), where y_u(u)=(1-u)*(-0.38142296778) + u*(-2.22443174602)",
+      "ik_cosine_equation": "c(t)=((x(t)-(0.970791299216))^2+(y(t)-(0.531748765559))^2-(4.70021254559)^2-(3.97995658634)^2)/(2*(4.70021254559)*(3.97995658634))",
+      "theta1_t_equation": "theta1(t)=atan2((y(t)-(0.531748765559)),(x(t)-(0.970791299216)))-atan2((3.97995658634)*sin(theta2(t)),(4.70021254559)+(3.97995658634)*cos(theta2(t)))",
+      "theta2_t_equation": "theta2(t)=+acos(c(t))",
+      "branch_policy": "principal acos/atan2 values followed by temporal angle unwrapping",
+      "unwrap_policy": "successive jumps above pi are shifted by integer multiples of 2*pi",
+      "equation_descriptor_json": "{\"curve\": {\"end\": [1.8051776369892705, -2.2244317460161485], \"key\": \"line\", \"parameters\": {}, \"start\": [-7.204672773780296, -0.3814229677795421], \"x_u\": \"(1-u)*(-7.20467277378) + u*(1.80517763699)\", \"y_u\": \"(1-u)*(-0.38142296778) + u*(-2.22443174602)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.9707912992156968, 0.5317487655589392], \"elbow_mode\": \"down\", \"link1\": 4.700212545594271, \"link2\": 3.97995658633838, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    }
+  },
+  {
+    "run_id": "P4S000550_line_up",
+    "objectives": [
+      "jerk"
+    ],
+    "equations": {
+      "equation_format_version": "phase4-equations-v1",
+      "curve_equation_template": "p(t) = (1-t)P₀ + tP₁,   0 ≤ t ≤ 1",
+      "curve_equation": "p(u)=((1-u)*(-7.20467277378) + u*(1.80517763699), (1-u)*(-0.38142296778) + u*(-2.22443174602)), 0<=u<=1",
+      "progress_equation": "q(t)=10*(t/3)^3-15*(t/3)^4+6*(t/3)^5, 0<=t<=3",
+      "x_u_equation": "x_u(u)=(1-u)*(-7.20467277378) + u*(1.80517763699)",
+      "y_u_equation": "y_u(u)=(1-u)*(-0.38142296778) + u*(-2.22443174602)",
+      "x_t_equation": "x(t)=x_u(q(t)), where x_u(u)=(1-u)*(-7.20467277378) + u*(1.80517763699)",
+      "y_t_equation": "y(t)=y_u(q(t)), where y_u(u)=(1-u)*(-0.38142296778) + u*(-2.22443174602)",
+      "ik_cosine_equation": "c(t)=((x(t)-(0.970791299216))^2+(y(t)-(0.531748765559))^2-(4.70021254559)^2-(3.97995658634)^2)/(2*(4.70021254559)*(3.97995658634))",
+      "theta1_t_equation": "theta1(t)=atan2((y(t)-(0.531748765559)),(x(t)-(0.970791299216)))-atan2((3.97995658634)*sin(theta2(t)),(4.70021254559)+(3.97995658634)*cos(theta2(t)))",
+      "theta2_t_equation": "theta2(t)=-acos(c(t))",
+      "branch_policy": "principal acos/atan2 values followed by temporal angle unwrapping",
+      "unwrap_policy": "successive jumps above pi are shifted by integer multiples of 2*pi",
+      "equation_descriptor_json": "{\"curve\": {\"end\": [1.8051776369892705, -2.2244317460161485], \"key\": \"line\", \"parameters\": {}, \"start\": [-7.204672773780296, -0.3814229677795421], \"x_u\": \"(1-u)*(-7.20467277378) + u*(1.80517763699)\", \"y_u\": \"(1-u)*(-0.38142296778) + u*(-2.22443174602)\"}, \"equation_format_version\": \"phase4-equations-v1\", \"inverse_kinematics\": {\"base\": [0.9707912992156968, 0.5317487655589392], \"elbow_mode\": \"up\", \"link1\": 4.700212545594271, \"link2\": 3.97995658633838, \"principal_branches\": \"acos in [0,pi], atan2 in (-pi,pi]\", \"unwrap\": \"sampled theta1 and theta2 are unwrapped by +/-2*pi for temporal continuity\"}, \"time_law\": {\"duration_s\": 3.0, \"normalized_time\": \"s=t/T\", \"progress\": \"q=10*s^3-15*s^4+6*s^5\"}}"
+    }
+  }
+]

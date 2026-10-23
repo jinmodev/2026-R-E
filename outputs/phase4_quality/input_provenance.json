@@ -1,0 +1,17 @@
+{
+  "dataset_version": "phase4-mathematics-v2",
+  "code_version": "phase4-generator-v4",
+  "evaluation_config": {
+    "clearance_epsilon_units": 0.05,
+    "curvature_speed_epsilon_ratio": 0.001,
+    "derivative_stencil": 7,
+    "duration_s": 3.0,
+    "equation_precision": 12,
+    "link_radius_units": 0.05,
+    "singularity_warning_threshold": 0.05
+  },
+  "manifest_sha256": "6b02474730a9af35d1cb9c4c69904bba0b210121a47b157bffe9099c3f9c1d46",
+  "seed": 20260908,
+  "analysis_version": "phase4-audit-v1",
+  "scope": "train only; holdouts mechanical only"
+}

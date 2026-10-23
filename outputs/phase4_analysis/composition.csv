@@ -1,0 +1,32 @@
+﻿variable,category,scenarios,total_scenarios,fraction,small_n
+scenario_type,boundary_sweep,576,3000,0.192,False
+scenario_type,cross_inner,584,3000,0.19466666666666665,False
+scenario_type,local_move,632,3000,0.21066666666666667,False
+scenario_type,radial_change,604,3000,0.20133333333333334,False
+scenario_type,wide_sweep,604,3000,0.20133333333333334,False
+obstacle_layout,chord_blocker,423,3000,0.141,False
+obstacle_layout,double_offset,435,3000,0.145,False
+obstacle_layout,goal_near,456,3000,0.152,False
+obstacle_layout,narrow_passage,411,3000,0.137,False
+obstacle_layout,no_obstacle,412,3000,0.13733333333333334,False
+obstacle_layout,random_field,434,3000,0.14466666666666667,False
+obstacle_layout,start_near,429,3000,0.143,False
+obstacle_count,0.0,412,3000,0.13733333333333334,False
+obstacle_count,1.0,1459,3000,0.48633333333333334,False
+obstacle_count,2.0,981,3000,0.327,False
+obstacle_count,3.0,148,3000,0.04933333333333333,False
+ratio_bin,"[-inf, 0.75)",886,3000,0.29533333333333334,False
+ratio_bin,"[0.75, 1.333)",1235,3000,0.4116666666666667,False
+ratio_bin,"[1.333, inf)",879,3000,0.293,False
+motion_bin,"[0.0, 0.5)",606,3000,0.202,False
+motion_bin,"[0.5, 1.0)",1019,3000,0.3396666666666667,False
+motion_bin,"[1.0, 2.01)",1375,3000,0.4583333333333333,False
+angle_bin,"[0, 60)",1166,3000,0.38866666666666666,False
+angle_bin,"[120, 181)",1294,3000,0.43133333333333335,False
+angle_bin,"[60, 120)",540,3000,0.18,False
+start_radius_bin,"[0.0, 0.4)",627,3000,0.209,False
+start_radius_bin,"[0.4, 0.8)",1020,3000,0.34,False
+start_radius_bin,"[0.8, 1.01)",1353,3000,0.451,False
+goal_radius_bin,"[0.0, 0.4)",475,3000,0.15833333333333333,False
+goal_radius_bin,"[0.4, 0.8)",1325,3000,0.44166666666666665,False
+goal_radius_bin,"[0.8, 1.01)",1200,3000,0.4,False

@@ -1,0 +1,1036 @@
+{
+  "split": "train",
+  "unresolved_count": 16,
+  "reasons": {
+    "path_unresolved": 9,
+    "numerical_convergence_or_quarantine": 7
+  },
+  "failed_geometry_counts": {
+    "obstacle_penalty_s_per_unit2": 7
+  },
+  "unresolved": [
+    {
+      "run_id": "P4S000686_cycloid_m80_up",
+      "scenario_id": "P4S000686",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 530,
+        "bounded_intervals": 231,
+        "unresolved_intervals": 41,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.0,
+            6.103515625e-05
+          ],
+          [
+            6.103515625e-05,
+            0.0001220703125
+          ],
+          [
+            0.0001220703125,
+            0.00018310546875
+          ],
+          [
+            0.00018310546875,
+            0.000244140625
+          ],
+          [
+            0.000244140625,
+            0.00030517578125
+          ],
+          [
+            0.00030517578125,
+            0.0003662109375
+          ],
+          [
+            0.0003662109375,
+            0.00042724609375
+          ],
+          [
+            0.00042724609375,
+            0.00048828125
+          ],
+          [
+            0.00048828125,
+            0.00054931640625
+          ],
+          [
+            0.00054931640625,
+            0.0006103515625
+          ],
+          [
+            0.0006103515625,
+            0.00067138671875
+          ],
+          [
+            0.00067138671875,
+            0.000732421875
+          ],
+          [
+            0.000732421875,
+            0.00079345703125
+          ],
+          [
+            0.00079345703125,
+            0.0008544921875
+          ],
+          [
+            0.0008544921875,
+            0.00091552734375
+          ],
+          [
+            0.00091552734375,
+            0.0009765625
+          ]
+        ],
+        "min_sample_clearance": 0.0003979421675346789,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001729_hermite_p80_up",
+      "scenario_id": "P4S001729",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 27.246923321985072,
+            "321": 25.57865234708093,
+            "641": 25.328431233324903
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 72,
+        "bounded_intervals": 43,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.012841306747471401,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001729_hermite_p80_down",
+      "scenario_id": "P4S001729",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 26.44802330597195,
+            "321": 24.792107926687432,
+            "641": 24.540723677545227
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 70,
+        "bounded_intervals": 42,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.012841306747471457,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001758_hermite_m80_up",
+      "scenario_id": "P4S001758",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 902,
+        "bounded_intervals": 356,
+        "unresolved_intervals": 102,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.5201416015625,
+            0.52020263671875
+          ],
+          [
+            0.52020263671875,
+            0.520263671875
+          ],
+          [
+            0.520263671875,
+            0.52032470703125
+          ],
+          [
+            0.52032470703125,
+            0.5203857421875
+          ],
+          [
+            0.5203857421875,
+            0.52044677734375
+          ],
+          [
+            0.52044677734375,
+            0.5205078125
+          ],
+          [
+            0.5205078125,
+            0.52056884765625
+          ],
+          [
+            0.52056884765625,
+            0.5206298828125
+          ],
+          [
+            0.5206298828125,
+            0.52069091796875
+          ],
+          [
+            0.52069091796875,
+            0.520751953125
+          ],
+          [
+            0.520751953125,
+            0.52081298828125
+          ],
+          [
+            0.52081298828125,
+            0.5208740234375
+          ],
+          [
+            0.5208740234375,
+            0.52093505859375
+          ],
+          [
+            0.52093505859375,
+            0.52099609375
+          ],
+          [
+            0.52099609375,
+            0.52105712890625
+          ],
+          [
+            0.52105712890625,
+            0.5211181640625
+          ]
+        ],
+        "min_sample_clearance": null,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001758_hermite_m80_down",
+      "scenario_id": "P4S001758",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 902,
+        "bounded_intervals": 356,
+        "unresolved_intervals": 102,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.5201416015625,
+            0.52020263671875
+          ],
+          [
+            0.52020263671875,
+            0.520263671875
+          ],
+          [
+            0.520263671875,
+            0.52032470703125
+          ],
+          [
+            0.52032470703125,
+            0.5203857421875
+          ],
+          [
+            0.5203857421875,
+            0.52044677734375
+          ],
+          [
+            0.52044677734375,
+            0.5205078125
+          ],
+          [
+            0.5205078125,
+            0.52056884765625
+          ],
+          [
+            0.52056884765625,
+            0.5206298828125
+          ],
+          [
+            0.5206298828125,
+            0.52069091796875
+          ],
+          [
+            0.52069091796875,
+            0.520751953125
+          ],
+          [
+            0.520751953125,
+            0.52081298828125
+          ],
+          [
+            0.52081298828125,
+            0.5208740234375
+          ],
+          [
+            0.5208740234375,
+            0.52093505859375
+          ],
+          [
+            0.52093505859375,
+            0.52099609375
+          ],
+          [
+            0.52099609375,
+            0.52105712890625
+          ],
+          [
+            0.52105712890625,
+            0.5211181640625
+          ]
+        ],
+        "min_sample_clearance": null,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001804_line_up",
+      "scenario_id": "P4S001804",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 478,
+        "bounded_intervals": 176,
+        "unresolved_intervals": 70,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.48583984375,
+            0.48590087890625
+          ],
+          [
+            0.48590087890625,
+            0.4859619140625
+          ],
+          [
+            0.4859619140625,
+            0.48602294921875
+          ],
+          [
+            0.48602294921875,
+            0.486083984375
+          ],
+          [
+            0.486083984375,
+            0.48614501953125
+          ],
+          [
+            0.48614501953125,
+            0.4862060546875
+          ],
+          [
+            0.4862060546875,
+            0.48626708984375
+          ],
+          [
+            0.48626708984375,
+            0.486328125
+          ],
+          [
+            0.486328125,
+            0.48638916015625
+          ],
+          [
+            0.48638916015625,
+            0.4864501953125
+          ],
+          [
+            0.4864501953125,
+            0.48651123046875
+          ],
+          [
+            0.48651123046875,
+            0.486572265625
+          ],
+          [
+            0.486572265625,
+            0.48663330078125
+          ],
+          [
+            0.48663330078125,
+            0.4866943359375
+          ],
+          [
+            0.4866943359375,
+            0.48675537109375
+          ],
+          [
+            0.48675537109375,
+            0.48681640625
+          ]
+        ],
+        "min_sample_clearance": 0.4064064965026838,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002159_line_up",
+      "scenario_id": "P4S002159",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 25.507010973590006,
+            "321": 27.42834544770306,
+            "641": 26.90265807145553
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 46,
+        "bounded_intervals": 30,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.019244238026232804,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002310_cycloid_m40_up",
+      "scenario_id": "P4S002310",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 31.12418366086217,
+            "321": 29.722963060998772,
+            "641": 29.460303465677462
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 54,
+        "bounded_intervals": 34,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.02213799231220369,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002384_line_up",
+      "scenario_id": "P4S002384",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 9.281884938085494,
+            "321": 8.542616770136997,
+            "641": 8.527065173213458
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 38,
+        "bounded_intervals": 26,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.05964203069162592,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002586_cycloid_m80_up",
+      "scenario_id": "P4S002586",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 584,
+        "bounded_intervals": 199,
+        "unresolved_intervals": 100,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.0,
+            6.103515625e-05
+          ],
+          [
+            6.103515625e-05,
+            0.0001220703125
+          ],
+          [
+            0.0001220703125,
+            0.00018310546875
+          ],
+          [
+            0.00018310546875,
+            0.000244140625
+          ],
+          [
+            0.000244140625,
+            0.00030517578125
+          ],
+          [
+            0.00030517578125,
+            0.0003662109375
+          ],
+          [
+            0.0003662109375,
+            0.00042724609375
+          ],
+          [
+            0.00042724609375,
+            0.00048828125
+          ],
+          [
+            0.00048828125,
+            0.00054931640625
+          ],
+          [
+            0.00054931640625,
+            0.0006103515625
+          ],
+          [
+            0.0006103515625,
+            0.00067138671875
+          ],
+          [
+            0.00067138671875,
+            0.000732421875
+          ],
+          [
+            0.000732421875,
+            0.00079345703125
+          ],
+          [
+            0.00079345703125,
+            0.0008544921875
+          ],
+          [
+            0.0008544921875,
+            0.00091552734375
+          ],
+          [
+            0.00091552734375,
+            0.0009765625
+          ]
+        ],
+        "min_sample_clearance": 0.0001435364554431967,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002994_bezier_p40_up",
+      "scenario_id": "P4S002994",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 1.3071399965661092,
+            "321": 1.2032348386003542,
+            "641": 1.1791562972968384
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 40,
+        "bounded_intervals": 27,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.23805585211934382,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S002994_hermite_p40_up",
+      "scenario_id": "P4S002994",
+      "warning": "numerical_convergence_or_quarantine",
+      "path_check_status": "bounded_clear",
+      "joint_integration_status": "accepted",
+      "joint_integration_error": null,
+      "failed_geometry": {
+        "obstacle_penalty_s_per_unit2": {
+          "values_by_n": {
+            "161": 1.2706567529089101,
+            "321": 1.3719132548372117,
+            "641": 1.3596207637538285
+          },
+          "passed": false,
+          "atol": 0.0001,
+          "rtol": 0.05
+        }
+      },
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "bounded_clear",
+        "evaluations": 34,
+        "bounded_intervals": 24,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [],
+        "min_sample_clearance": 0.23830384458022663,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S003989_cycloid_p40_down",
+      "scenario_id": "P4S003989",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 2049,
+        "bounded_intervals": 373,
+        "unresolved_intervals": 669,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.0,
+            6.103515625e-05
+          ],
+          [
+            6.103515625e-05,
+            0.0001220703125
+          ],
+          [
+            0.0001220703125,
+            0.00018310546875
+          ],
+          [
+            0.00018310546875,
+            0.000244140625
+          ],
+          [
+            0.000244140625,
+            0.00030517578125
+          ],
+          [
+            0.00030517578125,
+            0.0003662109375
+          ],
+          [
+            0.0003662109375,
+            0.00042724609375
+          ],
+          [
+            0.00042724609375,
+            0.00048828125
+          ],
+          [
+            0.00048828125,
+            0.00054931640625
+          ],
+          [
+            0.00054931640625,
+            0.0006103515625
+          ],
+          [
+            0.0006103515625,
+            0.00067138671875
+          ],
+          [
+            0.00067138671875,
+            0.000732421875
+          ],
+          [
+            0.000732421875,
+            0.00079345703125
+          ],
+          [
+            0.00079345703125,
+            0.0008544921875
+          ],
+          [
+            0.0008544921875,
+            0.00091552734375
+          ],
+          [
+            0.00091552734375,
+            0.0009765625
+          ]
+        ],
+        "min_sample_clearance": 1.10644704591073e-05,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S003989_cycloid_p80_down",
+      "scenario_id": "P4S003989",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 2049,
+        "bounded_intervals": 465,
+        "unresolved_intervals": 576,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.0,
+            6.103515625e-05
+          ],
+          [
+            6.103515625e-05,
+            0.0001220703125
+          ],
+          [
+            0.0001220703125,
+            0.00018310546875
+          ],
+          [
+            0.00018310546875,
+            0.000244140625
+          ],
+          [
+            0.000244140625,
+            0.00030517578125
+          ],
+          [
+            0.00030517578125,
+            0.0003662109375
+          ],
+          [
+            0.0003662109375,
+            0.00042724609375
+          ],
+          [
+            0.00042724609375,
+            0.00048828125
+          ],
+          [
+            0.00048828125,
+            0.00054931640625
+          ],
+          [
+            0.00054931640625,
+            0.0006103515625
+          ],
+          [
+            0.0006103515625,
+            0.00067138671875
+          ],
+          [
+            0.00067138671875,
+            0.000732421875
+          ],
+          [
+            0.000732421875,
+            0.00079345703125
+          ],
+          [
+            0.00079345703125,
+            0.0008544921875
+          ],
+          [
+            0.0008544921875,
+            0.00091552734375
+          ],
+          [
+            0.00091552734375,
+            0.0009765625
+          ]
+        ],
+        "min_sample_clearance": 1.10644704591073e-05,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S004485_cycloid_p40_up",
+      "scenario_id": "P4S004485",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 570,
+        "bounded_intervals": 284,
+        "unresolved_intervals": 8,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.99951171875,
+            0.99957275390625
+          ],
+          [
+            0.99957275390625,
+            0.9996337890625
+          ],
+          [
+            0.9996337890625,
+            0.99969482421875
+          ],
+          [
+            0.99969482421875,
+            0.999755859375
+          ],
+          [
+            0.999755859375,
+            0.99981689453125
+          ],
+          [
+            0.99981689453125,
+            0.9998779296875
+          ],
+          [
+            0.9998779296875,
+            0.99993896484375
+          ],
+          [
+            0.99993896484375,
+            1.0
+          ]
+        ],
+        "min_sample_clearance": 0.0003985091968444626,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S004822_bezier_p80_down",
+      "scenario_id": "P4S004822",
+      "warning": "path_unresolved",
+      "path_check_status": "unresolved",
+      "joint_integration_status": "not_evaluated",
+      "joint_integration_error": "path_unresolved",
+      "failed_geometry": {},
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "unresolved",
+        "evaluations": 520,
+        "bounded_intervals": 198,
+        "unresolved_intervals": 69,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [],
+        "unresolved_examples": [
+          [
+            0.4979248046875,
+            0.49798583984375
+          ],
+          [
+            0.49798583984375,
+            0.498046875
+          ],
+          [
+            0.498046875,
+            0.49810791015625
+          ],
+          [
+            0.49810791015625,
+            0.4981689453125
+          ],
+          [
+            0.4981689453125,
+            0.49822998046875
+          ],
+          [
+            0.49822998046875,
+            0.498291015625
+          ],
+          [
+            0.498291015625,
+            0.49835205078125
+          ],
+          [
+            0.49835205078125,
+            0.4984130859375
+          ],
+          [
+            0.4984130859375,
+            0.49847412109375
+          ],
+          [
+            0.49847412109375,
+            0.49853515625
+          ],
+          [
+            0.49853515625,
+            0.49859619140625
+          ],
+          [
+            0.49859619140625,
+            0.4986572265625
+          ],
+          [
+            0.4986572265625,
+            0.49871826171875
+          ],
+          [
+            0.49871826171875,
+            0.498779296875
+          ],
+          [
+            0.498779296875,
+            0.49884033203125
+          ],
+          [
+            0.49884033203125,
+            0.4989013671875
+          ]
+        ],
+        "min_sample_clearance": 0.0002168721734549378,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    }
+  ],
+  "newly_invalid_count": 3,
+  "newly_invalid": [
+    {
+      "run_id": "P4S000515_cycloid_p40_down",
+      "scenario_id": "P4S000515",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "invalid",
+        "evaluations": 106,
+        "bounded_intervals": 59,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [
+          0.2578125
+        ],
+        "unresolved_examples": [],
+        "min_sample_clearance": -0.0008436796908673078,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S001524_line_up",
+      "scenario_id": "P4S001524",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "invalid",
+        "evaluations": 42,
+        "bounded_intervals": 27,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [
+          0.52734375
+        ],
+        "unresolved_examples": [],
+        "min_sample_clearance": -0.2371436712369886,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    },
+    {
+      "run_id": "P4S003714_line_up",
+      "scenario_id": "P4S003714",
+      "path_check": {
+        "version": "phase4-refinement-v1",
+        "status": "invalid",
+        "evaluations": 44,
+        "bounded_intervals": 28,
+        "unresolved_intervals": 0,
+        "unreachable_witnesses": [],
+        "collision_witnesses": [
+          0.40234375
+        ],
+        "unresolved_examples": [],
+        "min_sample_clearance": -0.2979417842770626,
+        "interpretation": "binary64 analytic bounds under model assumptions; no physical safety certification"
+      }
+    }
+  ]
+}

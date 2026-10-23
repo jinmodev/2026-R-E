@@ -1,0 +1,5 @@
+﻿split,scenarios,candidates,samples
+train,3000,126000,20286000
+validation,1000,42000,6762000
+test,1000,42000,6762000
+challenge,500,21000,3381000

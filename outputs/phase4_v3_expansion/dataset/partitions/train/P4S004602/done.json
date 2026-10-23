@@ -1,0 +1,39 @@
+{
+  "scenario_id": "P4S004602",
+  "data_split": "train",
+  "signature": "385443ea0d7eca9bc7b1df85b6476685f8fbcfa6d449dc1f02915fc6fd86c3d0",
+  "attempt": "attempt_b2a969103fc14b9fb92910f4a1bbeba3",
+  "candidates": 42,
+  "samples": 6762,
+  "winners": 6,
+  "adaptive_panels": 0,
+  "adaptive_nodes": 0,
+  "seconds": 0.8247528001666069,
+  "files": [
+    {
+      "path": "adaptive_panels.jsonl.gz",
+      "bytes": 47,
+      "sha256": "c5b87b87ebdc9979560798fd23be8eb1aca814e55272c55bc0540e178868b3ac"
+    },
+    {
+      "path": "joint_comparisons.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "scenario_winners.json",
+      "bytes": 5984,
+      "sha256": "c1a4f25c458779f50514210ea3464ef9fa6388c1c8aab76f039f21cd1173b27e"
+    },
+    {
+      "path": "trajectory_metrics.jsonl.gz",
+      "bytes": 38654,
+      "sha256": "0802f88bf51e5eead31d2b34873470130b651faaf934acbfa6f6dfeb285c4a9e"
+    },
+    {
+      "path": "trajectory_samples.parquet",
+      "bytes": 1189620,
+      "sha256": "eb89a7d95587fb9f2173f78ee3e0f89843d665f46788671e3ba6e1a06413ae9b"
+    }
+  ]
+}

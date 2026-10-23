@@ -1,0 +1,853 @@
+{
+  "version": "phase4-refinement-v1",
+  "grid_scenarios": 4,
+  "grid_runs": 168,
+  "grid_evaluations": 672,
+  "previous_failure_runs": 10,
+  "control_runs": 6,
+  "previously_valid_failure_runs": 2,
+  "grid_hard_status_changed_runs": 0,
+  "quadrature_runs": 16,
+  "quadrature_warnings": 0,
+  "collision_scenarios": 19,
+  "collision_runs": 798,
+  "path_status_counts": {
+    "invalid": 509,
+    "bounded_clear": 289
+  },
+  "previously_valid_status_counts": {
+    "bounded_clear": 289
+  },
+  "newly_invalid_run_ids": [],
+  "both_failure_witnesses": 78,
+  "hidden_collision_on_legacy_unreachable": 78,
+  "full_train_failure_classification": {
+    "has_valid": 2147,
+    "mixed_unreachable_collision": 821,
+    "all_reachable_colliding": 32
+  },
+  "collision_seconds": 1.469857599819079,
+  "mean_path_evaluations": 57.54887218045113,
+  "max_path_evaluations": 634,
+  "total_seconds": 70.72801229986362,
+  "accuracy_by_group": [
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "A",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 4.0157454518706856e-08,
+      "max_absolute_error": 7.799857186796544e-07
+    },
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "E_theta",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 3.9791907869261965e-12,
+      "max_absolute_error": 2.1752377676875767e-11
+    },
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "J",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.00019723707264603706,
+      "max_absolute_error": 0.044411638240717366
+    },
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "A",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 6.134877244698319e-13,
+      "max_absolute_error": 1.1930012533412082e-11
+    },
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "E_theta",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 3.34007858078384e-16,
+      "max_absolute_error": 5.329070518200751e-15
+    },
+    {
+      "group": "control",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "J",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 7.708650755500314e-07,
+      "max_absolute_error": 0.0001735955041795023
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "A",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 2.0573337759426687e-05,
+      "max_absolute_error": 0.013630783899316157
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "E_theta",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 3.103589547211826e-06,
+      "max_absolute_error": 4.951754025128707e-05
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "J",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.008452299646554905,
+      "max_absolute_error": 1229.5655115143163
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "A",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.761802843125023e-10,
+      "max_absolute_error": 9.46124600886833e-09
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "E_theta",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 2.0129540246857277e-13,
+      "max_absolute_error": 3.211653165635653e-12
+    },
+    {
+      "group": "control",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "J",
+      "runs": 6,
+      "passed": 6,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 7.425608854234584e-07,
+      "max_absolute_error": 0.021295079874107614
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "A",
+      "runs": 10,
+      "passed": 5,
+      "failed": 5,
+      "unavailable": 0,
+      "max_relative_error": 0.09011299510652614,
+      "max_absolute_error": 4129.525047639945
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.0042426387394636205,
+      "max_absolute_error": 0.30532939872780673
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 161,
+      "metric": "J",
+      "runs": 10,
+      "passed": 5,
+      "failed": 5,
+      "unavailable": 0,
+      "max_relative_error": 0.3903677130783584,
+      "max_absolute_error": 92548901.55008522
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 641,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.8631316989218223e-09,
+      "max_absolute_error": 8.432172035099939e-05
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 641,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 8.598678175685314e-12,
+      "max_absolute_error": 6.187548251546104e-10
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 641,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.0351812918333027e-07,
+      "max_absolute_error": 24.26385924220085
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 1281,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 5.560708009194195e-14,
+      "max_absolute_error": 1.2332748156040907e-09
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 1281,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.4809789768071176e-14,
+      "max_absolute_error": 1.0658141036401503e-12
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 1281,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.8820118150040876e-10,
+      "max_absolute_error": 0.0008222814649343491
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 3.057460134200011e-14,
+      "max_absolute_error": 6.220943760126829e-10
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 2.2394090962180057e-14,
+      "max_absolute_error": 1.2931877790833823e-12
+    },
+    {
+      "group": "previous_failure",
+      "method": "differential_grid",
+      "samples": 2561,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 4.704477047800744e-11,
+      "max_absolute_error": 0.0002055242657661438
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "A",
+      "runs": 10,
+      "passed": 6,
+      "failed": 4,
+      "unavailable": 0,
+      "max_relative_error": 0.05385769297083398,
+      "max_absolute_error": 2437.4945303462446
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.0067755033304644375,
+      "max_absolute_error": 0.48756044742212623
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 161,
+      "metric": "J",
+      "runs": 10,
+      "passed": 0,
+      "failed": 10,
+      "unavailable": 0,
+      "max_relative_error": 0.57066821968799,
+      "max_absolute_error": 133760274.31856342
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 641,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 6.200523766323198e-05,
+      "max_absolute_error": 2.82957298088877
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 641,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 6.095903971036108e-06,
+      "max_absolute_error": 0.0004387030827928129
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 641,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.016916420887316284,
+      "max_absolute_error": 3998532.482976347
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 1281,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.0830726968996804e-06,
+      "max_absolute_error": 0.049414982793678064
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 1281,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.0356261823834242e-07,
+      "max_absolute_error": 7.453076705132844e-06
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 1281,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 0.001232114535428479,
+      "max_absolute_error": 291144.6798211336
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "A",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.7415087653803925e-08,
+      "max_absolute_error": 0.0007945223842398264
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "E_theta",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 1.6528610019276244e-09,
+      "max_absolute_error": 1.1895122042915318e-07
+    },
+    {
+      "group": "previous_failure",
+      "method": "legacy",
+      "samples": 2561,
+      "metric": "J",
+      "runs": 10,
+      "passed": 10,
+      "failed": 0,
+      "unavailable": 0,
+      "max_relative_error": 7.982906213085859e-05,
+      "max_absolute_error": 18861.993867963552
+    }
+  ],
+  "rank_changes": [
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 161,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 641,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 1281,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "differential_grid",
+      "samples": 2561,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 161,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 641,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 1281,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "balanced",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "curvature",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "distance",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "jerk",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "joint_effort",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    },
+    {
+      "method": "legacy",
+      "samples": 2561,
+      "objective": "safety",
+      "scenarios": 4,
+      "winner_changes": 0,
+      "tie_set_changes": 0
+    }
+  ]
+}

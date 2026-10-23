@@ -1,0 +1,4 @@
+﻿x,y,independent_scenarios,spearman_rho,scope
+path_length_units,joint_velocity_effort,2147,0.8286494808667784,original_161_reference_only; one hash-selected valid candidate per scenario
+joint_jerk_effort,regularized_curvature_energy_inv_unit,2147,0.20413674278814306,original_161_reference_only; one hash-selected valid candidate per scenario
+min_obstacle_clearance_units,obstacle_penalty_s_per_unit2,1735,-0.9625011290987233,original_161_reference_only; one hash-selected valid candidate per scenario

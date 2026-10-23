@@ -1,0 +1,1268 @@
+{
+  "input": {
+    "base_x": 0.0,
+    "base_y": 0.0,
+    "link1": 5.48532,
+    "link2": 6.13245,
+    "start_x": 2.0,
+    "start_y": 0.0,
+    "goal_x": -4.8,
+    "goal_y": -1.4999999999999991,
+    "duration_s": 3.0,
+    "curve_key": "limacon",
+    "curve_name": "리마송 구간",
+    "shape": 0.8,
+    "elbow_mode": "down",
+    "samples": 161
+  },
+  "obstacles": [
+    {
+      "obstacle_id": "O1",
+      "center_x": -1.3,
+      "center_y": -2.0,
+      "radius_units": 0.45
+    }
+  ],
+  "physics": {
+    "absolute_tolerance": 1e-06,
+    "balance_rtol": 0.005,
+    "energy_rtol": 0.02,
+    "gravity_m_per_s2": 9.80665,
+    "link_linear_density_kg_per_m": 0.35,
+    "motion_plane": "vertical",
+    "motor_resistance_ohm": 0.8,
+    "singularity_floor": 1e-10,
+    "torque_constant_nm_per_a": 0.12,
+    "torque_rtol": 0.01,
+    "viscous_damping_nms_per_rad": 0.03,
+    "workspace_unit_m": 0.1
+  },
+  "labels": [
+    {
+      "scenario_id": "interactive",
+      "objective": "distance",
+      "metric": "path_length_units",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_hermite_m80_down",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_hermite_m80_down\"]",
+      "raw_metric_value": 7.730275409603439,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "joint_effort",
+      "metric": "joint_velocity_effort",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_arc_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_arc_p80_up\"]",
+      "raw_metric_value": 5.857160950017613,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "acceleration",
+      "metric": "joint_acceleration_effort",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_arc_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_arc_p80_up\"]",
+      "raw_metric_value": 10.288594297700405,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "jerk",
+      "metric": "joint_jerk_effort",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_arc_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_arc_p80_up\"]",
+      "raw_metric_value": 72.74282886447666,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "curvature",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_bezier_p80_up",
+      "tie_count": 2.0,
+      "tied_run_ids_json": "[\"interactive_bezier_m80_down\", \"interactive_bezier_p80_up\"]",
+      "raw_metric_value": 0.34198600185087313,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "obstacle_penalty",
+      "metric": "obstacle_penalty_s_per_unit2",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_limacon_p80_down",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_limacon_p80_down\"]",
+      "raw_metric_value": 2.237591644653166,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "model_energy",
+      "metric": "model_electrical_energy_j",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_cycloid_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_cycloid_p80_up\"]",
+      "raw_metric_value": 80.84592744466406,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "rms_torque",
+      "metric": "rms_joint_torque_nm",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_cycloid_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_cycloid_p80_up\"]",
+      "raw_metric_value": 0.6961812208444624,
+      "dataset_version": "phase4-report-v4"
+    },
+    {
+      "scenario_id": "interactive",
+      "objective": "report_balanced",
+      "metric": "report_balanced_cost_0_100",
+      "label_status": "ready",
+      "source_valid_candidates": 12.0,
+      "eligible_candidates": 12.0,
+      "winner_run_id": "interactive_arc_p80_up",
+      "tie_count": 1.0,
+      "tied_run_ids_json": "[\"interactive_arc_p80_up\"]",
+      "raw_metric_value": 2.9952487146988465,
+      "dataset_version": "phase4-report-v4"
+    }
+  ],
+  "items": [
+    {
+      "index": 1,
+      "run_id": "interactive_hermite_m80_down",
+      "short_id": "hermite_m80_down",
+      "display": "에르미트 -0.8 아래",
+      "reasons": [
+        "경로 길이 1등"
+      ],
+      "curve_key": "hermite",
+      "shape": -0.8,
+      "elbow_mode": "down",
+      "equations_display": [
+        "x(u)=2-5.36851416262u-6.65848977295u<super>2</super>+5.22700393557u<super>3</super>",
+        "y(u)=4.43498091154u-7.08799648556u<super>2</super>+1.15301557402u<super>3</super>"
+      ],
+      "derivatives": [
+        "x′(u)=-5.36851416262-13.3169795459u+15.6810118067u<super>2</super>",
+        "x″(u)=-13.3169795459+31.3620236134u",
+        "y′(u)=4.43498091154-14.1759929711u+3.45904672207u<super>2</super>",
+        "y″(u)=-14.1759929711+6.91809344414u"
+      ],
+      "derivative_variable": "u",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s"
+      ],
+      "polynomial_coefficients": [
+        [
+          2.0,
+          -5.368514162624558,
+          -6.6584897729464885,
+          5.227003935571046
+        ],
+        [
+          0.0,
+          4.434980911537222,
+          -7.087996485560245,
+          1.1530155740230246
+        ]
+      ],
+      "parameters": {
+        "tangent0_x": -5.368514162624558,
+        "tangent0_y": 4.434980911537222,
+        "tangent1_x": -3.004481901804395,
+        "tangent1_y": -6.281965337514196,
+        "angle_degrees": -52.0
+      },
+      "length_recipe": "L=∫₀¹ √[x′(u)²+y′(u)²] du",
+      "length_reference": 7.7303246823050475,
+      "Kepsilon_reference": 0.46710887227020287,
+      "metrics": {
+        "path_length_units": 7.730275409603439,
+        "joint_velocity_effort": 18.68126487612007,
+        "joint_acceleration_effort": 621.9717841011343,
+        "joint_jerk_effort": 168853.34236516812,
+        "regularized_curvature_energy_inv_unit": 0.4671505533526671,
+        "obstacle_penalty_s_per_unit2": 4.123976774441272,
+        "model_electrical_energy_j": 150.8937965407057,
+        "rms_joint_torque_nm": 0.9421586769772744,
+        "report_balanced_cost_0_100": 11.055936335160386
+      },
+      "score": 88.94406366483962,
+      "scores": [
+        {
+          "run_id": "interactive_hermite_m80_down",
+          "metric": "path_length_units",
+          "raw_value": 7.730275409603439,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 0.0,
+          "weight": 0.25,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_hermite_m80_down",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 150.8937965407057,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 0.3423783545490259,
+          "weight": 0.2,
+          "deduction_points": 6.847567090980517,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_hermite_m80_down",
+          "metric": "joint_jerk_effort",
+          "raw_value": 168853.34236516812,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.17910707772719073,
+          "weight": 0.2,
+          "deduction_points": 3.5821415545438144,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_hermite_m80_down",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 0.4671505533526671,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.012345346870828958,
+          "weight": 0.2,
+          "deduction_points": 0.24690693741657915,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_hermite_m80_down",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 4.123976774441272,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 0.025288050147964935,
+          "weight": 0.15,
+          "deduction_points": 0.37932075221947403,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 18.681264876120068,
+          "quad_error_estimate": 2.0740370394589746e-13
+        },
+        "joint_acceleration_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 621.9717841011314,
+          "quad_error_estimate": 1.885487076879497e-10
+        },
+        "joint_jerk_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 168853.34236516795,
+          "quad_error_estimate": 1.603832921814924e-05
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": 2.3652415681291994,
+        "positive_power_w": 2.949967773444365,
+        "absorbed_power_w": 0.584726205315166,
+        "copper_loss_power_w": 147.9438287672614,
+        "torque_squared_nm2": 2.662988917810705
+      },
+      "positive_work": 2.949967773444366,
+      "copper": 147.94382876726132,
+      "net_work": 2.3652415681291994,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": -1.7318380141054814,
+          "theta2_rad": 2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": 2.201654805768973,
+          "theta2_rad": 2.252755958670172
+        }
+      },
+      "epsilon_u": 0.006963476143421473,
+      "forward_error": 8.152583195084933e-15,
+      "figure": "figures/01_hermite_m80_down_path.png",
+      "integrands_figure": "figures/01_hermite_m80_down_integrands.png"
+    },
+    {
+      "index": 2,
+      "run_id": "interactive_arc_p80_up",
+      "short_id": "arc_p80_up",
+      "display": "원호 +0.8 위",
+      "reasons": [
+        "관절 노력도 1등",
+        "각가속도 비용 1등",
+        "관절 저크 비용 1등",
+        "종합 비용 1등"
+      ],
+      "curve_key": "arc",
+      "shape": 0.8,
+      "elbow_mode": "up",
+      "equations_display": [
+        "α(u)=-0.170313355772+(-2.36674331258)u",
+        "x(u)=-1.70603571429+3.7604429145cos α(u)",
+        "y(u)=0.637361904762+3.7604429145sin α(u)"
+      ],
+      "derivatives": [
+        "x′=-RΔα sin α,　y′=RΔα cos α",
+        "x″=-R(Δα)²cos α,　y″=-R(Δα)²sin α"
+      ],
+      "derivative_variable": "u",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s",
+        "α: -0.170313355772 → -2.53705666835 rad (감소 방향)"
+      ],
+      "polynomial_coefficients": null,
+      "parameters": {
+        "bulge": 0.336,
+        "center_x": -1.706035714285714,
+        "center_y": 0.637361904761905,
+        "radius": 3.7604429144986296,
+        "theta_start": -0.17031335577186857,
+        "theta_delta": -2.366743312576246
+      },
+      "length_recipe": "L=R|Δα|=3.7604429145×2.36674331258",
+      "length_reference": 8.90000312021436,
+      "Kepsilon_reference": 0.6293779068772314,
+      "metrics": {
+        "path_length_units": 8.90000312021436,
+        "joint_velocity_effort": 5.857160950017613,
+        "joint_acceleration_effort": 10.288594297700405,
+        "joint_jerk_effort": 72.74282886447666,
+        "regularized_curvature_energy_inv_unit": 0.6293779068772315,
+        "obstacle_penalty_s_per_unit2": 3.056362278872999,
+        "model_electrical_energy_j": 89.33780296511549,
+        "rms_joint_torque_nm": 0.7318064255885659,
+        "report_balanced_cost_0_100": 2.9952487146988465
+      },
+      "score": 97.00475128530115,
+      "scores": [
+        {
+          "run_id": "interactive_arc_p80_up",
+          "metric": "path_length_units",
+          "raw_value": 8.90000312021436,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 0.05734214146205991,
+          "weight": 0.25,
+          "deduction_points": 1.4335535365514978,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_arc_p80_up",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 89.33780296511549,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 0.04150639277464631,
+          "weight": 0.2,
+          "deduction_points": 0.8301278554929261,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_arc_p80_up",
+          "metric": "joint_jerk_effort",
+          "raw_value": 72.74282886447666,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.0,
+          "weight": 0.2,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_arc_p80_up",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 0.6293779068772315,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.028346306624746496,
+          "weight": 0.2,
+          "deduction_points": 0.56692613249493,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_arc_p80_up",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 3.056362278872999,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 0.01097607934396618,
+          "weight": 0.15,
+          "deduction_points": 0.1646411901594927,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 5.857160950017615,
+          "quad_error_estimate": 6.502754945644911e-14
+        },
+        "joint_acceleration_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 10.288594297700408,
+          "quad_error_estimate": 1.1422634280334088e-13
+        },
+        "joint_jerk_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 72.74282886447672,
+          "quad_error_estimate": 8.076076348170949e-13
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": -2.1549799141435546,
+        "positive_power_w": 0.08102887632993187,
+        "absorbed_power_w": 2.236008790473486,
+        "copper_loss_power_w": 89.25677408878553,
+        "torque_squared_nm2": 1.6066219335981395
+      },
+      "positive_work": 0.08102887632993183,
+      "copper": 89.25677408878555,
+      "net_work": -2.1549799141435546,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": 1.7318380141054814,
+          "theta2_rad": -2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": -1.5958850690190303,
+          "theta2_rad": -2.252755958670172
+        }
+      },
+      "epsilon_u": 0.006963476143421474,
+      "forward_error": 3.1791949213824896e-15,
+      "figure": "figures/02_arc_p80_up_path.png",
+      "integrands_figure": "figures/02_arc_p80_up_integrands.png"
+    },
+    {
+      "index": 3,
+      "run_id": "interactive_bezier_p80_up",
+      "short_id": "bezier_p80_up",
+      "display": "베지어 +0.8 위",
+      "reasons": [
+        "정칙화 곡률 비용 공동 1등"
+      ],
+      "curve_key": "bezier",
+      "shape": 0.8,
+      "elbow_mode": "up",
+      "equations_display": [
+        "x(u)=2-5.288u-1.512u<super>2</super>",
+        "y(u)=-8.3544u+6.8544u<super>2</super>"
+      ],
+      "derivatives": [
+        "x′(u)=-5.288-3.024u",
+        "x″(u)=-3.024",
+        "y′(u)=-8.3544+13.7088u",
+        "y″(u)=13.7088"
+      ],
+      "derivative_variable": "u",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s"
+      ],
+      "polynomial_coefficients": [
+        [
+          2.0,
+          -5.288,
+          -1.512,
+          8.881784197001252e-16
+        ],
+        [
+          0.0,
+          -8.354399999999998,
+          6.854399999999999,
+          8.881784197001252e-16
+        ]
+      ],
+      "parameters": {
+        "control1_x": 0.23733333333333317,
+        "control1_y": -2.7847999999999997,
+        "control2_x": -2.0293333333333337,
+        "control2_y": -3.2847999999999997
+      },
+      "length_recipe": "L=∫₀¹√(197.07577344u²+(-197.07577344)u+97.75894336)du; 완전제곱식으로 정리한 뒤 로그 부정적분",
+      "length_reference": 8.007513580489665,
+      "Kepsilon_reference": 0.3420014784446967,
+      "metrics": {
+        "path_length_units": 8.007634361983708,
+        "joint_velocity_effort": 6.089875143981905,
+        "joint_acceleration_effort": 14.469665291798437,
+        "joint_jerk_effort": 208.6266007941872,
+        "regularized_curvature_energy_inv_unit": 0.34198600185087313,
+        "obstacle_penalty_s_per_unit2": 76.83350231196546,
+        "model_electrical_energy_j": 87.57290493172798,
+        "rms_joint_torque_nm": 0.7245452716137742,
+        "report_balanced_cost_0_100": 16.00039903020446
+      },
+      "score": 83.99960096979554,
+      "scores": [
+        {
+          "run_id": "interactive_bezier_p80_up",
+          "metric": "path_length_units",
+          "raw_value": 8.007634361983708,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 0.013596631197915012,
+          "weight": 0.25,
+          "deduction_points": 0.3399157799478753,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_p80_up",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 87.57290493172798,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 0.032879964984394314,
+          "weight": 0.2,
+          "deduction_points": 0.6575992996878863,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_p80_up",
+          "metric": "joint_jerk_effort",
+          "raw_value": 208.6266007941872,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.00014419752843479873,
+          "weight": 0.2,
+          "deduction_points": 0.0028839505686959746,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_p80_up",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 0.34198600185087313,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.0,
+          "weight": 0.2,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_p80_up",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 76.83350231196546,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 1.0,
+          "weight": 0.15,
+          "deduction_points": 15.0,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 6.0898751439819065,
+          "quad_error_estimate": 6.761119601941151e-14
+        },
+        "joint_acceleration_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 14.469665291798442,
+          "quad_error_estimate": 1.6064555565574117e-13
+        },
+        "joint_jerk_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 208.6266007941874,
+          "quad_error_estimate": 2.316220557509878e-12
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": -2.1479984883279433,
+        "positive_power_w": 0.07859649541498279,
+        "absorbed_power_w": 2.226594983742926,
+        "copper_loss_power_w": 87.49430843631298,
+        "torque_squared_nm2": 1.5748975518536334
+      },
+      "positive_work": 0.07859649541498286,
+      "copper": 87.49430843631299,
+      "net_work": -2.1479984883279437,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": 1.7318380141054814,
+          "theta2_rad": -2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": -1.5958850690190303,
+          "theta2_rad": -2.252755958670172
+        }
+      },
+      "epsilon_u": 0.006963476143421473,
+      "forward_error": 5.5433381142311014e-15,
+      "figure": "figures/03_bezier_p80_up_path.png",
+      "integrands_figure": "figures/03_bezier_p80_up_integrands.png"
+    },
+    {
+      "index": 4,
+      "run_id": "interactive_bezier_m80_down",
+      "short_id": "bezier_m80_down",
+      "display": "베지어 -0.8 아래",
+      "reasons": [
+        "정칙화 곡률 비용 공동 1등"
+      ],
+      "curve_key": "bezier",
+      "shape": -0.8,
+      "elbow_mode": "down",
+      "equations_display": [
+        "x(u)=2-8.312u+1.512u<super>2</super>",
+        "y(u)=5.3544u-6.8544u<super>2</super>"
+      ],
+      "derivatives": [
+        "x′(u)=-8.312+3.024u",
+        "x″(u)=3.024",
+        "y′(u)=5.3544-13.7088u",
+        "y″(u)=-13.7088"
+      ],
+      "derivative_variable": "u",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s"
+      ],
+      "polynomial_coefficients": [
+        [
+          2.0,
+          -8.311999999999998,
+          1.512,
+          -8.881784197001252e-16
+        ],
+        [
+          0.0,
+          5.354400000000002,
+          -6.854400000000002,
+          0.0
+        ]
+      ],
+      "parameters": {
+        "control1_x": -0.7706666666666664,
+        "control1_y": 1.7848000000000006,
+        "control2_x": -3.0373333333333328,
+        "control2_y": 1.2848000000000008
+      },
+      "length_recipe": "L=∫₀¹√(197.07577344u²+(-197.07577344)u+97.75894336)du; 완전제곱식으로 정리한 뒤 로그 부정적분",
+      "length_reference": 8.007513580489663,
+      "Kepsilon_reference": 0.34200147844469675,
+      "metrics": {
+        "path_length_units": 8.00763436198371,
+        "joint_velocity_effort": 12.565217093094494,
+        "joint_acceleration_effort": 132.26804020234752,
+        "joint_jerk_effort": 11086.951133602373,
+        "regularized_curvature_energy_inv_unit": 0.34198600185087313,
+        "obstacle_penalty_s_per_unit2": 3.852763457792111,
+        "model_electrical_energy_j": 116.86647075356169,
+        "rms_joint_torque_nm": 0.8275012835407527,
+        "report_balanced_cost_0_100": 4.4196693837821055
+      },
+      "score": 95.58033061621789,
+      "scores": [
+        {
+          "run_id": "interactive_bezier_m80_down",
+          "metric": "path_length_units",
+          "raw_value": 8.00763436198371,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 0.013596631197915099,
+          "weight": 0.25,
+          "deduction_points": 0.33991577994787747,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_m80_down",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 116.86647075356169,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 0.17606037852704937,
+          "weight": 0.2,
+          "deduction_points": 3.5212075705409873,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_m80_down",
+          "metric": "joint_jerk_effort",
+          "raw_value": 11086.951133602373,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.011688088964963298,
+          "weight": 0.2,
+          "deduction_points": 0.23376177929926595,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_m80_down",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 0.34198600185087313,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.0,
+          "weight": 0.2,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_bezier_m80_down",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 3.852763457792111,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 0.021652283599598286,
+          "weight": 0.15,
+          "deduction_points": 0.32478425399397426,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 12.565217093094496,
+          "quad_error_estimate": 1.3950193326167085e-13
+        },
+        "joint_acceleration_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 132.26804020234744,
+          "quad_error_estimate": 1.4684702365469208e-12
+        },
+        "joint_jerk_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 11086.951133602375,
+          "quad_error_estimate": 1.230898842141939e-10
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": 2.1817601346383166,
+        "positive_power_w": 2.7400750432961787,
+        "absorbed_power_w": 0.5583149086578619,
+        "copper_loss_power_w": 114.12639571026551,
+        "torque_squared_nm2": 2.0542751227847793
+      },
+      "positive_work": 2.7400750432961787,
+      "copper": 114.12639571026551,
+      "net_work": 2.1817601346383166,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": -1.7318380141054814,
+          "theta2_rad": 2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": 2.201654805768973,
+          "theta2_rad": 2.252755958670172
+        }
+      },
+      "epsilon_u": 0.006963476143421473,
+      "forward_error": 5.431022213568952e-15,
+      "figure": "figures/04_bezier_m80_down_path.png",
+      "integrands_figure": "figures/04_bezier_m80_down_integrands.png"
+    },
+    {
+      "index": 5,
+      "run_id": "interactive_limacon_p80_down",
+      "short_id": "limacon_p80_down",
+      "display": "리마송 +0.8 아래",
+      "reasons": [
+        "장애물 접근 벌점 1등"
+      ],
+      "curve_key": "limacon",
+      "shape": 0.8,
+      "elbow_mode": "down",
+      "equations_display": [
+        "φ(u)=-3π/5+(6π/5)u",
+        "r(φ)=1+0.79cos φ",
+        "x(φ)=-1.64368977217+4.84327227602r(φ)cos(φ+1.78790764153)",
+        "y(φ)=0.354726967192+4.84327227602r(φ)sin(φ+1.78790764153)"
+      ],
+      "derivatives": [
+        "r′=-0.79sin φ,　r″=-0.79cos φ",
+        "x′=s[r′cos(φ+β)-r sin(φ+β)]",
+        "y′=s[r′sin(φ+β)+r cos(φ+β)]"
+      ],
+      "derivative_variable": "φ",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s",
+        "-3π/5 ≤ φ ≤ 3π/5 (증가 방향)"
+      ],
+      "polynomial_coefficients": null,
+      "parameters": {
+        "a": 1.0,
+        "b": 0.79,
+        "phase": -1.8849555921538759,
+        "sweep": 3.7699111843077517,
+        "side": 1.0,
+        "scale": 4.843272276019262,
+        "rotation": -4.495277665649785
+      },
+      "length_recipe": "L=4.84327227602∫[-3π/5,3π/5]√(1.6241+1.58cos φ)dφ (정밀 수치적분)",
+      "length_reference": 28.129926100594872,
+      "Kepsilon_reference": 1.0287132462829693,
+      "metrics": {
+        "path_length_units": 28.129369004405156,
+        "joint_velocity_effort": 12.940709278836755,
+        "joint_acceleration_effort": 48.817905288909586,
+        "joint_jerk_effort": 634.9554778452487,
+        "regularized_curvature_energy_inv_unit": 1.0287307240003942,
+        "obstacle_penalty_s_per_unit2": 2.237591644653166,
+        "model_electrical_energy_j": 285.43791804613574,
+        "rms_joint_torque_nm": 1.2999172292582295,
+        "report_balanced_cost_0_100": 46.366645137116976
+      },
+      "score": 53.633354862883024,
+      "scores": [
+        {
+          "run_id": "interactive_limacon_p80_down",
+          "metric": "path_length_units",
+          "raw_value": 28.129369004405156,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 1.0,
+          "weight": 0.25,
+          "deduction_points": 25.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_limacon_p80_down",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 285.43791804613574,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 1.0,
+          "weight": 0.2,
+          "deduction_points": 20.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_limacon_p80_down",
+          "metric": "joint_jerk_effort",
+          "raw_value": 634.9554778452487,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.0005966104214397567,
+          "weight": 0.2,
+          "deduction_points": 0.011932208428795135,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_limacon_p80_down",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 1.0287307240003942,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.067735646434409,
+          "weight": 0.2,
+          "deduction_points": 1.35471292868818,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_limacon_p80_down",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 2.237591644653166,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 0.0,
+          "weight": 0.15,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 12.94070927883675,
+          "quad_error_estimate": 1.4367073396344968e-13
+        },
+        "joint_acceleration_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 48.81790528890956,
+          "quad_error_estimate": 5.419876246571762e-13
+        },
+        "joint_jerk_effort": {
+          "panels": 33,
+          "nodes": 1056,
+          "sum": 634.9554778452479,
+          "quad_error_estimate": 7.049421911156624e-12
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": 2.193024900258132,
+        "positive_power_w": 3.807117559070333,
+        "absorbed_power_w": 1.6140926588122013,
+        "copper_loss_power_w": 281.6308004870653,
+        "torque_squared_nm2": 5.069354408767175
+      },
+      "positive_work": 3.8071175590703334,
+      "copper": 281.6308004870654,
+      "net_work": 2.193024900258132,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": -1.7318380141054814,
+          "theta2_rad": 2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": 2.201654805768973,
+          "theta2_rad": 2.2527559586701726
+        }
+      },
+      "epsilon_u": 0.006963476143421472,
+      "forward_error": 4.869818370658876e-15,
+      "figure": "figures/05_limacon_p80_down_path.png",
+      "integrands_figure": "figures/05_limacon_p80_down_integrands.png"
+    },
+    {
+      "index": 6,
+      "run_id": "interactive_cycloid_p80_up",
+      "short_id": "cycloid_p80_up",
+      "display": "사이클로이드 +0.8 위",
+      "reasons": [
+        "모형 에너지 1등",
+        "RMS 토크 1등"
+      ],
+      "curve_key": "cycloid",
+      "shape": 0.8,
+      "elbow_mode": "up",
+      "equations_display": [
+        "φ=2πu",
+        "X(φ)=1.10827164933(φ-sin φ)",
+        "Y(φ)=1.39269522868(1-cos φ)",
+        "x(φ)=2+(-0.976523773464)X+(0.215409655911)Y",
+        "y(φ)=(-0.215409655911)X+(-0.976523773464)Y"
+      ],
+      "derivatives": [
+        "X′=A(1-cos φ),　Y′=B sin φ",
+        "X″=A sin φ,　Y″=B cos φ"
+      ],
+      "derivative_variable": "φ",
+      "domains": [
+        "0 ≤ u ≤ 1",
+        "0 ≤ t ≤ 3 s",
+        "0 ≤ φ ≤ 2π (증가 방향)"
+      ],
+      "polynomial_coefficients": null,
+      "parameters": {
+        "height_ratio": 0.4,
+        "height": 2.7853904573685893
+      },
+      "length_recipe": "c=√(B²-A²),　L=4[B+(A²/c)ln((B+c)/A)]",
+      "length_reference": 9.659721651825075,
+      "Kepsilon_reference": 2.158140687368246,
+      "metrics": {
+        "path_length_units": 9.659100993110698,
+        "joint_velocity_effort": 7.9826221143304,
+        "joint_acceleration_effort": 25.621906878626383,
+        "joint_jerk_effort": 315.69773641780233,
+        "regularized_curvature_energy_inv_unit": 2.1482264546255085,
+        "obstacle_penalty_s_per_unit2": 2.4330079290287716,
+        "model_electrical_energy_j": 80.84592744466406,
+        "rms_joint_torque_nm": 0.6961812208444624,
+        "report_balanced_cost_0_100": 5.971409122217241
+      },
+      "score": 94.02859087778276,
+      "scores": [
+        {
+          "run_id": "interactive_cycloid_p80_up",
+          "metric": "path_length_units",
+          "raw_value": 9.659100993110698,
+          "minimum": 7.730275409603439,
+          "maximum": 28.129369004405156,
+          "normalized": 0.09455447491053133,
+          "weight": 0.25,
+          "deduction_points": 2.3638618727632834,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_cycloid_p80_up",
+          "metric": "model_electrical_energy_j",
+          "raw_value": 80.84592744466406,
+          "minimum": 80.84592744466406,
+          "maximum": 285.43791804613574,
+          "normalized": 0.0,
+          "weight": 0.2,
+          "deduction_points": 0.0,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_cycloid_p80_up",
+          "metric": "joint_jerk_effort",
+          "raw_value": 315.69773641780233,
+          "minimum": 72.74282886447666,
+          "maximum": 942417.4099300943,
+          "normalized": 0.00025781958134350714,
+          "weight": 0.2,
+          "deduction_points": 0.005156391626870142,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_cycloid_p80_up",
+          "metric": "regularized_curvature_energy_inv_unit",
+          "raw_value": 2.1482264546255085,
+          "minimum": 0.34198600185087313,
+          "maximum": 10.48058743698329,
+          "normalized": 0.1781547942614281,
+          "weight": 0.2,
+          "deduction_points": 3.563095885228562,
+          "denominator_candidates": 12
+        },
+        {
+          "run_id": "interactive_cycloid_p80_up",
+          "metric": "obstacle_penalty_s_per_unit2",
+          "raw_value": 2.4330079290287716,
+          "minimum": 2.237591644653166,
+          "maximum": 76.83350231196546,
+          "normalized": 0.0026196648399016914,
+          "weight": 0.15,
+          "deduction_points": 0.03929497259852537,
+          "denominator_candidates": 12
+        }
+      ],
+      "adaptive": {
+        "joint_velocity_effort": {
+          "panels": 32,
+          "nodes": 1024,
+          "sum": 7.9826221143304,
+          "quad_error_estimate": 8.862490868211561e-14
+        },
+        "joint_acceleration_effort": {
+          "panels": 32,
+          "nodes": 1024,
+          "sum": 25.621906878626387,
+          "quad_error_estimate": 2.8446030951452686e-13
+        },
+        "joint_jerk_effort": {
+          "panels": 32,
+          "nodes": 1024,
+          "sum": 315.69773641780256,
+          "quad_error_estimate": 3.50494895793088e-12
+        }
+      },
+      "physics_integrals": {
+        "net_power_w": -2.091216079216294,
+        "positive_power_w": 0.06787873524969922,
+        "absorbed_power_w": 2.1590948144659934,
+        "copper_loss_power_w": 80.77804870941436,
+        "torque_squared_nm2": 1.4540048767694584
+      },
+      "positive_work": 0.0678787352496992,
+      "copper": 80.77804870941436,
+      "net_work": -2.091216079216294,
+      "end_angles": {
+        "start": {
+          "time_s": 0.0,
+          "theta1_rad": 1.7318380141054814,
+          "theta2_rad": -2.8138422351134444
+        },
+        "end": {
+          "time_s": 3.0,
+          "theta1_rad": -1.5958850690190303,
+          "theta2_rad": -2.252755958670172
+        }
+      },
+      "epsilon_u": 0.006963476143421473,
+      "forward_error": 3.972054645195637e-15,
+      "figure": "figures/06_cycloid_p80_up_path.png",
+      "integrands_figure": "figures/06_cycloid_p80_up_integrands.png"
+    }
+  ],
+  "candidate_count": 42,
+  "valid_candidates": 12,
+  "normalization_candidates": 12,
+  "source_hashes": {
+    "robot_path_run.json": "847631c2e9fbf3bb760c1b236e83ae2c6ff395987a7225c791c85d2562547eff",
+    "robot_path_samples.csv": "98a21698a23b7476c05cd830a78ab2a345905c73117c9aac543f5627df2bf345",
+    "robot_path_comparison_20261021_102523_870740\\candidate_metrics.csv": "25669c6d4410dd83c369ee9e5f1a27ed3a7d621e7627758886eb2963c7295a7e",
+    "robot_path_comparison_20261021_102523_870740\\equations.csv": "4856d5aeddbd95556e74930f556bab8aa9adf2575dca754251e8205e31934423",
+    "robot_path_comparison_20261021_102523_870740\\geometry_samples.csv": "f1bb6187b093e2b9a129156dd247cbb598fbecfe330977508b3341fc103ffe18",
+    "robot_path_comparison_20261021_102523_870740\\objective_winners.csv": "a21a15a6fff996c3225bb56facd8f47e15cfbf976b338ceaea920955147c0de7",
+    "robot_path_comparison_20261021_102523_870740\\README.txt": "e1995d46c945fce14beb2442b5772c0e214000da7189cbf522ff545afe4b2370",
+    "robot_path_comparison_20261021_102523_870740\\time_samples.csv": "541126e96dc9d4f9f24d70b196f66f4e10c090df173a5500c85e3cef1800f160"
+  },
+  "reference_rows": [
+    {
+      "run_id": "interactive_hermite_m80_down",
+      "metric": "path_length_units",
+      "source_value": 7.730275409603439,
+      "reference_value": 7.7303246823050475,
+      "absolute_difference": 4.927270160859365e-05,
+      "relative_difference": 6.373949818871178e-06,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_hermite_m80_down",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 0.4671505533526671,
+      "reference_value": 0.46710887227020287,
+      "absolute_difference": 4.1681082464217756e-05,
+      "relative_difference": 8.923205046747004e-05,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    },
+    {
+      "run_id": "interactive_arc_p80_up",
+      "metric": "path_length_units",
+      "source_value": 8.90000312021436,
+      "reference_value": 8.90000312021436,
+      "absolute_difference": 0.0,
+      "relative_difference": 0.0,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_arc_p80_up",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 0.6293779068772315,
+      "reference_value": 0.6293779068772314,
+      "absolute_difference": 1.1102230246251565e-16,
+      "relative_difference": 1.7640006306127306e-16,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    },
+    {
+      "run_id": "interactive_bezier_p80_up",
+      "metric": "path_length_units",
+      "source_value": 8.007634361983708,
+      "reference_value": 8.007513580489665,
+      "absolute_difference": 0.00012078149404359806,
+      "relative_difference": 1.5083520349922677e-05,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_bezier_p80_up",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 0.34198600185087313,
+      "reference_value": 0.3420014784446967,
+      "absolute_difference": 1.5476593823560147e-05,
+      "relative_difference": 4.525300268859156e-05,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    },
+    {
+      "run_id": "interactive_bezier_m80_down",
+      "metric": "path_length_units",
+      "source_value": 8.00763436198371,
+      "reference_value": 8.007513580489663,
+      "absolute_difference": 0.00012078149404715077,
+      "relative_difference": 1.5083520350366353e-05,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_bezier_m80_down",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 0.34198600185087313,
+      "reference_value": 0.34200147844469675,
+      "absolute_difference": 1.547659382361566e-05,
+      "relative_difference": 4.5253002688753864e-05,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    },
+    {
+      "run_id": "interactive_limacon_p80_down",
+      "metric": "path_length_units",
+      "source_value": 28.129369004405156,
+      "reference_value": 28.129926100594872,
+      "absolute_difference": 0.0005570961897163329,
+      "relative_difference": 1.9804395778506927e-05,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_limacon_p80_down",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 1.0287307240003942,
+      "reference_value": 1.0287132462829693,
+      "absolute_difference": 1.7477717424885242e-05,
+      "relative_difference": 1.6989882737523946e-05,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    },
+    {
+      "run_id": "interactive_cycloid_p80_up",
+      "metric": "path_length_units",
+      "source_value": 9.659100993110698,
+      "reference_value": 9.659721651825075,
+      "absolute_difference": 0.0006206587143768871,
+      "relative_difference": 6.425223590781438e-05,
+      "reference_method": "closed form or independent adaptive curve integral"
+    },
+    {
+      "run_id": "interactive_cycloid_p80_up",
+      "metric": "regularized_curvature_energy_inv_unit",
+      "source_value": 2.1482264546255085,
+      "reference_value": 2.158140687368246,
+      "absolute_difference": 0.009914232742737283,
+      "relative_difference": 0.004593876942669219,
+      "reference_method": "independent adaptive integral, same u and epsilon"
+    }
+  ],
+  "weights": {
+    "path_length_units": 0.25,
+    "model_electrical_energy_j": 0.2,
+    "joint_jerk_effort": 0.2,
+    "regularized_curvature_energy_inv_unit": 0.2,
+    "obstacle_penalty_s_per_unit2": 0.15
+  },
+  "verification": {
+    "all_42_metrics_replayed": true,
+    "all_9_labels_replayed": true,
+    "all_ties_included": true,
+    "selected_count": 6,
+    "geometric_and_obstacle_sums_replayed": true,
+    "adaptive_node_sums_replayed": true,
+    "physics641_sums_replayed": true,
+    "normalization_and_scores_replayed": true,
+    "source_files_unchanged": true,
+    "trap_interval_rows": 22080,
+    "adaptive_node_rows": 18912,
+    "maximum_stored_forward_error": 8.152583195084933e-15
+  }
+}

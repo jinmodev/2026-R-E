@@ -1,0 +1,55 @@
+{
+  "version": "phase4-refinement-v1",
+  "files": [
+    {
+      "path": "adaptive_integrals.json",
+      "bytes": 14074,
+      "sha256": "2a1dd6ae399c89aef81e135f29a57c91fc5e19cbb1d661926eef53b822af75ae"
+    },
+    {
+      "path": "adaptive_path_checks.json",
+      "bytes": 576870,
+      "sha256": "a51da64f7d0faf9665198723dc9a3108c7404dd105741ce88bd4545ce3d92590"
+    },
+    {
+      "path": "grid_comparison.json",
+      "bytes": 588836,
+      "sha256": "724fc8a821afe8ec5c7cb85d5c50f9d54da3e3905bc66f48a730a5f15c5a7f8d"
+    },
+    {
+      "path": "integral_accuracy.json",
+      "bytes": 146536,
+      "sha256": "839ec8c10c9fe4ec06724b7f4c6a5ad1416786e17f230944f5294697477c0d98"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2597,
+      "sha256": "86471e3d0f0ff9edf42b801ca49c2c0ceb0fb9fb5f7d411acc144681e13a835c"
+    },
+    {
+      "path": "rank_sensitivity.json",
+      "bytes": 118888,
+      "sha256": "5b54c0656ddb560c3214e3d727548a580b652da9a7d2405bb9e1c61c3dfb689c"
+    },
+    {
+      "path": "refinement_report.md",
+      "bytes": 7128,
+      "sha256": "d2f4cf7b2279fe190f5ea2dcb798d07cd55797d482554059f3f6f8f001e8cf1e"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 21023,
+      "sha256": "e3e58042b6d2fe0c6fa48641cca094c28dd5cfaaa7e17f7514ba9e28dc2172d5"
+    },
+    {
+      "path": "unit_test_log.txt",
+      "bytes": 8764,
+      "sha256": "7f4b84c5d0ad487b9d884fa2ad9fd710bcba3ab3c28798ec698c7baf220971fa"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3720,
+      "sha256": "b93bc2c87eef7b5bc77c7c856815aad16bc2a3e6d659a087dcd6cea06b0132fb"
+    }
+  ]
+}

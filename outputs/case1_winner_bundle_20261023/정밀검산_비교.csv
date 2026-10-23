@@ -1,0 +1,13 @@
+﻿run_id,metric,source_value,reference_value,absolute_difference,relative_difference,reference_method
+interactive_hermite_m80_down,path_length_units,7.730275409603439,7.7303246823050475,4.927270160859365e-05,6.373949818871178e-06,closed form or independent adaptive curve integral
+interactive_hermite_m80_down,regularized_curvature_energy_inv_unit,0.4671505533526671,0.46710887227020287,4.1681082464217756e-05,8.923205046747004e-05,"independent adaptive integral, same u and epsilon"
+interactive_arc_p80_up,path_length_units,8.90000312021436,8.90000312021436,0.0,0.0,closed form or independent adaptive curve integral
+interactive_arc_p80_up,regularized_curvature_energy_inv_unit,0.6293779068772315,0.6293779068772314,1.1102230246251565e-16,1.7640006306127306e-16,"independent adaptive integral, same u and epsilon"
+interactive_bezier_p80_up,path_length_units,8.007634361983708,8.007513580489665,0.00012078149404359806,1.5083520349922677e-05,closed form or independent adaptive curve integral
+interactive_bezier_p80_up,regularized_curvature_energy_inv_unit,0.34198600185087313,0.3420014784446967,1.5476593823560147e-05,4.525300268859156e-05,"independent adaptive integral, same u and epsilon"
+interactive_bezier_m80_down,path_length_units,8.00763436198371,8.007513580489663,0.00012078149404715077,1.5083520350366353e-05,closed form or independent adaptive curve integral
+interactive_bezier_m80_down,regularized_curvature_energy_inv_unit,0.34198600185087313,0.34200147844469675,1.547659382361566e-05,4.5253002688753864e-05,"independent adaptive integral, same u and epsilon"
+interactive_limacon_p80_down,path_length_units,28.129369004405156,28.129926100594872,0.0005570961897163329,1.9804395778506927e-05,closed form or independent adaptive curve integral
+interactive_limacon_p80_down,regularized_curvature_energy_inv_unit,1.0287307240003942,1.0287132462829693,1.7477717424885242e-05,1.6989882737523946e-05,"independent adaptive integral, same u and epsilon"
+interactive_cycloid_p80_up,path_length_units,9.659100993110698,9.659721651825075,0.0006206587143768871,6.425223590781438e-05,closed form or independent adaptive curve integral
+interactive_cycloid_p80_up,regularized_curvature_energy_inv_unit,2.1482264546255085,2.158140687368246,0.009914232742737283,0.004593876942669219,"independent adaptive integral, same u and epsilon"

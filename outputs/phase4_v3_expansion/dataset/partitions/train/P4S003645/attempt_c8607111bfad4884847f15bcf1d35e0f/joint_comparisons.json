@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S003645_arc_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_velocity_effort",
+    "value2561": 16.566984996187408,
+    "adaptive": 16.5669849961874,
+    "absolute_error": 7.105427357601002e-15,
+    "relative_error": 4.2889079450703856e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S003645_arc_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_acceleration_effort",
+    "value2561": 317.8450194645268,
+    "adaptive": 317.8450194645735,
+    "absolute_error": 4.672529030358419e-11,
+    "relative_error": 1.4700652029185598e-13,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S003645_arc_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_jerk_effort",
+    "value2561": 37277.95651652245,
+    "adaptive": 37277.955831979925,
+    "absolute_error": 0.0006845425232313573,
+    "relative_error": 1.836319905299377e-08,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S003645_cycloid_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_velocity_effort",
+    "value2561": 46.31576827922831,
+    "adaptive": 46.31576827922829,
+    "absolute_error": 2.1316282072803006e-14,
+    "relative_error": 4.602381189985127e-16,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S003645_cycloid_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_acceleration_effort",
+    "value2561": 10258.939256084843,
+    "adaptive": 10258.939256084845,
+    "absolute_error": 1.8189894035458565e-12,
+    "relative_error": 1.773077467504222e-16,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S003645_cycloid_m80_down",
+    "scenario_id": "P4S003645",
+    "field": "joint_jerk_effort",
+    "value2561": 16855384.508591466,
+    "adaptive": 16855384.50859137,
+    "absolute_error": 9.685754776000977e-08,
+    "relative_error": 5.746386130238704e-15,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

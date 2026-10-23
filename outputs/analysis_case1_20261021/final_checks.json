@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_files_unchanged": true,
+  "source_copies_hash_match": true,
+  "xlsx_crc_passed": true,
+  "sheets": 3,
+  "native_charts": 2,
+  "scatter_points": 12,
+  "saved_summary_formula_count": 35,
+  "saved_cached_values_match": true,
+  "settings_numbers_typed": true,
+  "summary_formula_change_test": true,
+  "images_visually_reviewed": 7,
+  "standalone_figures": 3,
+  "formats": [
+    "300dpi PNG",
+    "SVG"
+  ],
+  "limitation": "Excel native UI was not opened; used artifact rendering and independent saved XML verification."
+}

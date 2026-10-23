@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "P4S003595_limacon_m80_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_velocity_effort",
+    "value2561": 10.633946975424394,
+    "adaptive": 10.633946975424394,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S003595_limacon_m80_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_acceleration_effort",
+    "value2561": 22.18591039011948,
+    "adaptive": 22.185910390130562,
+    "absolute_error": 1.1080913964178762e-11,
+    "relative_error": 4.994572577516641e-13,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S003595_limacon_m80_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_jerk_effort",
+    "value2561": 197.3128729813094,
+    "adaptive": 197.31271152636256,
+    "absolute_error": 0.00016145494683428296,
+    "relative_error": 8.182693633132262e-07,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  },
+  {
+    "run_id": "P4S003595_limacon_m40_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_velocity_effort",
+    "value2561": 10.024040492292482,
+    "adaptive": 10.024040492292482,
+    "absolute_error": 0.0,
+    "relative_error": 0.0,
+    "passed": true,
+    "atol": 1e-06,
+    "rtol": 0.01
+  },
+  {
+    "run_id": "P4S003595_limacon_m40_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_acceleration_effort",
+    "value2561": 16.569019423603955,
+    "adaptive": 16.569019423610612,
+    "absolute_error": 6.657785434072139e-12,
+    "relative_error": 4.0182133075327866e-13,
+    "passed": true,
+    "atol": 1e-05,
+    "rtol": 0.02
+  },
+  {
+    "run_id": "P4S003595_limacon_m40_down",
+    "scenario_id": "P4S003595",
+    "field": "joint_jerk_effort",
+    "value2561": 103.52007734809993,
+    "adaptive": 103.5199804033902,
+    "absolute_error": 9.694470972476665e-05,
+    "relative_error": 9.364830764746916e-07,
+    "passed": true,
+    "atol": 0.001,
+    "rtol": 0.05
+  }
+]

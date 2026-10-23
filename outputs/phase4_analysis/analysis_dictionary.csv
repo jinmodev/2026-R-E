@@ -1,0 +1,21 @@
+﻿field,meaning_ko,unit,notes
+scenario_id,독립 상황 ID,없음,동일 ID 후보는 독립 표본 아님
+run_id,후보 실행 ID,없음,시나리오×곡선 변형×팔꿈치
+selection_valid,도달 및 무충돌,bool,"두 이산 격자 검사, 연속 안전 아님"
+L,끝점 경로 길이,unit,기하 격자 사다리꼴 적분
+E_theta,관절 속도 제곱 적분,rad²/s,실제 에너지 아님
+A,관절 각가속도 제곱 적분,rad²/s³,보조값; 종합 제외
+J,관절 각저크 제곱 적분,rad²/s⁵,고차 미분 수렴 확인 필요
+K_epsilon,정칙화 곡률 제곱 적분,1/unit,일반 K와 다름
+O,장애물 접근 벌점,s/unit²,무장애물=0; 여유는 NA
+normalized_*,시나리오 내 min-max,무차원,원값과 구분; 무효 후보 NA
+balanced_cost,가중 정규화 비용,0–100,낮을수록 좋음; 무효 1e6은 제외 표시
+joint_derivative_reliable,특이점 표본 진단,bool,정확도 보증 아님
+converged,161/321→641 허용오차 통과,bool/NA,"641은 비교기준, 참값 아님"
+fractional_wins,동점 후보별 1/k 합계,시나리오,종류별 변형 수에 영향받음
+paired_scenarios,두 종류가 모두 유효,시나리오,목적별 최소 후보 대응 비교
+small_n,구간 n<30,bool,추론 확대 주의
+곡선·관절각 합성식,원본 JSON 참조,rad / unit,representative_equations.json
+입력 원본,data/phase4,phase4-mathematics-v2,data_dictionary.md + experiment_metadata.json
+수치 기준,docs/phase4_quality_analysis_protocol.md,v1,분석 전에 고정; 결과에 맞춰 조정 안 함
+재현 시드,20260908,고정,manifest 해시는 input_provenance.json

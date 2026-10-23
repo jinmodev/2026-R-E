@@ -1,0 +1,7 @@
+{
+  "node": "v24.19.0",
+  "library": "@oai/artifact-tool",
+  "runtimeBundle": "26.909.12148",
+  "ratioChecks": 403,
+  "nativeExcelApplicationTested": false
+}

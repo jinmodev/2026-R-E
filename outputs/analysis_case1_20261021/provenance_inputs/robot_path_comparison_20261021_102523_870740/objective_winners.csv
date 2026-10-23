@@ -1,0 +1,10 @@
+﻿scenario_id,objective,metric,label_status,source_valid_candidates,eligible_candidates,winner_run_id,tie_count,tied_run_ids_json,raw_metric_value,dataset_version
+interactive,distance,path_length_units,ready,12,12,interactive_hermite_m80_down,1,"[""interactive_hermite_m80_down""]",7.730275409603439,phase4-report-v4
+interactive,joint_effort,joint_velocity_effort,ready,12,12,interactive_arc_p80_up,1,"[""interactive_arc_p80_up""]",5.857160950017613,phase4-report-v4
+interactive,acceleration,joint_acceleration_effort,ready,12,12,interactive_arc_p80_up,1,"[""interactive_arc_p80_up""]",10.288594297700405,phase4-report-v4
+interactive,jerk,joint_jerk_effort,ready,12,12,interactive_arc_p80_up,1,"[""interactive_arc_p80_up""]",72.74282886447666,phase4-report-v4
+interactive,curvature,regularized_curvature_energy_inv_unit,ready,12,12,interactive_bezier_p80_up,2,"[""interactive_bezier_m80_down"", ""interactive_bezier_p80_up""]",0.34198600185087313,phase4-report-v4
+interactive,obstacle_penalty,obstacle_penalty_s_per_unit2,ready,12,12,interactive_limacon_p80_down,1,"[""interactive_limacon_p80_down""]",2.237591644653166,phase4-report-v4
+interactive,model_energy,model_electrical_energy_j,ready,12,12,interactive_cycloid_p80_up,1,"[""interactive_cycloid_p80_up""]",80.84592744466406,phase4-report-v4
+interactive,rms_torque,rms_joint_torque_nm,ready,12,12,interactive_cycloid_p80_up,1,"[""interactive_cycloid_p80_up""]",0.6961812208444624,phase4-report-v4
+interactive,report_balanced,report_balanced_cost_0_100,ready,12,12,interactive_arc_p80_up,1,"[""interactive_arc_p80_up""]",2.9952487146988465,phase4-report-v4

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "pandas": "3.0.1",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.1",
+  "pyarrow": "21.0.0",
+  "seed": 20260908,
+  "tests_run": 55,
+  "tests_passed": true
+}

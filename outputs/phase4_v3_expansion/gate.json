@@ -1,0 +1,20 @@
+{
+  "signature": "385443ea0d7eca9bc7b1df85b6476685f8fbcfa6d449dc1f02915fc6fd86c3d0",
+  "generation_allowed": true,
+  "quarantined_run_ids": [],
+  "scenario_count": 96,
+  "candidates": 4032,
+  "candidate_status_counts": {
+    "invalid": 3307,
+    "accepted": 725
+  },
+  "geometry_failure_counts": {},
+  "joint_comparisons": 2175,
+  "joint_comparison_failures": 0,
+  "max_joint_relative_error": {
+    "joint_velocity_effort": 1.6623418028634853e-13,
+    "joint_acceleration_effort": 4.3755143110586195e-12,
+    "joint_jerk_effort": 2.7014869332237825e-06
+  },
+  "interpretation": "Generation allowed with conservative per-run screening and quarantine; not universal accuracy/model readiness approval"
+}

@@ -1,0 +1,295 @@
+{
+  "passed": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "complete v3 train dataset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash src\\robot_planner\\phase4_v3.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash src\\robot_planner\\refinement.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash src\\robot_planner\\phase4_evaluation.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash scripts\\generate_phase4_v3.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash docs\\phase4_v3_policy.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash outputs\\phase4_quality\\train_metrics.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash outputs\\phase4_quality\\selected_cases.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash data\\phase4\\experiment_metadata.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "input/source hash data\\phase4\\dataset_manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size adaptive_panels.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size data_dictionary.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size label_changes.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size metadata.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size scenario_winners.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_metrics.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S000550.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S000887.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S001017.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S001040.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S001084.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S001541.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S001889.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S002046.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S002477.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S002605.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S002850.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S003296.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S003298.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S003489.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S003886.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S004411.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S004573.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S004579.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "data hash/size trajectory_samples/P4S004800.parquet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "run count/unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "train-only and version",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "scenario candidate count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "source selection IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "equations present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "adaptive panel/node count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "panel join keys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "panel domain/weights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "weighted panel replay",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "integrand recalculation 3 nodes/every panel",
+      "passed": true,
+      "detail": {
+        "max_scaled_error": 0.0,
+        "nodes_checked": 85305
+      }
+    },
+    {
+      "check": "candidate eligibility / null scores",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "accepted panel coverage no gaps/overlap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "summary weighted replay",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "check": "sample count/join/index/time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "theta forward kinematics",
+      "passed": true,
+      "detail": {
+        "max_absolute_error": 1.1234667099445444e-14
+      }
+    },
+    {
+      "check": "score recomputation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "winner IDs/ties recomputation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all labels explicitly pilot-only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "previous analysis artifacts preserved",
+      "passed": true,
+      "detail": 86
+    },
+    {
+      "check": "all regression tests",
+      "passed": true,
+      "detail": [
+        "----------------------------------------------------------------------",
+        "Ran 71 tests in 6.189s",
+        "",
+        "OK"
+      ]
+    }
+  ]
+}

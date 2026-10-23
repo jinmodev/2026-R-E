@@ -1,0 +1,26 @@
+{
+  "dataset_version": "phase2-v1",
+  "generated_at_utc": "2026-08-25T08:27:28.652473+00:00",
+  "seed": 20260825,
+  "scenario_count": 240,
+  "curve_variant_count": 21,
+  "elbow_modes": 2,
+  "run_count": 10080,
+  "samples_per_path": 161,
+  "shape_levels": [
+    -0.8,
+    -0.4,
+    0.4,
+    0.8
+  ],
+  "scenario_types": [
+    "local_move",
+    "cross_inner",
+    "boundary_sweep"
+  ],
+  "limitations": [
+    "No obstacles or collision checks are included.",
+    "Joint effort metrics use normalized parameter time T=1 and are not motor energy.",
+    "Reachability is checked at discrete path samples, not proved continuously."
+  ]
+}

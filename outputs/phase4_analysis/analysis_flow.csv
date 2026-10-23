@@ -1,0 +1,3 @@
+﻿stage,included,excluded,reason
+composition,3000,0,all train scenarios
+winner/relationship,2147,853,no selection_valid candidate; see scenario_exclusions.csv

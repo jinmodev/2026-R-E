@@ -1,0 +1,187 @@
+﻿condition,bin,curve_key,scenarios,scenarios_any_valid,scenario_valid_rate,small_n
+scenario_type,boundary_sweep,line,576,195,0.3385416666666667,False
+scenario_type,boundary_sweep,arc,576,363,0.6302083333333334,False
+scenario_type,boundary_sweep,bezier,576,336,0.5833333333333334,False
+scenario_type,boundary_sweep,hermite,576,308,0.5347222222222222,False
+scenario_type,boundary_sweep,cycloid,576,374,0.6493055555555556,False
+scenario_type,boundary_sweep,limacon,576,180,0.3125,False
+scenario_type,cross_inner,line,584,6,0.010273972602739725,False
+scenario_type,cross_inner,arc,584,230,0.3938356164383562,False
+scenario_type,cross_inner,bezier,584,171,0.2928082191780822,False
+scenario_type,cross_inner,hermite,584,133,0.22773972602739725,False
+scenario_type,cross_inner,cycloid,584,271,0.464041095890411,False
+scenario_type,cross_inner,limacon,584,0,0.0,False
+scenario_type,local_move,line,632,237,0.375,False
+scenario_type,local_move,arc,632,445,0.7041139240506329,False
+scenario_type,local_move,bezier,632,391,0.6186708860759493,False
+scenario_type,local_move,hermite,632,335,0.5300632911392406,False
+scenario_type,local_move,cycloid,632,452,0.7151898734177216,False
+scenario_type,local_move,limacon,632,369,0.5838607594936709,False
+scenario_type,radial_change,line,604,268,0.44370860927152317,False
+scenario_type,radial_change,arc,604,468,0.7748344370860927,False
+scenario_type,radial_change,bezier,604,433,0.7168874172185431,False
+scenario_type,radial_change,hermite,604,388,0.6423841059602649,False
+scenario_type,radial_change,cycloid,604,473,0.7831125827814569,False
+scenario_type,radial_change,limacon,604,117,0.19370860927152317,False
+scenario_type,wide_sweep,line,604,178,0.2947019867549669,False
+scenario_type,wide_sweep,arc,604,397,0.6572847682119205,False
+scenario_type,wide_sweep,bezier,604,327,0.5413907284768212,False
+scenario_type,wide_sweep,hermite,604,289,0.478476821192053,False
+scenario_type,wide_sweep,cycloid,604,436,0.7218543046357616,False
+scenario_type,wide_sweep,limacon,604,1,0.0016556291390728477,False
+obstacle_layout,chord_blocker,line,423,0,0.0,False
+obstacle_layout,chord_blocker,arc,423,280,0.6619385342789598,False
+obstacle_layout,chord_blocker,bezier,423,244,0.5768321513002365,False
+obstacle_layout,chord_blocker,hermite,423,229,0.541371158392435,False
+obstacle_layout,chord_blocker,cycloid,423,299,0.706855791962175,False
+obstacle_layout,chord_blocker,limacon,423,99,0.23404255319148937,False
+obstacle_layout,double_offset,line,435,15,0.034482758620689655,False
+obstacle_layout,double_offset,arc,435,169,0.38850574712643676,False
+obstacle_layout,double_offset,bezier,435,153,0.35172413793103446,False
+obstacle_layout,double_offset,hermite,435,57,0.1310344827586207,False
+obstacle_layout,double_offset,cycloid,435,199,0.4574712643678161,False
+obstacle_layout,double_offset,limacon,435,73,0.167816091954023,False
+obstacle_layout,goal_near,line,456,247,0.5416666666666666,False
+obstacle_layout,goal_near,arc,456,357,0.7828947368421053,False
+obstacle_layout,goal_near,bezier,456,319,0.6995614035087719,False
+obstacle_layout,goal_near,hermite,456,301,0.6600877192982456,False
+obstacle_layout,goal_near,cycloid,456,379,0.831140350877193,False
+obstacle_layout,goal_near,limacon,456,111,0.24342105263157895,False
+obstacle_layout,narrow_passage,line,411,19,0.046228710462287104,False
+obstacle_layout,narrow_passage,arc,411,138,0.3357664233576642,False
+obstacle_layout,narrow_passage,bezier,411,36,0.08759124087591241,False
+obstacle_layout,narrow_passage,hermite,411,1,0.0024330900243309003,False
+obstacle_layout,narrow_passage,cycloid,411,145,0.35279805352798055,False
+obstacle_layout,narrow_passage,limacon,411,70,0.170316301703163,False
+obstacle_layout,no_obstacle,line,412,279,0.6771844660194175,False
+obstacle_layout,no_obstacle,arc,412,412,1.0,False
+obstacle_layout,no_obstacle,bezier,412,404,0.9805825242718447,False
+obstacle_layout,no_obstacle,hermite,412,384,0.9320388349514563,False
+obstacle_layout,no_obstacle,cycloid,412,412,1.0,False
+obstacle_layout,no_obstacle,limacon,412,137,0.3325242718446602,False
+obstacle_layout,random_field,line,434,84,0.1935483870967742,False
+obstacle_layout,random_field,arc,434,228,0.5253456221198156,False
+obstacle_layout,random_field,bezier,434,196,0.45161290322580644,False
+obstacle_layout,random_field,hermite,434,187,0.4308755760368664,False
+obstacle_layout,random_field,cycloid,434,241,0.5552995391705069,False
+obstacle_layout,random_field,limacon,434,80,0.18433179723502305,False
+obstacle_layout,start_near,line,429,240,0.5594405594405595,False
+obstacle_layout,start_near,arc,429,319,0.7435897435897436,False
+obstacle_layout,start_near,bezier,429,306,0.7132867132867133,False
+obstacle_layout,start_near,hermite,429,294,0.6853146853146853,False
+obstacle_layout,start_near,cycloid,429,331,0.7715617715617715,False
+obstacle_layout,start_near,limacon,429,97,0.2261072261072261,False
+obstacle_count,0,line,412,279,0.6771844660194175,False
+obstacle_count,0,arc,412,412,1.0,False
+obstacle_count,0,bezier,412,404,0.9805825242718447,False
+obstacle_count,0,hermite,412,384,0.9320388349514563,False
+obstacle_count,0,cycloid,412,412,1.0,False
+obstacle_count,0,limacon,412,137,0.3325242718446602,False
+obstacle_count,1,line,1459,546,0.3742289239204935,False
+obstacle_count,1,arc,1459,1075,0.7368060315284441,False
+obstacle_count,1,bezier,1459,976,0.6689513365318711,False
+obstacle_count,1,hermite,1459,927,0.6353666895133653,False
+obstacle_count,1,cycloid,1459,1129,0.7738176833447566,False
+obstacle_count,1,limacon,1459,346,0.2371487320082248,False
+obstacle_count,2,line,981,50,0.0509683995922528,False
+obstacle_count,2,arc,981,368,0.3751274209989806,False
+obstacle_count,2,bezier,981,238,0.24260958205912334,False
+obstacle_count,2,hermite,981,107,0.109072375127421,False
+obstacle_count,2,cycloid,981,410,0.417940876656473,False
+obstacle_count,2,limacon,981,161,0.16411824668705402,False
+obstacle_count,3,line,148,9,0.060810810810810814,False
+obstacle_count,3,arc,148,48,0.32432432432432434,False
+obstacle_count,3,bezier,148,40,0.2702702702702703,False
+obstacle_count,3,hermite,148,35,0.23648648648648649,False
+obstacle_count,3,cycloid,148,55,0.3716216216216216,False
+obstacle_count,3,limacon,148,23,0.1554054054054054,False
+ratio_bin,"[-inf, 0.75)",line,886,210,0.23702031602708803,False
+ratio_bin,"[-inf, 0.75)",arc,886,531,0.5993227990970654,False
+ratio_bin,"[-inf, 0.75)",bezier,886,467,0.5270880361173815,False
+ratio_bin,"[-inf, 0.75)",hermite,886,404,0.45598194130925507,False
+ratio_bin,"[-inf, 0.75)",cycloid,886,584,0.6591422121896162,False
+ratio_bin,"[-inf, 0.75)",limacon,886,121,0.136568848758465,False
+ratio_bin,"[0.75, 1.333)",line,1235,497,0.40242914979757083,False
+ratio_bin,"[0.75, 1.333)",arc,1235,946,0.7659919028340081,False
+ratio_bin,"[0.75, 1.333)",bezier,1235,837,0.6777327935222672,False
+ratio_bin,"[0.75, 1.333)",hermite,1235,741,0.6,False
+ratio_bin,"[0.75, 1.333)",cycloid,1235,963,0.7797570850202429,False
+ratio_bin,"[0.75, 1.333)",limacon,1235,414,0.33522267206477735,False
+ratio_bin,"[1.333, inf)",line,879,177,0.20136518771331058,False
+ratio_bin,"[1.333, inf)",arc,879,426,0.48464163822525597,False
+ratio_bin,"[1.333, inf)",bezier,879,354,0.40273037542662116,False
+ratio_bin,"[1.333, inf)",hermite,879,308,0.3503981797497156,False
+ratio_bin,"[1.333, inf)",cycloid,879,459,0.5221843003412969,False
+ratio_bin,"[1.333, inf)",limacon,879,132,0.15017064846416384,False
+motion_bin,"[0.0, 0.5)",line,606,226,0.37293729372937295,False
+motion_bin,"[0.0, 0.5)",arc,606,435,0.7178217821782178,False
+motion_bin,"[0.0, 0.5)",bezier,606,381,0.6287128712871287,False
+motion_bin,"[0.0, 0.5)",hermite,606,325,0.5363036303630363,False
+motion_bin,"[0.0, 0.5)",cycloid,606,434,0.7161716171617162,False
+motion_bin,"[0.0, 0.5)",limacon,606,373,0.6155115511551155,False
+motion_bin,"[0.5, 1.0)",line,1019,403,0.39548577036310106,False
+motion_bin,"[0.5, 1.0)",arc,1019,740,0.7262021589793916,False
+motion_bin,"[0.5, 1.0)",bezier,1019,691,0.6781157998037292,False
+motion_bin,"[0.5, 1.0)",hermite,1019,618,0.6064769381746811,False
+motion_bin,"[0.5, 1.0)",cycloid,1019,756,0.7419038272816487,False
+motion_bin,"[0.5, 1.0)",limacon,1019,274,0.2688910696761531,False
+motion_bin,"[1.0, 2.01)",line,1375,255,0.18545454545454546,False
+motion_bin,"[1.0, 2.01)",arc,1375,728,0.5294545454545454,False
+motion_bin,"[1.0, 2.01)",bezier,1375,586,0.42618181818181816,False
+motion_bin,"[1.0, 2.01)",hermite,1375,510,0.3709090909090909,False
+motion_bin,"[1.0, 2.01)",cycloid,1375,816,0.5934545454545455,False
+motion_bin,"[1.0, 2.01)",limacon,1375,20,0.014545454545454545,False
+angle_bin,"[0, 60)",line,1166,471,0.4039451114922813,False
+angle_bin,"[0, 60)",arc,1166,883,0.7572898799313894,False
+angle_bin,"[0, 60)",bezier,1166,789,0.676672384219554,False
+angle_bin,"[0, 60)",hermite,1166,680,0.5831903945111492,False
+angle_bin,"[0, 60)",cycloid,1166,895,0.7675814751286449,False
+angle_bin,"[0, 60)",limacon,1166,473,0.4056603773584906,False
+angle_bin,"[120, 181)",line,1294,212,0.16383307573415765,False
+angle_bin,"[120, 181)",arc,1294,691,0.5340030911901081,False
+angle_bin,"[120, 181)",bezier,1294,555,0.42890262751159197,False
+angle_bin,"[120, 181)",hermite,1294,475,0.3670788253477589,False
+angle_bin,"[120, 181)",cycloid,1294,777,0.6004636785162287,False
+angle_bin,"[120, 181)",limacon,1294,28,0.021638330757341576,False
+angle_bin,"[60, 120)",line,540,201,0.37222222222222223,False
+angle_bin,"[60, 120)",arc,540,329,0.6092592592592593,False
+angle_bin,"[60, 120)",bezier,540,314,0.5814814814814815,False
+angle_bin,"[60, 120)",hermite,540,298,0.5518518518518518,False
+angle_bin,"[60, 120)",cycloid,540,334,0.6185185185185185,False
+angle_bin,"[60, 120)",limacon,540,166,0.3074074074074074,False
+start_radius_bin,"[0.0, 0.4)",line,627,218,0.34768740031897927,False
+start_radius_bin,"[0.0, 0.4)",arc,627,434,0.6921850079744817,False
+start_radius_bin,"[0.0, 0.4)",bezier,627,401,0.6395534290271132,False
+start_radius_bin,"[0.0, 0.4)",hermite,627,358,0.5709728867623605,False
+start_radius_bin,"[0.0, 0.4)",cycloid,627,438,0.6985645933014354,False
+start_radius_bin,"[0.0, 0.4)",limacon,627,236,0.3763955342902711,False
+start_radius_bin,"[0.4, 0.8)",line,1020,341,0.33431372549019606,False
+start_radius_bin,"[0.4, 0.8)",arc,1020,686,0.6725490196078432,False
+start_radius_bin,"[0.4, 0.8)",bezier,1020,589,0.5774509803921568,False
+start_radius_bin,"[0.4, 0.8)",hermite,1020,507,0.4970588235294118,False
+start_radius_bin,"[0.4, 0.8)",cycloid,1020,711,0.6970588235294117,False
+start_radius_bin,"[0.4, 0.8)",limacon,1020,293,0.2872549019607843,False
+start_radius_bin,"[0.8, 1.01)",line,1353,325,0.2402069475240207,False
+start_radius_bin,"[0.8, 1.01)",arc,1353,783,0.5787139689578714,False
+start_radius_bin,"[0.8, 1.01)",bezier,1353,668,0.49371766444937176,False
+start_radius_bin,"[0.8, 1.01)",hermite,1353,588,0.43458980044345896,False
+start_radius_bin,"[0.8, 1.01)",cycloid,1353,857,0.6334072431633407,False
+start_radius_bin,"[0.8, 1.01)",limacon,1353,138,0.10199556541019955,False
+goal_radius_bin,"[0.0, 0.4)",line,475,201,0.4231578947368421,False
+goal_radius_bin,"[0.0, 0.4)",arc,475,364,0.7663157894736842,False
+goal_radius_bin,"[0.0, 0.4)",bezier,475,324,0.6821052631578948,False
+goal_radius_bin,"[0.0, 0.4)",hermite,475,289,0.608421052631579,False
+goal_radius_bin,"[0.0, 0.4)",cycloid,475,366,0.7705263157894737,False
+goal_radius_bin,"[0.0, 0.4)",limacon,475,173,0.3642105263157895,False
+goal_radius_bin,"[0.4, 0.8)",line,1325,441,0.3328301886792453,False
+goal_radius_bin,"[0.4, 0.8)",arc,1325,883,0.6664150943396226,False
+goal_radius_bin,"[0.4, 0.8)",bezier,1325,771,0.5818867924528301,False
+goal_radius_bin,"[0.4, 0.8)",hermite,1325,676,0.510188679245283,False
+goal_radius_bin,"[0.4, 0.8)",cycloid,1325,912,0.6883018867924529,False
+goal_radius_bin,"[0.4, 0.8)",limacon,1325,375,0.2830188679245283,False
+goal_radius_bin,"[0.8, 1.01)",line,1200,242,0.20166666666666666,False
+goal_radius_bin,"[0.8, 1.01)",arc,1200,656,0.5466666666666666,False
+goal_radius_bin,"[0.8, 1.01)",bezier,1200,563,0.4691666666666667,False
+goal_radius_bin,"[0.8, 1.01)",hermite,1200,488,0.4066666666666667,False
+goal_radius_bin,"[0.8, 1.01)",cycloid,1200,728,0.6066666666666667,False
+goal_radius_bin,"[0.8, 1.01)",limacon,1200,119,0.09916666666666667,False

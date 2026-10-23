@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "candidate_count": 42,
+  "valid_candidates": 12,
+  "selected_candidates": 5,
+  "full_42_replay": true,
+  "winner_replay": true,
+  "unique_sample_keys": true,
+  "samples_per_run": 161,
+  "source_hashes": {
+    "robot_path_run.json": "847631c2e9fbf3bb760c1b236e83ae2c6ff395987a7225c791c85d2562547eff",
+    "robot_path_samples.csv": "98a21698a23b7476c05cd830a78ab2a345905c73117c9aac543f5627df2bf345",
+    "robot_path_comparison_20261021_102523_870740\\candidate_metrics.csv": "25669c6d4410dd83c369ee9e5f1a27ed3a7d621e7627758886eb2963c7295a7e",
+    "robot_path_comparison_20261021_102523_870740\\equations.csv": "4856d5aeddbd95556e74930f556bab8aa9adf2575dca754251e8205e31934423",
+    "robot_path_comparison_20261021_102523_870740\\geometry_samples.csv": "f1bb6187b093e2b9a129156dd247cbb598fbecfe330977508b3341fc103ffe18",
+    "robot_path_comparison_20261021_102523_870740\\objective_winners.csv": "a21a15a6fff996c3225bb56facd8f47e15cfbf976b338ceaea920955147c0de7",
+    "robot_path_comparison_20261021_102523_870740\\README.txt": "e1995d46c945fce14beb2442b5772c0e214000da7189cbf522ff545afe4b2370",
+    "robot_path_comparison_20261021_102523_870740\\time_samples.csv": "541126e96dc9d4f9f24d70b196f66f4e10c090df173a5500c85e3cef1800f160"
+  },
+  "comparison_method": "same exported scenario; no held-out data",
+  "numerical_replay_tolerance": {
+    "rtol": 2e-10,
+    "atol": 1e-09
+  },
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "release_report.md",
+      "bytes": 5894,
+      "sha256": "9a0108a2bb87a0f0a45ebd7698ebeb718f6773151ec398a6437fea0afdf54315"
+    },
+    {
+      "path": "train_exclusions.json",
+      "bytes": 28687,
+      "sha256": "82255ea223395e06e707d2b58cb44e6d43b4ffe42639864b08250081806bb1f5"
+    },
+    {
+      "path": "unit_test_log.txt",
+      "bytes": 10168,
+      "sha256": "35b5c7b56fe81576afb928b5c34922ae0118cd83b1677f6b3d0d64a74687d6b6"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1264,
+      "sha256": "394fcee62e2e4db7829c6789ae3e178a8a00130c63f4e887e886f90e77aa4fc9"
+    },
+    {
+      "path": "verification_environment.json",
+      "bytes": 389,
+      "sha256": "88beb27f6264b76318270808a7da30cf6236cb6abd629e3e513b39da0c32e613"
+    }
+  ]
+}

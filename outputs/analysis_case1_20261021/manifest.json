@@ -1,0 +1,130 @@
+{
+  "all_42_candidates.csv": {
+    "bytes": 7855,
+    "sha256": "e346913053ad1bbd3f0e5381fc61e911d0dbcc59bbfed5a6e6726e9b5b71e332"
+  },
+  "experiment_metadata.json": {
+    "bytes": 2205,
+    "sha256": "11d210b26ae5971258dbe2e24bab7615ba4d0a5e7b5c17805b0efacde7944a72"
+  },
+  "figure_captions.csv": {
+    "bytes": 915,
+    "sha256": "c7e7dfad65b311b74801de160e0452ca01c141ebbe727af4b59c24f0d3dd3f26"
+  },
+  "final_checks.json": {
+    "bytes": 571,
+    "sha256": "dd703117b454a390942a40bb5835326fe744e57dfcfb6c88eb16ad58d507d8fe"
+  },
+  "objective_winners.csv": {
+    "bytes": 1678,
+    "sha256": "449a5a9334044aa65a2c182e43389ce6b29eb9d2e10378fc66155958d3ebfa30"
+  },
+  "selected_5_candidates.csv": {
+    "bytes": 1686,
+    "sha256": "4189ef3264d68d1c821d07638ea640c8412292920bfe2ea2fa54b57cf874007a"
+  },
+  "selected_equations.csv": {
+    "bytes": 21548,
+    "sha256": "06ccb801782a6db5c2075144c01ae32b836d25faa32ffff4d7f7b11e35be7383"
+  },
+  "selected_geometry_samples.csv": {
+    "bytes": 198376,
+    "sha256": "3de07f7ab74095865863c8e22af99de5e5c6e294acedd499023681cdb8b7755d"
+  },
+  "selected_time_samples.csv": {
+    "bytes": 584248,
+    "sha256": "441e239013e4f3d6db77a03d910e936533ae23edd2c7fa1acfa7809004c93df1"
+  },
+  "verification.json": {
+    "bytes": 1526,
+    "sha256": "e39a7dc9249ea3ff3e09e39deb1fe3e587a94770d73ff5808c8417e18dbe5390"
+  },
+  "workbook_checks.json": {
+    "bytes": 454,
+    "sha256": "cb43d34d6fd7c1347ef00be8c86681116f16cd923a30058284fe33fa8dd36794"
+  },
+  "분석설명.md": {
+    "bytes": 4769,
+    "sha256": "d0b598233048dd58af0c92a98c339a2f215929a3de620cdadc30b975bbbf20e1"
+  },
+  "사례1_비교표.xlsx": {
+    "bytes": 21318,
+    "sha256": "847578a36ca2f26156feb8c3267907e06d1128f0271e23fe9cb245468c406876"
+  },
+  "시작하기.md": {
+    "bytes": 1737,
+    "sha256": "f8e4f266b09679475b7a75f33645403c4680dea23a0b9e9523b87528cd5fc70a"
+  },
+  "팀원용_곡선식.md": {
+    "bytes": 3123,
+    "sha256": "21aa97c802fb5e80670736b6115611ece6ccda8f98929dbf2f2af62c8bad91bc"
+  },
+  "code\\analyze_case1.py": {
+    "bytes": 22789,
+    "sha256": "0ffe6d85245a476b0a8c30b2baebe395d049bebb38d11d6fc0655f5e3f8ca949"
+  },
+  "code\\build_workbook.mjs": {
+    "bytes": 7817,
+    "sha256": "033ce06f3f17b129eae3d3ffdacd977fef9d7914bd115fef73a618812f44c772"
+  },
+  "code\\finalize_case1.py": {
+    "bytes": 5554,
+    "sha256": "64ec53ae3abea8bb43072b5c5faa97a996d2c8e5a9a34e4b310348a270ca2e1a"
+  },
+  "figures\\01_length_comparison.png": {
+    "bytes": 88241,
+    "sha256": "fc7062b94b4f9fc5db4b91d1b7a3b0cd8824e550c5deb886484598bf9b99af33"
+  },
+  "figures\\01_length_comparison.svg": {
+    "bytes": 11633,
+    "sha256": "3ceee0699f470e47ff3b23aeded0a9be5d16383b6a95b65bcffb12065646747b"
+  },
+  "figures\\02_distance_energy.png": {
+    "bytes": 154763,
+    "sha256": "73d09088e248d1c61c774891381fbbb7e3174f73ecf7ef8555e4c9ee7be32208"
+  },
+  "figures\\02_distance_energy.svg": {
+    "bytes": 23939,
+    "sha256": "60702bd271efebfe2587cf318678931d008732e0c4c1d7e0731a80a07ee571c9"
+  },
+  "figures\\03_paths_and_obstacle.png": {
+    "bytes": 224699,
+    "sha256": "23662febd0f0e097d16e02c7e932a863780540bf649052504838445032fe5946"
+  },
+  "figures\\03_paths_and_obstacle.svg": {
+    "bytes": 28608,
+    "sha256": "51a0a0bb7c4bb4c6a4ad75c47dc4a53a96cf16f976e9a22c84bffb93acd5b51f"
+  },
+  "provenance_inputs\\robot_path_run.json": {
+    "bytes": 421048,
+    "sha256": "847631c2e9fbf3bb760c1b236e83ae2c6ff395987a7225c791c85d2562547eff"
+  },
+  "provenance_inputs\\robot_path_samples.csv": {
+    "bytes": 728462,
+    "sha256": "98a21698a23b7476c05cd830a78ab2a345905c73117c9aac543f5627df2bf345"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\candidate_metrics.csv": {
+    "bytes": 189461,
+    "sha256": "25669c6d4410dd83c369ee9e5f1a27ed3a7d621e7627758886eb2963c7295a7e"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\equations.csv": {
+    "bytes": 173136,
+    "sha256": "4856d5aeddbd95556e74930f556bab8aa9adf2575dca754251e8205e31934423"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\geometry_samples.csv": {
+    "bytes": 1640969,
+    "sha256": "f1bb6187b093e2b9a129156dd247cbb598fbecfe330977508b3341fc103ffe18"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\objective_winners.csv": {
+    "bytes": 1624,
+    "sha256": "a21a15a6fff996c3225bb56facd8f47e15cfbf976b338ceaea920955147c0de7"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\README.txt": {
+    "bytes": 561,
+    "sha256": "e1995d46c945fce14beb2442b5772c0e214000da7189cbf522ff545afe4b2370"
+  },
+  "provenance_inputs\\robot_path_comparison_20261021_102523_870740\\time_samples.csv": {
+    "bytes": 3810165,
+    "sha256": "541126e96dc9d4f9f24d70b196f66f4e10c090df173a5500c85e3cef1800f160"
+  }
+}

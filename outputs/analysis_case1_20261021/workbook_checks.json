@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "sheets": 3,
+  "charts": 2,
+  "selected": 5,
+  "valid": 12,
+  "summary_linkage": true,
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "chart_series": [
+    [
+      {
+        "formula": "'후보 비교'!$C$7:$C$11",
+        "categoryFormula": "'후보 비교'!$A$7:$A$11"
+      }
+    ],
+    [
+      {
+        "formula": "'42개 후보 원자료'!$C$51:$C$62"
+      }
+    ]
+  ]
+}
